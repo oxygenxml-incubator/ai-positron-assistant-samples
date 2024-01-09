@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="itemize">
+    <title>Join Items</title>
+    <body>
+        <p>After installation, when you launch for the first time, you are greeted with a <b
+                id="b_z5y_bdw_11c">Welcome</b> dialog box. It presents various features and options
+            to help you get started with the software.</p>
+        <ul id="ul_izw_cdw_11c">
+            <li>Upcoming events</li>
+            <li>Useful video demonstrations</li>
+            <li>Helpful resources</li>
+            <li>Tip of the day</li>
+            <li>Easy access to recently used files and projects</li>
+            <li>Option to create new files and projects</li>
+        </ul>
+    </body>
+</topic>

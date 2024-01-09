@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="new_dita_topic">
+    <title>New DITA Topic</title>
+    <body>
+        <p>
+            <codeblock id="codeblock_nsk_ndw_11c">Installing an application named Emerald on Mac OS using the DMG installer.</codeblock>
+        </p>
+    </body>
+    <topic id="topic_install_emerald_macos">
+        <title>Installing Emerald on Mac OS</title>
+        <body>
+            <p>To install the Emerald application on Mac OS, you will need to use the DMG installer.</p>
+            <p>Follow the steps below to complete the installation:</p>
+            <ol>
+                <li>Download the Emerald DMG installer from the official website.</li>
+                <li>Locate the downloaded DMG file in your Downloads folder.</li>
+                <li>Double-click the DMG file to open it.</li>
+                <li>A new window will appear showing the contents of the DMG file.</li>
+                <li>Drag the Emerald application icon to the Applications folder icon.</li>
+                <li>Wait for the copying process to complete.</li>
+                <li>Once the copying is finished, you can close the DMG window.</li>
+                <li>Navigate to the Applications folder on your Mac.</li>
+                <li>Locate the Emerald application and double-click it to launch.</li>
+            </ol>
+            <p>The Emerald application is now installed on your Mac OS. You can start using it by launching it from the Applications folder.</p>
+        </body>
+    </topic>
+</topic>

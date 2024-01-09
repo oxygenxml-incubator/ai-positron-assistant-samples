@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="continue_writing">
+    <title>Continue Writing</title>
+    <body>
+        <p>The upper part of the dialog box allows you to specify the <uicontrol>Name</uicontrol> of
+            the transformation scenario and the following <uicontrol>Storage</uicontrol> options:
+                <ul id="ul_nrk_bgk_54b">
+                <li id="project-options-li"><uicontrol>Project Options</uicontrol> - The scenario is
+                    stored in the project file and can be shared with other users. For example, if
+                    your project is saved on a source versioning/sharing system (CVS, SVN, Source
+                    Safe, etc.) or a shared folder, your team can use the scenarios that you store
+                    in the project file.</li>
+                <li id="global-options-li"><uicontrol>Global Options</uicontrol> - The scenario is
+                    saved in the global options that are stored in the user home directory and is
+                    not accessible to other users.</li>
+            </ul>These options are useful because they </p>
+    </body>
+</topic>
