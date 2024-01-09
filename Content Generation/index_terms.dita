@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="short_description">
+    <title>Short Description</title>
+    <body>
+        <section id="adding-image-inline">
+            <title>Adding a Media Resource</title>
+            <p id="p_pty_bgk_54b">To insert a media resource in a document, use the following procedure:</p>
+            <ol id="ol_eb4_q5d_xp">
+                <li id="li_qty_bgk_54b">Place the cursor at the location where you want the media resource. </li>
+                <li id="li_rty_bgk_54b">Select the Insert Media Resource action from the toolbar. A
+                    <uicontrol>Chose Media</uicontrol> dialog box appears.<note id="note_sty_bgk_54b">You
+                        can also drag media files from your system explorer or the <uicontrol
+                            product="authorEclipse editorEclipse">Project Explorer</uicontrol> view and drop them
+                        into your documents (or copy and paste them). </note></li>
+                <li id="li_tty_bgk_54b">Select the URL for the media resource and click <uicontrol>Ok</uicontrol>.</li>
+            </ol>
+            <p id="p_uty_bgk_54b"><b>Result in Author Mode:</b> A reference to the specified media object is inserted and
+                rendered in <uicontrol>Author</uicontrol> mode so that it can be played directly from
+                there.</p>
+            <note type="attention" id="note_vty_bgk_54b">
+                <ul id="ul_wty_bgk_54b">
+                    <li id="li_xty_bgk_54b">On Ubuntu 17.10, if you receive an error when trying to play videos in
+                        <uicontrol>Author</uicontrol> mode, you need to install the
+                        <codeph>libavformat57</codeph> library.</li>
+                </ul>
+            </note>
+            <p id="publishing-stage"><b>Result in Output:</b> In the publishing stage, the media object is
+                converted to an HTML5 element so that it can be rendered properly and played in all
+                HTML5-based outputs.</p>
+        </section>
+    </body>
+</topic>

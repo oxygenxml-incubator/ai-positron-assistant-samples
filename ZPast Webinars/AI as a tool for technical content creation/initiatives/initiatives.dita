@@ -1,0 +1,96 @@
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_umm_tyk_qxb">
+    <title>Examples</title>
+    <body>
+        <section id="section-bd62812c-647d-4b32-89db-8c6116fad4b2">
+            <title>Continue writing</title>
+            <p>To tie a shoe lace follow this procedure </p>
+        </section>
+    </body>
+    <topic id="topic-6029996d-19a7-4514-aa69-e25c62e5777b">
+        <title>Topic tools</title>
+        <body>
+            <section id="section-3104ef33-1552-47ae-8acb-35d619778e90">
+                <title>Generate short descriptions</title>
+                <p><xref href="author-adding-media.dita#author-adding-media/adding-image-inline"
+                    /></p>
+            </section>
+            <section id="section-d7ad43c7-bc20-4340-8fbe-c6454267a111">
+                <title>Generate topic</title>
+                <p>A topic about how to tie shoe laces, for a 5 years old child.</p>
+            </section>
+            <section id="section-676942d8-8ffb-4f11-aa41-d0b2e57eb998">
+                <title>Index terms</title>
+                <p><xref href="author-adding-media.dita#author-adding-media/adding-image-inline"
+                    /></p>
+            </section>
+        </body>
+    </topic>
+    <topic id="topic-14ac883c-c61b-49e7-a691-1399665644e2">
+        <title>Translate</title>
+        <body>
+            <p>I want to eat an apple.</p>
+            <p>I want to eat an apple.</p>
+            <p>I want to eat an apple.</p>
+            <p>I want to eat an apple.</p>
+        </body>
+    </topic>
+    <topic id="topic-56c7399a-b8ec-4f3c-85aa-2c1f6592d1d9">
+        <title>Overview</title>
+        <body>
+            <section id="section-c925af76-a01c-4a56-9c6b-c7a098ad5ec8">
+                <title>Generate questions</title>
+                <p><xref href="author-adding-media.dita"/></p>
+            </section>
+            <section>
+                <title>Ask question</title>
+                <p><xref href="author-adding-media.dita"/></p>
+                <ul id="ul-0ed97e60-b680-4adc-b020-f0f42d9eba70">
+                    <li>Which media resources can be added to DITA, DocBook, or XHTML topics?</li>
+                    <li>How to insert and configure a reference to a media resource in Author
+                        mode?</li>
+                    <li>What the toolbar button allows you to do when adding media resources in
+                        Author mode?</li>
+                    <li>What to do if videos do not play in Author mode on Ubuntu 17.10?</li>
+                    <li>How the publishing stage converts the media object for proper rendering in
+                        HTML5-based outputs?</li>
+                </ul>
+            </section>
+        </body>
+    </topic>
+    <topic id="topic-4bb6bc59-5b4d-4927-8443-c7dd4fffda82">
+        <title>Rewrite</title>
+        <body>
+            <section id="section-f72797f9-6834-40ce-b226-f352b54dcea2">
+                <title>Itemize</title>
+                <p>To tie a shoe lace follow this procedure : 1. Make sure both ends of the lace are
+                    even. 2. Cross one end over the other to make an X. 3. Loop one end around the
+                    other end. 4. Tuck the end that you just looped under the other end. 5. Pull
+                    both ends to tighten the knot. 6. Make a bow by creating a loop with each end.
+                    7. Cross one loop over the other to create an X. 8. Tuck the top loop underneath
+                    the bottom loop. 9. Pull both loops to tighten the bow. 10. Adjust the loops and
+                    ends to make the bow even.</p>
+            </section>
+            <section id="section-1f3b9a0f-7efa-4bf2-a67a-4a3f6c151569">
+                <title>Join items</title>
+                <p>Instructions on how to tie a shoe lace:</p>
+                <ul id="ul-3b39bd76-e390-4738-8584-4234dc307b5a">
+                    <li>Make sure both ends of the lace are even.</li>
+                    <li>Cross one end over the other to make an X.</li>
+                    <li>Loop one end around the other end.</li>
+                </ul>
+            </section>
+            <section id="section-f1d0f9de-f021-420b-8c50-b1ba6a4151b1">
+                <title>Use active voice</title>
+                <p>A better user experience was ensured by incorporating accessibility during the
+                    design process.</p>
+            </section>
+            <section id="section-96f7b6e6-d228-401b-b2e0-5b87e876d3a6">
+                <title>Correct grammar</title>
+                <p>That movie effected me greatly. When you get done with that lab report, can you
+                    send it to Bill and I? We both think it's to cold outside. Who's sweater is
+                    that? My dinner was better then yours. </p>
+            </section>
+        </body>
+    </topic>
+</topic>
