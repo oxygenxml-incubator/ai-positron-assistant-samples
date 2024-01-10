@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="release_notes_2">
+    <title>Create Release Notes From Issue IDs</title>
+    <body>
+        <p>EXM-53376 Present in input URL panels unescaped URL contents</p>
+        <p>EXM-53377 Avoid escaping non ASCII chars when correcting URLs</p>
+        <p>EXM-53378 Check if publishing works if all file names in a DITA project are translated to
+            Chinese</p>
+        <p>EXM-53362 Be more flexible when computing file names from titles </p>
+        <p>EXM-53363 Fast create topics - more flexibility for creating files based on titles</p>
+        <p>CH-1019 Cannot publish to PDF DITA project with all file names in Chinese</p>
+        <p>EXM-53372 Message contains escaped chars when project xpr file name contains Chinese chars in
+            application</p>
+        <p> EXM-53373 Rename/Move Preview contains escaped characters in changes list</p>
+        <p>EXM-53374 Search references shows escaped characters for non Ascii file names </p>
+        <p> EXM-53375 Export Zip shows unescaped characters for file name contining non Ascii chars </p>
+        <p>EXM-53380 Create new DITA topic - generated ID is almost empty </p>
+        <p>OPS-623 Cannot build deliverable when dita map name is in Chinese </p>
+    </body>
+</topic>

@@ -32,4 +32,9 @@
         <topicref href="Translation/translate.dita" navtitle="Translation Sample" locktitle="yes"/>
     </topichead>
     <topicref href="Useful%20Prompts/useful_prompts.dita"/>
+    <topichead navtitle="Marketing">
+        <topicref href="Content%20Generation/release_notes.dita"/>
+        <topicref href="Content%20Generation/marketing_post.dita"/>
+        <topicref href="Content%20Generation/improve_search_engine_optimization.dita"/>
+    </topichead>
 </map>

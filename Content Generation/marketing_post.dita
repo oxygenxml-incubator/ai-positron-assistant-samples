@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="marketing_post">
+    <title>Marketing Post</title>
+    <body>
+        <p>Use the <uicontrol>AI Positron Assistant</uicontrol>
+            <uicontrol>Marketing->Marketing Post</uicontrol> action to create a marketing post from
+            release notes:</p>
+        <p>
+            <codeblock id="codeblock_mnx_pwc_b1c">- URL contents in input panels are now presented unescaped, improving user experience.
+- Non-ASCII characters are no longer escaped when correcting URLs, making the process more seamless for users.
+- Publishing now works even if all file names in a DITA project are translated to Chinese, allowing for greater flexibility in localization.
+- File names are now computed from titles in a more flexible manner, enhancing user control over the naming process.
+- Fast topic creation now offers increased flexibility for creating files based on titles, improving efficiency for users.
+- PDF publishing for DITA projects with all file names in Chinese is now possible, resolving a previous limitation.
+- The message no longer contains escaped characters when the project xpr file name contains Chinese characters in the application, ensuring clear communication.
+- The rename/move preview no longer contains escaped characters in the changes list, providing a more accurate representation of the changes.
+- Search references now display non-ASCII file names without escaped characters, improving search accuracy and readability.
+- Exporting a zip file now shows unescaped characters for file names containing non-ASCII characters, ensuring file integrity during export.
+- When creating a new DITA topic, the generated ID is now more complete, reducing the need for manual adjustments.
+- Building deliverables is now possible even when the DITA map name is in Chinese, removing a previous limitation.</codeblock>
+        </p>
+    </body>
+</topic>
