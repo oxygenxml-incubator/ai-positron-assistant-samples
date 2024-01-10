@@ -5,137 +5,192 @@
     <body>
         <p>Examples of useful prompts which can be used to generate DITA XML content using the
                 <uicontrol>AI Positron Assistant</uicontrol> chat.</p>
-        <p><codeblock id="codeblock_xrw_qdw_11c">Convert this CSV content containing headers to a DITA XML table element:
+        <p>
+            <dl>
+                <dlentry>
+                    <dt>Convert CSV Content to table</dt>
+                    <dd>
+                        <p>
+                            <codeblock id="codeblock_xrw_qdw_11c">Convert this CSV content containing headers to a DITA XML table element:
 
 Common name,Scientific name,Location,Temperament,Diet,Water,Size,Region of the Aquarium,Breeding
 Compressiceps,Haplochromis compressiceps,Lake Tanganyika,Territorial,Omnivore,"PH 7.0 - 8.0, Temp. 73 - 77 F",5 inches,Bottom,Hard
-Frontosa,Cyphotilapia frontosus,Lake Tanganyika,Very peaceful,Omnivore,"PH 7.8 - 8.5, Temp 75F - 82F",14 inches,Middle-Bottom,Medium</codeblock>Generates:<table
-                id="table_zrr_sdw_11c">
-                <tgroup cols="9">
-                    <colspec colname="c1" colwidth="1*"/>
-                    <colspec colname="c2" colwidth="1*"/>
-                    <colspec colname="c3" colwidth="1*"/>
-                    <colspec colname="c4" colwidth="1*"/>
-                    <colspec colname="c5" colwidth="1*"/>
-                    <colspec colname="c6" colwidth="1*"/>
-                    <colspec colname="c7" colwidth="1*"/>
-                    <colspec colname="c8" colwidth="1*"/>
-                    <colspec colname="c9" colwidth="1*"/>
-                    <thead>
-                        <row>
-                            <entry>Common name</entry>
-                            <entry>Scientific name</entry>
-                            <entry>Location</entry>
-                            <entry>Temperament</entry>
-                            <entry>Diet</entry>
-                            <entry>Water</entry>
-                            <entry>Size</entry>
-                            <entry>Region of the Aquarium</entry>
-                            <entry>Breeding</entry>
-                        </row>
-                    </thead>
-                    <tbody>
-                        <row>
-                            <entry>Compressiceps</entry>
-                            <entry>Haplochromis compressiceps</entry>
-                            <entry>Lake Tanganyika</entry>
-                            <entry>Territorial</entry>
-                            <entry>Omnivore</entry>
-                            <entry>"PH 7.0 - 8.0, Temp. 73 - 77 F"</entry>
-                            <entry>5 inches</entry>
-                            <entry>Bottom</entry>
-                            <entry>Hard</entry>
-                        </row>
-                        <row>
-                            <entry>Frontosa</entry>
-                            <entry>Cyphotilapia frontosus</entry>
-                            <entry>Lake Tanganyika</entry>
-                            <entry>Very peaceful</entry>
-                            <entry>Omnivore</entry>
-                            <entry>"PH 7.8 - 8.5, Temp 75F - 82F"</entry>
-                            <entry>14 inches</entry>
-                            <entry>Middle-Bottom</entry>
-                            <entry>Medium</entry>
-                        </row>
-                    </tbody>
-                </tgroup>
-            </table></p>
-        <codeblock id="codeblock_jll_rhb_b1c">You are a DITA XML technical writer. 
+Frontosa,Cyphotilapia frontosus,Lake Tanganyika,Very peaceful,Omnivore,"PH 7.8 - 8.5, Temp 75F - 82F",14 inches,Middle-Bottom,Medium</codeblock>
+                        </p>
+                        <p>Generates:<table id="table_zrr_sdw_11c">
+                                <tgroup cols="9">
+                                    <colspec colname="c1" colwidth="1*"/>
+                                    <colspec colname="c2" colwidth="1*"/>
+                                    <colspec colname="c3" colwidth="1*"/>
+                                    <colspec colname="c4" colwidth="1*"/>
+                                    <colspec colname="c5" colwidth="1*"/>
+                                    <colspec colname="c6" colwidth="1*"/>
+                                    <colspec colname="c7" colwidth="1*"/>
+                                    <colspec colname="c8" colwidth="1*"/>
+                                    <colspec colname="c9" colwidth="1*"/>
+                                    <thead>
+                                        <row>
+                                            <entry>Common name</entry>
+                                            <entry>Scientific name</entry>
+                                            <entry>Location</entry>
+                                            <entry>Temperament</entry>
+                                            <entry>Diet</entry>
+                                            <entry>Water</entry>
+                                            <entry>Size</entry>
+                                            <entry>Region of the Aquarium</entry>
+                                            <entry>Breeding</entry>
+                                        </row>
+                                    </thead>
+                                    <tbody>
+                                        <row>
+                                            <entry>Compressiceps</entry>
+                                            <entry>Haplochromis compressiceps</entry>
+                                            <entry>Lake Tanganyika</entry>
+                                            <entry>Territorial</entry>
+                                            <entry>Omnivore</entry>
+                                            <entry>"PH 7.0 - 8.0, Temp. 73 - 77 F"</entry>
+                                            <entry>5 inches</entry>
+                                            <entry>Bottom</entry>
+                                            <entry>Hard</entry>
+                                        </row>
+                                        <row>
+                                            <entry>Frontosa</entry>
+                                            <entry>Cyphotilapia frontosus</entry>
+                                            <entry>Lake Tanganyika</entry>
+                                            <entry>Very peaceful</entry>
+                                            <entry>Omnivore</entry>
+                                            <entry>"PH 7.8 - 8.5, Temp 75F - 82F"</entry>
+                                            <entry>14 inches</entry>
+                                            <entry>Middle-Bottom</entry>
+                                            <entry>Medium</entry>
+                                        </row>
+                                    </tbody>
+                                </tgroup>
+                            </table></p>
+                    </dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Create table from text</dt>
+                    <dd>
+                        <p>
+                            <codeblock id="codeblock_jll_rhb_b1c">You are a DITA XML technical writer. 
 Create a valid DITA CALS table (make sure to not miss elements tgroup, thead, tbody) 
 from the following content: 
 ${document}</codeblock>
-        <codeblock id="codeblock_nhs_vdw_11c">Return directly without any explanation a DITA XML table with two columns, the first one containing all months
+                        </p>
+                    </dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Generate table</dt>
+                    <dd>
+                        <p>
+                            <codeblock id="codeblock_nhs_vdw_11c">Return directly without any explanation a DITA XML table with two columns, the first one containing all months
 in a year and the second the days in that month.</codeblock>
-        <p>Generates:</p>
-        <table id="table_qc5_d2w_11c">
-            <tgroup cols="2">
-                <colspec colname="col1" colwidth="50%"/>
-                <colspec colname="col2" colwidth="50%"/>
-                <thead>
-                    <row>
-                        <entry>Months</entry>
-                        <entry>Days</entry>
-                    </row>
-                </thead>
-                <tbody>
-                    <row>
-                        <entry>January</entry>
-                        <entry>31</entry>
-                    </row>
-                    <row>
-                        <entry>February</entry>
-                        <entry>28/29</entry>
-                    </row>
-                    <row>
-                        <entry>March</entry>
-                        <entry>31</entry>
-                    </row>
-                    <row>
-                        <entry>April</entry>
-                        <entry>30</entry>
-                    </row>
-                    <row>
-                        <entry>May</entry>
-                        <entry>31</entry>
-                    </row>
-                    <row>
-                        <entry>June</entry>
-                        <entry>30</entry>
-                    </row>
-                    <row>
-                        <entry>July</entry>
-                        <entry>31</entry>
-                    </row>
-                    <row>
-                        <entry>August</entry>
-                        <entry>31</entry>
-                    </row>
-                    <row>
-                        <entry>September</entry>
-                        <entry>30</entry>
-                    </row>
-                    <row>
-                        <entry>October</entry>
-                        <entry>31</entry>
-                    </row>
-                    <row>
-                        <entry>November</entry>
-                        <entry>30</entry>
-                    </row>
-                    <row>
-                        <entry>December</entry>
-                        <entry>31</entry>
-                    </row>
-                </tbody>
-            </tgroup>
-        </table>
-        <codeblock id="codeblock_ygw_f2w_11c">Rephrase the following DITA XML text by finding action names and 
+                        </p>
+                        <p>Generates:</p>
+                        <table id="table_qc5_d2w_11c">
+                            <tgroup cols="2">
+                                <colspec colname="col1" colwidth="50%"/>
+                                <colspec colname="col2" colwidth="50%"/>
+                                <thead>
+                                    <row>
+                                        <entry>Months</entry>
+                                        <entry>Days</entry>
+                                    </row>
+                                </thead>
+                                <tbody>
+                                    <row>
+                                        <entry>January</entry>
+                                        <entry>31</entry>
+                                    </row>
+                                    <row>
+                                        <entry>February</entry>
+                                        <entry>28/29</entry>
+                                    </row>
+                                    <row>
+                                        <entry>March</entry>
+                                        <entry>31</entry>
+                                    </row>
+                                    <row>
+                                        <entry>April</entry>
+                                        <entry>30</entry>
+                                    </row>
+                                    <row>
+                                        <entry>May</entry>
+                                        <entry>31</entry>
+                                    </row>
+                                    <row>
+                                        <entry>June</entry>
+                                        <entry>30</entry>
+                                    </row>
+                                    <row>
+                                        <entry>July</entry>
+                                        <entry>31</entry>
+                                    </row>
+                                    <row>
+                                        <entry>August</entry>
+                                        <entry>31</entry>
+                                    </row>
+                                    <row>
+                                        <entry>September</entry>
+                                        <entry>30</entry>
+                                    </row>
+                                    <row>
+                                        <entry>October</entry>
+                                        <entry>31</entry>
+                                    </row>
+                                    <row>
+                                        <entry>November</entry>
+                                        <entry>30</entry>
+                                    </row>
+                                    <row>
+                                        <entry>December</entry>
+                                        <entry>31</entry>
+                                    </row>
+                                </tbody>
+                            </tgroup>
+                        </table>
+                    </dd>
+                </dlentry>
+            </dl>
+            <dl>
+                <dlentry>
+                    <dt>Surround action names with &lt;uicontrol></dt>
+                    <dd>
+                        <p>
+                            <codeblock id="codeblock_ygw_f2w_11c">Rephrase the following DITA XML text by finding action names and 
 surrounding them in &lt;uicontrol> XML elements: ${selection}</codeblock>
-        <p>Applied on:</p>
-        <p>Use the Save button to save the content and the Browse button to search for the topic on
-            disk.</p>
-        <p>Generates:</p>
-        <p>Use the <uicontrol>Save</uicontrol> button to save the content and the
-                <uicontrol>Browse</uicontrol> button to search for the topic on disk.</p>
+                        </p>
+                    </dd>
+                    <dd>
+                        <p>Applied on:</p>
+                        <p>Use the Save button to save the content and the Browse button to search
+                            for the topic on disk.</p>
+                        <p>Generates:</p>
+                        <p>Use the <uicontrol>Save</uicontrol> button to save the content and the
+                                <uicontrol>Browse</uicontrol> button to search for the topic on
+                            disk.</p>
+                    </dd>
+                </dlentry>
+            </dl>
+            <dl>
+                <dlentry>
+                    <dt>Ask for advice</dt>
+                    <dd>
+                        <codeblock>Should I use for technical documentation the phrase 
+"click a button" or "press a button"?</codeblock>
+                    </dd>
+                </dlentry>
+            </dl>
+            <dl>
+                <dlentry>
+                    <dt>Create ISO Schematron rule</dt>
+                    <dd>
+                        <codeblock>Create an ISO Schematron validation rule which reports an 
+error if a DITA XML image element does not contain a scale attribute</codeblock>
+                    </dd>
+                </dlentry>
+            </dl>
+        </p>
     </body>
 </topic>
