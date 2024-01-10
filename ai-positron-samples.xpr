@@ -24,6 +24,10 @@
                         </String-array>
                     </entry>
                     <entry>
+                        <String>enable.project.master.files.support</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
                         <String>key.document.templates.option.pane</String>
                         <Boolean>true</Boolean>
                     </entry>
@@ -42,6 +46,9 @@
         </options>
     </meta>
     <projectTree name="ai-positron-samples.xpr">
+        <folder masterFiles="true" name="Main Files">
+            <file name="ai_positron_assistant_samples.ditamap"/>
+        </folder>
         <folder path="."/>
     </projectTree>
 </project>
