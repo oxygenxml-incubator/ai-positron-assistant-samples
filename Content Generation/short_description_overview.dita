@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="short_description_overview">
+    <title>Short Description</title>
+    <body>
+        <p>You can use the <uicontrol>Short Description</uicontrol> action from the <uicontrol>AI
+                Positron Assistant</uicontrol>
+            <menucascade>
+                <uicontrol>Actions</uicontrol>
+                <uicontrol>Content generation</uicontrol>
+            </menucascade> category to ask the AI Positron to create and insert a
+                <xmlelement>shortdesc</xmlelement> element in a DITA topic based on the selected
+            content. </p>
+        <p>You can hover over the <uicontrol>Short Description</uicontrol> menu item to show a
+            configuration widget which allows you to configure the <b id="b_zng_znd_b1c">Style</b>
+            and <b id="b_arl_znd_b1c">Maximum number of sentences</b> to generate.</p>
+        <p>Open the <xref href="short_description_sample.dita"/> topic and invoke the
+                <uicontrol>Short Description</uicontrol> action.</p>
+    </body>
+</topic>

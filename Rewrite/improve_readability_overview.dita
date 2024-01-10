@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="improve_readability_overview">
+    <title>Improve Readability</title>
+    <body>
+        <p>You can use the <uicontrol>Improve Readability</uicontrol> action from the <uicontrol>AI
+                Positron Assistant</uicontrol>
+            <menucascade>
+                <uicontrol>Actions</uicontrol>
+                <uicontrol>Rewrite</uicontrol>
+            </menucascade> category to ask the AI Positron to improve the readability inside a DITA
+            topic's selected content. </p>
+        <p>Open the <xref href="improve_readability_sample.dita"/> topic, select the entire content and
+            invoke the <uicontrol>Improve Readability</uicontrol> action.</p>
+    </body>
+</topic>

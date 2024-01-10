@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="index_terms_overview">
+    <title>Index Terms</title>
+    <body>
+        <p>You can use the <uicontrol>Index Terms</uicontrol> action from the <uicontrol>AI Positron
+                Assistant</uicontrol>
+            <menucascade>
+                <uicontrol>Actions</uicontrol>
+                <uicontrol>Content generation</uicontrol>
+            </menucascade> category to ask the AI Positron to create and insert index term elements
+            in a DITA topic's prolog based on the selected content. </p>
+        <p>Open the <xref href="index_terms_sample.dita"/> topic and invoke the <uicontrol>Short
+                Description</uicontrol> action.</p>
+    </body>
+</topic>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="use_active_voice_overview">
+    <title>Use Active Voice</title>
+    <body>
+        <p>You can use the <uicontrol>Use Active Voice</uicontrol> action from the <uicontrol>AI
+                Positron Assistant</uicontrol>
+            <menucascade>
+                <uicontrol>Actions</uicontrol>
+                <uicontrol>Rewrite</uicontrol>
+            </menucascade> category to ask the AI Positron to change a DITA topic's selected content
+            from passive to active voice. </p>
+        <p>Open the <xref href="use_active_voice_samples.dita"/> topic, select paragraphs inside it
+            and invoke the <uicontrol>Use Active Voice</uicontrol> action.</p>
+    </body>
+</topic>

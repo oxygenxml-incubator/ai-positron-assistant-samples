@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="prerequisites">
+    <title>Prerequisites</title>
+    <body>
+        <p>These samples exemplify how the <uicontrol>AI Positron Assistant</uicontrol> add-on can
+            be used to increase a technical documentation writer's productivity.</p>
+        <p>Before you begin:<ul id="ul_uzf_dmd_b1c">
+                <li>Install the <xref
+                        href="https://www.oxygenxml.com/doc/ug-editor/topics/ai_positron.html"
+                        format="html" scope="external">AI Positron Assistant</xref> add-on and
+                    connect to the AI Positron server to start your free evaluation.</li>
+            </ul></p>
+    </body>
+</topic>

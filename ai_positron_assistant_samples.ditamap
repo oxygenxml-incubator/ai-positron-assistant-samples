@@ -2,29 +2,45 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>AI Positron Assistant Samples</title>
+    <topicref href="Content%20Generation/prerequisites.dita"/>
     <topichead navtitle="Content Generation">
-        <topicref href="Content%20Generation/continue_writing.dita" navtitle="Continue Writing"
-            locktitle="yes"/>
-        <topicref href="Content%20Generation/index_terms.dita" navtitle="Generate Index Terms"
-            locktitle="yes"/>
-        <topicref href="Content%20Generation/new_dita_topic.dita"/>
-        <topicref href="Content%20Generation/short_description.dita"
-            navtitle="Create Short Description" locktitle="yes"/>
+        <topicref href="Content%20Generation/new_dita_topic_sample.dita"/>
+        <topicref href="Content%20Generation/continue_writing_overview.dita">
+            <topicref href="Content%20Generation/continue_writing_sample.dita"
+                navtitle="Continue Writing Sample" locktitle="yes"/>
+        </topicref>
+        <topicref href="Content%20Generation/short_description_overview.dita">
+            <topicref href="Content%20Generation/short_description_sample.dita"
+                navtitle="Short Description Sample" locktitle="yes"/>
+        </topicref>
+        <topicref href="Content%20Generation/index_terms_overview.dita">
+            <topicref href="Content%20Generation/index_terms_sample.dita" navtitle="Index Terms Sample"
+                locktitle="yes"/>
+        </topicref>
     </topichead>
     <topichead navtitle="Rewrite">
-        <topicref href="Rewrite/correct_grammar.dita" navtitle="Correct Grammar" locktitle="yes">
+        <topicref href="Rewrite/correct_grammar_overview.dita">
+            <topicref href="Rewrite/correct_grammar_sample.dita" navtitle="Correct Grammar Sample"
+                locktitle="yes"/>
             <topicref href="Rewrite/other_correct_grammar_samples.dita"/>
         </topicref>
-        <topicref href="Rewrite/improve_readability.dita" navtitle="Improve Readability"
-            locktitle="yes"/>
-        <topicref href="Rewrite/use_active_voice_samples.dita"/>
-        <topicref href="Rewrite/itemize.dita"/>
-        <topicref href="Rewrite/join-items.dita"/>
+        <topicref href="Rewrite/improve_readability_overview.dita">
+            <topicref href="Rewrite/improve_readability_sample.dita" navtitle="Improve Readability Sample"
+                locktitle="yes"/>
+        </topicref>
+        <topicref href="Rewrite/use_active_voice_overview.dita">
+            <topicref href="Rewrite/use_active_voice_samples.dita"/>
+        </topicref>
+        <topicref href="Rewrite/itemize_join_overview.dita">
+            <topicref href="Rewrite/itemize.dita"/>
+            <topicref href="Rewrite/join-items.dita"/>
+        </topicref>
     </topichead>
     <topichead navtitle="Overview">
-        <topicref href="Overview/answer_questions.dita"/>
-        <topicref href="Overview/generate_questions.dita" navtitle="Generate Questions"
-            locktitle="yes"/>
+        <topicref href="Overview/answer_questions_overview.dita">
+            <topicref href="Overview/generate_questions_sample.dita"
+                navtitle="Generate/Answer Questions Sample" locktitle="yes"/>
+        </topicref>
         <topicref href="Overview/summarize.dita"/>
         <topicref href="Overview/readability.dita"/>
     </topichead>

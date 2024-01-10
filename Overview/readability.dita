@@ -3,8 +3,14 @@
 <topic id="summarize">
     <title>Readability</title>
     <body>
-        <p>Examples for using the <uicontrol>AI Positron Assistant</uicontrol> add-ons
-                <uicontrol>Overview->Readability</uicontrol> action.</p>
-        <p><xref href="../Rewrite/improve_readability.dita"/></p>
+        <p>You can use the <uicontrol>Readability</uicontrol> action from the <uicontrol>AI Positron
+                Assistant</uicontrol>
+            <menucascade>
+                <uicontrol>Actions</uicontrol>
+                <uicontrol>Overview</uicontrol>
+            </menucascade> category to ask the AI Positron to summarize the contents of a DITA XML
+            topic.</p>
+        <p>Open the <xref href="../Rewrite/improve_readability_sample.dita"/> topic and invoke the
+                <uicontrol>Readability</uicontrol> action.</p>
     </body>
 </topic>

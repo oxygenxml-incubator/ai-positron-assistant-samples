@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="continue_writing_overview">
+    <title>Continue Writing</title>
+    <body>
+        <p>You can use the <uicontrol>Continue writing</uicontrol> action from the <uicontrol>AI
+                Positron Assistant</uicontrol>
+            <menucascade>
+                <uicontrol>Actions</uicontrol>
+                <uicontrol>Content generation</uicontrol>
+            </menucascade> category to ask the AI Positron to continue the idea of a current
+            paragraph. This is an useful action if you have writer's block.</p>
+        <p>Open the <xref href="continue_writing_sample.dita"/> topic, place the caret at the end of the
+            last paragraph and invoke the <uicontrol>Continue writing</uicontrol> action.</p>
+    </body>
+</topic>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="new_dita_topic">
+    <title>New DITA Topic</title>
+    <body>
+        <p>You can use the <uicontrol>New DITA Topic</uicontrol> action from the <uicontrol>AI
+                Positron Assistant</uicontrol>
+            <menucascade>
+                <uicontrol>Actions</uicontrol>
+                <uicontrol>Content Generation</uicontrol>
+            </menucascade> category to ask the <b>AI Positron</b> create a new DITA topic containing
+            content expanded by the AI based on an initial idea.</p>
+        <p>Examples (paste the content from each code block below in the <uicontrol>New DITA
+                Topic</uicontrol> prompt dialog):</p>
+        <dl>
+            <dlentry>
+                <dt>Create a DITA XML topic based on a short description</dt>
+                <dd>
+                    <p>
+                        <codeblock id="codeblock_t2y_khb_b1c">Create an "Installation" DITA topic with 2 sections: "System requirements" and "Installation steps". 
+Provide some minimum and recommended values for the system requirements. 
+Use a 3-column table for the system resources, the columns being called Resource, 
+Minimum and Recommended. Don't forget to use the &lt;body> element inside the topic.</codeblock>
+                    </p>
+                </dd>
+            </dlentry>
+            <dlentry>
+                <dt>Create a DITA XML topic for installing a fictonal application</dt>
+                <dd>
+                    <p>
+                        <codeblock id="codeblock_nsk_ndw_11c">Installing an application named Emerald on Mac OS using the DMG installer.</codeblock>
+                    </p>
+                </dd>
+            </dlentry>
+        </dl>
+    </body>
+</topic>
