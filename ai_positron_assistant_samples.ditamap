@@ -12,8 +12,11 @@
             navtitle="Create Short Description" locktitle="yes"/>
     </topichead>
     <topichead navtitle="Rewrite">
-        <topicref href="Rewrite/correct_grammar.dita"/>
-        <topicref href="Rewrite/use_active_voice.dita"/>
+        <topicref href="Rewrite/correct_grammar.dita" navtitle="Correct Grammar" locktitle="yes">
+            <topicref href="Rewrite/other_correct_grammar_samples.dita"/>
+        </topicref>
+        <topicref href="Rewrite/improve_readability.dita"/>
+        <topicref href="Rewrite/use_active_voice_samples.dita"/>
         <topicref href="Rewrite/itemize.dita"/>
         <topicref href="Rewrite/join-items.dita"/>
     </topichead>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="use_active_voice">
+    <title>Use Active Voice Samples</title>
+    <body>
+        <p>Profiling attribute values can be configured using a Subject Scheme Map that is
+            referenced in the context DITA map or by configuring the values in the <menucascade>
+                <uicontrol>Options</uicontrol>
+                <uicontrol>Preferences</uicontrol>
+                <uicontrol>Attributes and Condition Sets</uicontrol>
+            </menucascade> preferences page within an <b id="b_jjd_lzb_b1c">Oxygen XML
+                Editor/Author</b> desktop version and then exporting the options to be used with the
+            application server. Profiling attribute groups are also supported by the server.</p>
+        <p>The code is interpreted by the Python engine.</p>
+        <p>A better user experience was ensured by incorporating accessibility during the design
+            process.</p>
+        <p>The layout can be configured from the Preferences page.</p>
+        <p>The default path can be configured in the <b id="b_gvy_jzb_b1c">Ant</b> preferences
+            page.</p>
+        <p>The test was passed by most students.</p>
+        <p>The money was stolen by her husband.</p>
+    </body>
+</topic>
