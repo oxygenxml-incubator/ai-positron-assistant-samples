@@ -45,9 +45,12 @@
         <topicref href="Overview/readability.dita"/>
     </topichead>
     <topichead navtitle="Translation">
-        <topicref href="Translation/translate.dita" navtitle="Translation Sample" locktitle="yes"/>
+        <topicref href="Translation/translate_overview.dita">
+            <topicref href="Translation/translate_sample.dita" navtitle="Translation Sample"
+                locktitle="yes"/>
+        </topicref>
     </topichead>
-    <topicref href="Useful%20Prompts/useful_prompts.dita"/>
+    <topicref href="Useful%20Prompts/useful_prompts_samples.dita"/>
     <topichead navtitle="Marketing">
         <topicref href="Marketing/release_notes.dita"/>
         <topicref href="Marketing/marketing_post.dita"/>

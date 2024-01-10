@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="translate_overview">
+    <title>Translate</title>
+    <body>
+        <p>You can use one of the <uicontrol>Translate ...</uicontrol> actions from the
+                <uicontrol>AI Positron Assistant</uicontrol>
+            <menucascade>
+                <uicontrol>Actions</uicontrol>
+                <uicontrol>Translate</uicontrol>
+            </menucascade> category to ask the AI Positron to translate the contents of a DITA XML
+            topic to a certain language.</p>
+        <p>The translation actions attempt to preserve unchanged the XML structure, inline elements
+            and avoid translating DITA XML elements like <xmlelement>codeblock</xmlelement> and
+                <xmlelement>codeph</xmlelement>.</p>
+        <p>Open the <xref href="translate_sample.dita"/> topic and invoke one of the
+                <uicontrol>Translate...</uicontrol> actions.</p>
+    </body>
+</topic>
