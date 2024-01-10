@@ -3,9 +3,18 @@
 <topic id="marketing_post">
     <title>Marketing Post</title>
     <body>
-        <p>Use the <uicontrol>AI Positron Assistant</uicontrol>
-            <uicontrol>Marketing->Marketing Post</uicontrol> action to create a marketing post from
-            release notes:</p>
+        <p>You can use one of the <uicontrol>Marketing Post</uicontrol> action from the
+                <uicontrol>AI Positron Assistant</uicontrol>
+            <menucascade>
+                <uicontrol>Actions</uicontrol>
+                <uicontrol>Marketing</uicontrol>
+            </menucascade> category to ask the AI Positron to create a marketing post for a
+            selection containing release notes.</p>
+        <p>Select the content in the code block below containing issue IDs and titles and invoke the
+                <uicontrol>Create Release Notes</uicontrol> action.</p>
+        <p>Select the content in the code block below containing release notes and invoke the
+                <uicontrol>AI Positron Assistant</uicontrol>
+            <uicontrol>Marketing->Marketing Post</uicontrol> action:</p>
         <p>
             <codeblock id="codeblock_mnx_pwc_b1c">- URL contents in input panels are now presented unescaped, improving user experience.
 - Non-ASCII characters are no longer escaped when correcting URLs, making the process more seamless for users.

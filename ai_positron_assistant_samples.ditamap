@@ -54,7 +54,10 @@
     <topichead navtitle="Marketing">
         <topicref href="Marketing/release_notes.dita"/>
         <topicref href="Marketing/marketing_post.dita"/>
-        <topicref href="Marketing/improve_search_engine_optimization.dita"/>
+        <topicref href="Marketing/improve_search_engine_optimization_overview.dita">
+            <topicref href="Marketing/improve_search_engine_optimization.dita"/>
+            <topicref href="Marketing/improve_search_engine_optimization_sample2.dita"/>
+        </topicref>
         <topicref href="Marketing/pain_agitate_solution.dita"/>
         <topicref href="Marketing/features-advantages-benefits.dita"/>
     </topichead>

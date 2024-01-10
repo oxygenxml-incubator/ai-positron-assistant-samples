@@ -3,14 +3,21 @@
 <topic id="pain_agitate_solution">
     <title>Features Advantages Benefits</title>
     <body>
-        <p>Select the section below and use the <uicontrol>AI Positron Assistant</uicontrol>
-            <uicontrol>Marketing->Features-Advantages-Benefits</uicontrol> action to generate a
+        <p>You can use one of the <uicontrol>Features Advantages Benefits</uicontrol> action from
+            the <uicontrol>AI Positron Assistant</uicontrol>
+            <menucascade>
+                <uicontrol>Actions</uicontrol>
+                <uicontrol>Marketing</uicontrol>
+            </menucascade> category to ask the AI Positron to create a marketing post in the
+            features-advantages-benefits style from some initial content.</p>
+        <p>Select the content in the code block below and use the <uicontrol>AI Positron
+                Assistant</uicontrol>
+            <uicontrol>Marketing->Features Advantages Benefits</uicontrol> action to generate a
             marketing post.</p>
-        <p>The Oxygen AI Positron Assistant offers predefined AI actions, user-defined actions, and
-            favorites for chat sessions. It provides features like editable chat interactions, AI
-            fixes for errors, XPath AI-based functions, and custom author actions that invoke AI
-            processing. The tool also supports Schematron validation and AI-based quick-fixes,
-            refactoring actions, code generation, streaming mode for actions, and context-specific
-            information.</p>
+        <codeblock>The Oxygen AI Positron Assistant offers predefined AI actions, user-defined actions, and favorites
+ for chat sessions. It provides features like editable chat interactions, AI fixes for errors, 
+XPath AI-based functions, and custom author actions that invoke AI processing. 
+The tool also supports Schematron validation and AI-based quick-fixes, refactoring actions, 
+code generation, streaming mode for actions, and context-specific information.</codeblock>
     </body>
 </topic>

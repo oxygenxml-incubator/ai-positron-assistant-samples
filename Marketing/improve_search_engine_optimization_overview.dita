@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="improve_search_engine_optimization_overview">
+    <title>Improve Search Engine Optimization</title>
+    <body>
+        <p>You can use one of the <uicontrol>Improve SEO</uicontrol> action from the <uicontrol>AI
+                Positron Assistant</uicontrol>
+            <menucascade>
+                <uicontrol>Actions</uicontrol>
+                <uicontrol>Marketing</uicontrol>
+            </menucascade> category to ask the AI Positron to improve the selected content for
+            search engine indexing.</p>
+        <p>Open the <xref href="improve_search_engine_optimization.dita"/> topic, select its
+            contents and use the <uicontrol>AI Positron Assistant</uicontrol>
+            <uicontrol>Marketing->Improve SEO</uicontrol> action to improve the content to be easier
+            indexed by search engines.</p>
+        <p>Open the  <xref href="improve_search_engine_optimization_sample2.dita"/> topic, select
+            its contents and use the <uicontrol>AI Positron Assistant</uicontrol>
+            <uicontrol>Marketing->Improve SEO</uicontrol> action to improve the content to be easier
+            indexed by search engines.</p>
+    </body>
+</topic>
