@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>AI Positron Assistant Samples</title>
+    <topichead navtitle="Content Generation">
+        <topicref href="Content%20Generation/continue_writing.dita" navtitle="Continue Writing"
+            locktitle="yes"/>
+        <topicref href="Content%20Generation/index_terms.dita" navtitle="Generate Index Terms"
+            locktitle="yes"/>
+        <topicref href="Content%20Generation/new_dita_topic.dita"/>
+        <topicref href="Content%20Generation/short_description.dita"
+            navtitle="Create Short Description" locktitle="yes"/>
+    </topichead>
+    <topichead navtitle="Rewrite">
+        <topicref href="Rewrite/correct_grammar.dita"/>
+        <topicref href="Rewrite/use_active_voice.dita"/>
+        <topicref href="Rewrite/itemize.dita"/>
+        <topicref href="Rewrite/join-items.dita"/>
+    </topichead>
+    <topichead navtitle="Overview">
+        <topicref href="Overview/generate_questions.dita" navtitle="Generate Questions"
+            locktitle="yes"/>
+        <topicref href="Overview/answer_questions.dita"/>
+    </topichead>
+    <topicref href="Useful%20Prompts/useful_prompts.dita"/>
+</map>
