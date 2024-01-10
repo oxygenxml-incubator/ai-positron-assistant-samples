@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="pain_agitate_solution">
+    <title>Pain Agitate Solution</title>
+    <body>
+        <p>Select the section below and use the <uicontrol>AI Positron Assistant</uicontrol>
+            <uicontrol>Marketing->Pain-Agitate-Solution</uicontrol> action to generate a marketing
+            post.</p>
+        <p>The Oxygen AI Positron Assistant offers predefined AI actions, user-defined actions, and
+            favorites for chat sessions. It provides features like editable chat interactions, AI
+            fixes for errors, XPath AI-based functions, and custom author actions that invoke AI
+            processing. The tool also supports Schematron validation and AI-based quick-fixes,
+            refactoring actions, code generation, streaming mode for actions, and context-specific
+            information.</p>
+    </body>
+</topic>

@@ -33,8 +33,10 @@
     </topichead>
     <topicref href="Useful%20Prompts/useful_prompts.dita"/>
     <topichead navtitle="Marketing">
-        <topicref href="Content%20Generation/release_notes.dita"/>
-        <topicref href="Content%20Generation/marketing_post.dita"/>
-        <topicref href="Content%20Generation/improve_search_engine_optimization.dita"/>
+        <topicref href="Marketing/release_notes.dita"/>
+        <topicref href="Marketing/marketing_post.dita"/>
+        <topicref href="Marketing/improve_search_engine_optimization.dita"/>
+        <topicref href="Marketing/pain_agitate_solution.dita"/>
+        <topicref href="Marketing/features-advantages-benefits.dita"/>
     </topichead>
 </map>
