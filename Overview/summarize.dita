@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="summarize">
+    <title>Summarize</title>
+    <body>
+        <p>Examples for using the <uicontrol>AI Positron Assistant</uicontrol> add-ons
+                <uicontrol>Overview->Summarize</uicontrol> action.</p>
+        <p><xref href="../Rewrite/improve_readability.dita"/></p>
+    </body>
+</topic>

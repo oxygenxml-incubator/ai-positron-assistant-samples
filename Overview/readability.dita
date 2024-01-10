@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="summarize">
+    <title>Readability</title>
+    <body>
+        <p>Examples for using the <uicontrol>AI Positron Assistant</uicontrol> add-ons
+                <uicontrol>Overview->Readability</uicontrol> action.</p>
+        <p><xref href="../Rewrite/improve_readability.dita"/></p>
+    </body>
+</topic>

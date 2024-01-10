@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_java_programming">
+    <title>Java Programming</title>
+    <body>
+        <p>Java programming is a popular language used for developing various applications. It is an object-oriented language that is platform-independent, meaning it can run on any operating system.</p>
+        <p>When writing Java code, it is important to use the correct syntax and follow best practices.
+            Here are some elements commonly used in DITA about programming:</p>
+        <codeblock>
+            public class HelloWorld {
+            public static void main(String[] args) {
+            System.out.println("Hello, World!");
+            }
+            }
+        </codeblock>
+        <p>The <b>codeph</b> element is used to highlight specific code within a paragraph, like this:
+            <codeph>System.out.println("Hello, World!");</codeph></p>
+        <p>The <b>filepath</b> element is used to indicate a file path, like this:
+            <filepath>C:\Users\username\Documents\file.txt</filepath></p>
+    </body>
+</topic>

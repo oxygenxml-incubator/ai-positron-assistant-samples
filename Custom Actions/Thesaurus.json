@@ -1,0 +1,7 @@
+[ {
+  "id" : "thesaurus",
+  "title" : "Thesaurus/Synonyms",
+  "input-type" : "markup",
+  "type" : "replace-selection-with-fragment",
+  "context" : "I want you to act as a synonyms provider. I will give you a sequence of words, and you will reply to \nme with a list of synonym alternatives according to my prompt. Provide a max of 10 synonyms per prompt.\nWords:"
+} ]

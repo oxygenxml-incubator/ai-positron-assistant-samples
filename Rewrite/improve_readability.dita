@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="improve_readability">
-    <title>Improve Readability</title>
+    <title>Application Overview</title>
     <body>
         <p id="p_pll_bgk_54b">Oxygen is a cross-platform application designed to accommodate all of
             your XML editing, authoring, developing, and publishing needs. It is the best XML editor
@@ -27,6 +27,6 @@
             editing and Oxygen XML Editor's features. Whether you are a seasoned XML developer or a
             beginner, we hope this user manual serves as a valuable resource to help you maximize
             your productivity and achieve your XML editing goals with Oxygen XML Editor. Let's get
-            started</p>
+            started.</p>
     </body>
 </topic>

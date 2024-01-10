@@ -15,15 +15,21 @@
         <topicref href="Rewrite/correct_grammar.dita" navtitle="Correct Grammar" locktitle="yes">
             <topicref href="Rewrite/other_correct_grammar_samples.dita"/>
         </topicref>
-        <topicref href="Rewrite/improve_readability.dita"/>
+        <topicref href="Rewrite/improve_readability.dita" navtitle="Improve Readability"
+            locktitle="yes"/>
         <topicref href="Rewrite/use_active_voice_samples.dita"/>
         <topicref href="Rewrite/itemize.dita"/>
         <topicref href="Rewrite/join-items.dita"/>
     </topichead>
     <topichead navtitle="Overview">
+        <topicref href="Overview/answer_questions.dita"/>
         <topicref href="Overview/generate_questions.dita" navtitle="Generate Questions"
             locktitle="yes"/>
-        <topicref href="Overview/answer_questions.dita"/>
+        <topicref href="Overview/summarize.dita"/>
+        <topicref href="Overview/readability.dita"/>
+    </topichead>
+    <topichead navtitle="Translation">
+        <topicref href="Translation/translate.dita" navtitle="Translation Sample" locktitle="yes"/>
     </topichead>
     <topicref href="Useful%20Prompts/useful_prompts.dita"/>
 </map>

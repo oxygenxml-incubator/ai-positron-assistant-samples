@@ -175,6 +175,14 @@ surrounding them in &lt;uicontrol> XML elements: ${selection}</codeblock>
             </dl>
             <dl>
                 <dlentry>
+                    <dt>Find Synonyms</dt>
+                    <dd>
+                        <codeblock>I want you to act as a synonyms provider. I will give you a sequence of words, and you will reply to 
+me with a list of synonym alternatives according to my prompt. Provide a max of 10 synonyms per prompt.
+Words: ${selection}</codeblock>
+                    </dd>
+                </dlentry>
+                <dlentry>
                     <dt>Ask for advice</dt>
                     <dd>
                         <codeblock>Should I use for technical documentation the phrase 
