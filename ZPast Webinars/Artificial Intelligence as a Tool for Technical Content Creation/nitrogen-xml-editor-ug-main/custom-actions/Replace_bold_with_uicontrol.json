@@ -1,0 +1,19 @@
+[ {
+  "id" : "replace.bold.with.uicontrol",
+  "title" : "Replace bold with uicontrol",
+  "input-type" : "markup",
+  "type" : "replace-selection-with-fragment",
+  "context" : "Find where the bold element (<b>) has been used to mark up UI elements and change those instances by replacing the bold element with the uicontrol element (<uicontrol>). If you find some other content marked up with bold element, content that does not define UI elements, leave it unchanged. Also keep any other content unaltered.",
+  "examples" : [ {
+    "prompt" : "<b>Run</b>",
+    "completion" : "<uicontrol>Run</uicontrol>"
+  },
+  {
+    "prompt" : "text1 <b>Run</b> text2",
+    "completion" : "text1 <uicontrol>Run</uicontrol> text2"
+  },
+  {
+    "prompt" : "${selection}",
+    "completion" : ""
+  } ]
+} ]

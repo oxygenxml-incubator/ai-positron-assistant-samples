@@ -3,6 +3,10 @@
 <topic id="new_dita_topic">
     <title>New DITA Topic</title>
     <body>
+        <codeblock id="codeblock_t2y_khb_b1c">Create an "Installation" DITA topic with 2 sections: "System requirements" and "Installation steps". 
+Provide some minimum and recommended values for the system requirements. 
+Use a 3-column table for the system resources, the columns being called Resource, 
+Minimum and Recommended. Don't forget to use the &lt;body> element inside the topic.</codeblock>
         <p>
             <codeblock id="codeblock_nsk_ndw_11c">Installing an application named Emerald on Mac OS using the DMG installer.</codeblock>
         </p>

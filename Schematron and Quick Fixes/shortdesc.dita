@@ -9,12 +9,4 @@
         tools to work with them. DITA content is created as topics, each an individual XML file.
         Typically, each topic has a defined primary objective and structure, and DITA also includes
         several specialized topic types (task, concept, reference, glossary entry).</shortdesc>
-    <body>
-        <p>
-            <menucascade>
-                <uicontrol>File</uicontrol>
-                <uicontrol>Export</uicontrol>
-            </menucascade>
-        </p>
-    </body>
 </topic>

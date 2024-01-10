@@ -1,0 +1,11 @@
+Action	Windows/Linux Shortcut Keys	macOS Shortcut Keys	Description of Default Assigned Action
+Attribute Editor	Alt + Enter	Option + Enter	 Opens the in-place attribute editor 
+Beginning	Ctrl + Home	Command + Home	Navigates to the beginning of the document 
+Check Spelling	F7	F7	Opens the spell checking dialog box 
+Check Well-Formedness	Ctrl + Shift + W	Command + Shift + W	Check well-formedness of current document 
+Configure Transformation	Ctrl + Shift + C	Command + Shift + C	Opens the Configure Transformation Scenario dialog box 
+Content Completion (Text Mode)	Ctrl + Space	Command + Space	Opens the content completion window in Text mode 
+Delete Tags	Alt + Shift + X	Command + Option + X	Deletes the start and end tag of the current element 
+Duplicate Lines Up (Text Mode)	Ctrl + Shift + UpArrow	Option + Shift + UpArrow	Duplicates the selected lines (or current line) and inserts it above the current selection/line 
+Duplicate Lines Down (Text Mode)	Ctrl + Shift + DownArrow	Option + Shift + DownArrow	Duplicates the selected lines (or current line) and inserts it below the current selection or line 
+End	Ctrl + End	Command + End	Navigates to the end of the document 

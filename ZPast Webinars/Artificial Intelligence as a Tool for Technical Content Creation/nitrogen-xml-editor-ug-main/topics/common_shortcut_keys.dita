@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="common_shortcut_keys">
+    <title>Common Shortcuts</title>
+    <body>
+        <p><ph keyref="product"/> includes numerous shortcut keys that are assigned to actions to
+            help you edit content. All the shortcuts that are assigned to actions are displayed in
+            the table in the Menu Shortcut Keys preference page.</p>
+        <p/>
+    </body>
+</topic>

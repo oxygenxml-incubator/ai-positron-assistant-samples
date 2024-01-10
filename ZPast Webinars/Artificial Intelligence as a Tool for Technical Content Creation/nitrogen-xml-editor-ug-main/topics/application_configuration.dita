@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="application_configuration">
+    <title>Aplication Configuration</title>
+    <shortdesc>The application can be configured from the Preferences page.</shortdesc>
+    <body>
+        <p>You can configured <ph keyref="product"/> options using the
+                <uicontrol>Preferences</uicontrol> dialog box. </p>
+        <p>You can selection the preference page you is interested in from the tree on the left of
+            the <uicontrol>Preferences</uicontrol> dialog box. You can filter the tree bye using the
+            filter text box and then the following buttons are available to the right of the text
+                box:<ul id="ul_dpn_bgk_54b">
+                <li id="li_epn_bgk_54b"><uicontrol>Expand All</uicontrol> - Expands the structure of
+                    the tree to show all preference pages.</li>
+                <li id="li_fpn_bgk_54b"><uicontrol>Collapse All</uicontrol> - Collapses the
+                    structure of the tree to show only the 1st level preference pages.</li>
+                <li id="li_gpn_bgk_54b"><uicontrol>Project-Level Options Only</uicontrol> - If
+                    toggled on it filters the tree to only show the preference pages that are saved
+                    at project level.</li>
+            </ul></p>
+        <p product="author developer editor svnClient json" id="p_opn_bgk_54b">Some preference pages
+            include an option to control how the options are stored either as <uicontrol>Global
+                Options</uicontrol> or <uicontrol>Project Options</uicontrol>.</p>
+        <p id="restore-defaults-p">You can restore options to their default values by pressing the
+                <uicontrol>Restore Defaults</uicontrol> button available in each preferences
+            page.</p>
+    </body>
+</topic>
