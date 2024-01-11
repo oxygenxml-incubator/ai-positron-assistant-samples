@@ -61,5 +61,7 @@
         <topicref href="Marketing/features-advantages-benefits.dita"/>
     </topichead>
     <topicref href="Useful%20Prompts/useful_prompts_samples.dita"/>
-    <topicref href="Useful%20Prompts/custom_actions.dita"/>
+    <topicref href="Custom%20Actions/custom_actions.dita"/>
+    <topicref
+        href="Schematron%20and%20Quick%20Fixes/schematron_validation_with_quick_fixes_and_xslt_extensions.dita"/>
 </map>
