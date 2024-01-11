@@ -1,4 +1,4 @@
-# ai-positron-assistant-samples
+# AI Positron Assistant Samples Playground
 Various samples and a playground showing the usefulness of the Oxygen AI Positron Assistant add-on for the Oxygen XML Author/Editor desktop and in-browser WebAuthor applications. 
 
 How to work with the samples:
