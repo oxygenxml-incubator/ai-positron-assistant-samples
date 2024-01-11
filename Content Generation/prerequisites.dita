@@ -18,9 +18,12 @@
                             format="html" scope="external"/></li>
                     <li><xref
                             href="https://github.com/oxygenxml-incubator/ai-positron-assistant-samples/tree/main"
-                            format="html" scope="external">Clone or download</xref> this project and
-                        open in the Oxygen "DITA Maps Manager" view the <b id="b_rhs_lh3_b1c"
-                            >ai_positron_assistant_samples.ditamap</b></li>
+                            format="html" scope="external">Clone or download</xref> this
+                        project.</li>
+                    <li>Open in the <uicontrol>Project</uicontrol> view the
+                            <filepath>ai-positron-samples.xpr</filepath>.</li>
+                    <li>Open in the Oxygen "DITA Maps Manager" view the <b id="b_rhs_lh3_b1c"
+                            >ai_positron_assistant_samples.ditamap</b>.</li>
                     <li>Follow the instructions and samples in the DITA Map.</li>
                 </ul></li>
             <li>If you want to work with the Oxygen <b id="b_shs_lh3_b1c">WebAuthor</b> in-browser

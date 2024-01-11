@@ -50,7 +50,6 @@
                 locktitle="yes"/>
         </topicref>
     </topichead>
-    <topicref href="Useful%20Prompts/useful_prompts_samples.dita"/>
     <topichead navtitle="Marketing">
         <topicref href="Marketing/release_notes.dita"/>
         <topicref href="Marketing/marketing_post.dita"/>
@@ -61,4 +60,6 @@
         <topicref href="Marketing/pain_agitate_solution.dita"/>
         <topicref href="Marketing/features-advantages-benefits.dita"/>
     </topichead>
+    <topicref href="Useful%20Prompts/useful_prompts_samples.dita"/>
+    <topicref href="Useful%20Prompts/custom_actions.dita"/>
 </map>
