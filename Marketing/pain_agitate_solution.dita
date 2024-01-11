@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="pain_agitate_solution">
-    <title>Pain Agitate Solution</title>
+    <title>Pain-Agitate-Solution</title>
     <body>
-        <p>You can use one of the <uicontrol>Pain Agitate Solution</uicontrol> action from the
+        <p>You can use one of the <uicontrol>Pain-Agitate-Solution</uicontrol> action from the
                 <uicontrol>AI Positron Assistant</uicontrol>
             <menucascade>
                 <uicontrol>Actions</uicontrol>
                 <uicontrol>Marketing</uicontrol>
             </menucascade> category to ask the AI Positron to create a marketing post in the
             pain-agitate-solution style from some initial content.</p>
+        <p>The <uicontrol>Pain-Agitate-Solution</uicontrol> AI action from a specific content is
+            extremely useful to end users because it helps identify and address their pain points
+            effectively. By analyzing user data and understanding their needs, this AI action can
+            agitate the pain points, bringing them to the forefront of the user's attention. This
+            approach allows the AI to empathize with the user's challenges and frustrations, paving
+            the way for a tailored solution. By highlighting and agitating these pain points, the AI
+            can offer targeted solutions that are specifically designed to alleviate the user's
+            concerns, ultimately improving their overall experience and satisfaction. This AI action
+            ensures that users feel heard, understood, and supported throughout their journey,
+            leading to more effective problem-solving and a positive user experience.</p>
         <p>Select the content in the code block below and use the <uicontrol>AI Positron
                 Assistant</uicontrol>
             <uicontrol>Marketing->Pain-Agitate-Solution</uicontrol> action to generate a marketing

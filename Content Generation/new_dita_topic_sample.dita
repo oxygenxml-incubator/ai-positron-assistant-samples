@@ -3,13 +3,15 @@
 <topic id="new_dita_topic">
     <title>New DITA Topic</title>
     <body>
+        <p>This action is not compatible with the <b>WebAuthor</b> in-browser editor.</p>
         <p>You can use the <uicontrol>New DITA Topic</uicontrol> action from the <uicontrol>AI
                 Positron Assistant</uicontrol>
             <menucascade>
                 <uicontrol>Actions</uicontrol>
                 <uicontrol>Content Generation</uicontrol>
-            </menucascade> category to ask the <b>AI Positron</b> create a new DITA topic containing
-            content expanded by the AI based on an initial idea.</p>
+            </menucascade> category to ask the <b>AI Positron</b> to create a new DITA topic
+            containing content expanded by the <b>AI</b> based on an initial idea expressed in plain
+            text format.</p>
         <p>Examples (paste the content from each code block below in the <uicontrol>New DITA
                 Topic</uicontrol> prompt dialog):</p>
         <dl>
@@ -28,7 +30,7 @@
                         <codeblock id="codeblock_t2y_khb_b1c">Create an "Installation" DITA topic with 2 sections: "System requirements" and "Installation steps". 
 Provide some minimum and recommended values for the system requirements. 
 Use a 3-column table for the system resources, the columns being called Resource, 
-Minimum and Recommended. Don't forget to use the &lt;body> element inside the topic.</codeblock>
+Minimum and Recommended. </codeblock>
                     </p>
                 </dd>
             </dlentry>

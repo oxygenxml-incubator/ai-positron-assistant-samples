@@ -10,8 +10,11 @@
                 <uicontrol>Marketing</uicontrol>
             </menucascade> category to ask the AI Positron to create a marketing post for a
             selection containing release notes.</p>
-        <p>Select the content in the code block below containing issue IDs and titles and invoke the
-                <uicontrol>Create Release Notes</uicontrol> action.</p>
+        <p>A <b>Marketing Post</b> AI action from a specific content is incredibly useful to end
+            users as it helps businesses effectively promote their products or services to a wider
+            audience. By utilizing AI technology, this action can generate engaging and persuasive
+            marketing posts that are tailored to the target audience, maximizing the chances of
+            attracting potential customers.</p>
         <p>Select the content in the code block below containing release notes and invoke the
                 <uicontrol>AI Positron Assistant</uicontrol>
             <uicontrol>Marketing->Marketing Post</uicontrol> action:</p>

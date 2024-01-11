@@ -11,6 +11,11 @@
             </menucascade> category to ask the AI Positron to generate a list of questions from a
             DITA XML topic. This is an useful action to better understand to what questions asked by
             an end user the written topic may answer.</p>
+        <p>The <b>Generate Questions</b> AI action is incredibly useful to end users as it helps
+            them gain a deeper understanding of a specific content. With this feature, the AI
+            analyzes the content and generates thought-provoking questions related to the topic.
+            These questions serve multiple purposes, such as encouraging critical thinking,
+            enhancing comprehension, and promoting engagement with the material. </p>
         <p>Open the <xref href="generate_questions_sample.dita"/> topic and invoke the
                 <uicontrol>Generate Questions</uicontrol> action.</p>
         <p>You can use the <uicontrol>Answer Questions</uicontrol> action from the <uicontrol>AI
@@ -19,8 +24,9 @@
                 <uicontrol>Actions</uicontrol>
                 <uicontrol>Overview</uicontrol>
             </menucascade> category to ask the AI Positron to understand the contents of a DITA XML
-            topic and then to answer to questions asked about it. This is an useful action to better
-            understand if the written topic may answer a specific question the user may have.</p>
+            topic and then to answer to questions asked about it. </p>
+        <p>The <uicontrol>Answer Questions</uicontrol> action is useful to better understand if the
+            written topic may answer a specific question the user may have.</p>
         <p>Open the <xref href="generate_questions_sample.dita"/> topic and invoke the
                 <uicontrol>Answer Questions</uicontrol> action. Afterwards ask the AI questions
             about the topic, for example:</p>

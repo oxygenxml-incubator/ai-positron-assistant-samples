@@ -10,6 +10,12 @@
                 <uicontrol>Content generation</uicontrol>
             </menucascade> category to ask the AI Positron to create and insert index term elements
             in a DITA topic's prolog based on the selected content. </p>
+        <p>An <b>Index Terms</b> AI action is incredibly useful to end users as it simplifies the
+            process of organizing and categorizing large amounts of information. By automatically
+            generating index terms for documents, this AI action saves users valuable time and
+            effort that would otherwise be spent manually identifying and labeling relevant terms.
+            The AI analyzes the content, identifies key concepts, and generates a comprehensive list
+            of index terms that accurately represent the content's main ideas. </p>
         <p>Open the <xref href="index_terms_sample.dita"/> topic and invoke the <uicontrol>Short
                 Description</uicontrol> action.</p>
     </body>
