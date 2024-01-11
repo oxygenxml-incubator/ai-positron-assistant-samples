@@ -11,7 +11,7 @@
             </menucascade> category to ask the AI Positron to generate a list of questions from a
             DITA XML topic. This is an useful action to better understand to what questions asked by
             an end user the written topic may answer.</p>
-        <p>The <b>Generate Questions</b> AI action is incredibly useful to end users as it helps
+        <p>The AI action <b>Generate Questions</b> is incredibly useful to end users as it helps
             them gain a deeper understanding of a specific content. With this feature, the AI
             analyzes the content and generates thought-provoking questions related to the topic.
             These questions serve multiple purposes, such as encouraging critical thinking,

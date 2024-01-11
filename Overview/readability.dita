@@ -10,17 +10,16 @@
                 <uicontrol>Overview</uicontrol>
             </menucascade> category to ask the AI Positron to summarize the contents of a DITA XML
             topic.</p>
-        <p>A <b>Readability Overview</b> AI action is incredibly useful to end users as it provides
-            a quick and comprehensive analysis of the readability of a specific content. This AI
-            action breaks down complex texts into easily digestible information, highlighting the
-            overall readability score, key readability metrics, and offering suggestions for
+        <p>An <b>AI action called Readability Overview</b> is incredibly useful to end users because
+            it provides a quick and comprehensive analysis of the readability of a specific content.
+            This AI action breaks down complex texts into easily digestible information, highlights
+            the overall readability score, key readability metrics, and offers suggestions for
             improvement. By utilizing this feature, users can assess the readability level of a
             piece of content before investing their time in reading it. It helps users make informed
-            decisions about whether the content is appropriate for their needs, whether it is too
-            complex or too simple for their comprehension level, and whether it aligns with their
-            reading preferences. With this valuable insight, users can save time and effort by
-            prioritizing content that is most suitable for their reading abilities and
-            preferences.</p>
+            decisions about whether the content is appropriate for their needs, whether they can
+            comprehend it, and whether it aligns with their reading preferences. With this valuable
+            insight, users can save time and effort by prioritizing content that suits their reading
+            abilities and preferences the most.</p>
         <p>Open the <xref href="../Rewrite/improve_readability_sample.dita"/> topic and invoke the
                 <uicontrol>Readability</uicontrol> action.</p>
     </body>

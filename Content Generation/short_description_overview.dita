@@ -15,11 +15,11 @@
             configuration widget which allows you to configure the <b id="b_zng_znd_b1c">Style</b>
             and <b id="b_arl_znd_b1c">Maximum number of sentences</b> to generate. This
             configuration choice is not available in the <b>WebAuthor</b> in-browser editor.</p>
-        <p>A <b>Short description</b> AI action is incredibly useful to end users because it allows
-            quick and concise summarization of various types of content. This AI action can generate
-            a brief and informative summary that saves time and provides an overview of the content.
-            It eliminates the need for users to manually read through lengthy texts or descriptions,
-            enabling them to quickly grasp the main points.</p>
+        <p>An AI action called <b>Short description</b> is incredibly useful to end users because it
+            allows them to quickly and concisely summarize various types of content. This AI action
+            generates a brief and informative summary that saves time and provides an overview of
+            the content. It eliminates the need for users to manually read through lengthy texts or
+            descriptions, enabling them to quickly grasp the main points.</p>
         <p>Open the <xref href="short_description_sample.dita"/> topic and invoke the
                 <uicontrol>Short Description</uicontrol> action.</p>
     </body>

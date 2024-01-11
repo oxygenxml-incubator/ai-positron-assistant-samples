@@ -10,14 +10,14 @@
                 <uicontrol>Rewrite</uicontrol>
             </menucascade> category to ask the AI Positron to improve the readability inside a DITA
             topic's selected content. </p>
-        <p>The <b>Improve Readability</b> AI action is incredibly useful for end users as it
+        <p>The AI action <b>Improve Readability</b> is incredibly useful for end users as it
             significantly enhances the readability and comprehension of written content. By
             employing advanced algorithms and language processing techniques, this AI action
             simplifies complex sentences, replaces jargon with more accessible terms, and adjusts
             the overall structure to make the text more concise and coherent. It helps individuals
             effortlessly understand and engage with various types of content, including articles,
-            reports, emails, and even academic papers. By using the <b>Improve Readability</b> AI
-            action, end users can save time, avoid confusion, and seamlessly absorb information,
+            reports, emails, and even academic papers. End users can save time, avoid confusion, and
+            seamlessly absorb information by using the <b>Improve Readability</b> AI action,
             ultimately enhancing their overall reading experience.</p>
         <p>Open the <xref href="improve_readability_sample.dita"/> topic, select the entire content and
             invoke the <uicontrol>Improve Readability</uicontrol> action.</p>

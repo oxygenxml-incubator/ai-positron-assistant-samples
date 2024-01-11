@@ -13,12 +13,13 @@
         <p>The translation actions attempt to preserve unchanged the XML structure, inline elements
             and avoid translating DITA XML elements like <xmlelement>codeblock</xmlelement> and
                 <xmlelement>codeph</xmlelement>.</p>
-        <p>The <b id="b_aph_bk3_b1c">Translate</b> AI action is incredibly useful to end users as it
-            provides a quick and efficient solution for language barriers. With this action, users
-            can easily translate text or speech from one language to another, enabling effective
-            communication and understanding across different cultures and languages. The "Translate"
-            AI action saves time, eliminates misunderstandings, and enhances global communication,
-            making it an indispensable tool for anyone in need of seamless language translation.</p>
+        <p>The <b id="b_aph_bk3_b1c">Translate</b> AI action is incredibly useful to end users
+            because it provides a quick and efficient solution for language barriers. With this
+            action, users can easily translate text or speech from one language to another, enabling
+            effective communication and understanding across different cultures and languages. The
+            "Translate" AI action saves time, eliminates misunderstandings, and enhances global
+            communication, making it an indispensable tool for anyone who needs seamless language
+            translation.</p>
         <p>Open the <xref href="translate_sample.dita"/> topic and invoke one of the
                 <uicontrol>Translate...</uicontrol> actions.</p>
     </body>

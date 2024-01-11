@@ -10,13 +10,13 @@
                 <uicontrol>Content generation</uicontrol>
             </menucascade> category to ask the AI Positron to continue the idea of a current
             paragraph. </p>
-        <p>The <b>Continue writing</b> AI action is incredibly useful to end users because it helps
-            overcome writer's block and promotes creativity. By generating a continuation of a text
-            based on the user's input, the AI action acts as a reliable writing companion, offering
-            fresh ideas, different perspectives, and new directions for the narrative. It allows
-            users to explore various options, expand on their thoughts, and discover unexpected
-            storylines, ultimately enhancing the writing process and enabling users to produce
-            high-quality content more efficiently. </p>
+        <p>The AI action <b>Continue writing</b> is incredibly useful to end users because it helps
+            them overcome writer's block and promotes creativity. The AI action generates a
+            continuation of a text based on the user's input, acting as a reliable writing companion
+            and offering fresh ideas, different perspectives, and new directions for the narrative.
+            It allows users to explore various options, expand on their thoughts, and discover
+            unexpected storylines, ultimately enhancing the writing process and enabling users to
+            produce high-quality content more efficiently. </p>
         <p>Open the <xref href="continue_writing_sample.dita"/> topic, place the caret at the end of the
             last paragraph and invoke the <uicontrol>Continue writing</uicontrol> action.</p>
     </body>

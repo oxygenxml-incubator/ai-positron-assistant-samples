@@ -10,15 +10,15 @@
                 <uicontrol>Rewrite</uicontrol>
             </menucascade> category to ask the AI Positron to change a DITA topic's selected content
             by converting a paragraph to a list of items. </p>
-        <p>The <b>Itemize</b> AI action is incredibly useful to end users as it simplifies the
+        <p>End users find the <b>Itemize</b> AI action incredibly useful because it simplifies the
             process of organizing information from a lengthy paragraph into a concise and structured
             list. With just a single click, this AI action can scan through a paragraph, identify
-            key points, and present them in a clear and organized manner. This saves users valuable
-            time and effort that would otherwise be spent manually extracting and categorizing
-            information. Whether it is summarizing important details from an article, extracting
-            action items from meeting minutes, or creating a to-do list from a lengthy email, this
-            AI action streamlines the task of creating lists, making it a highly efficient tool for
-            any user seeking to organize and prioritize information.</p>
+            key points, and present them in a clear and organized manner. This AI action saves users
+            valuable time and effort that they would otherwise spend manually extracting and
+            categorizing information. Whether users need to summarize important details from an
+            article, extract action items from meeting minutes, or create a to-do list from a
+            lengthy email, this AI action streamlines the task of creating lists, making it a highly
+            efficient tool for any user who wants to organize and prioritize information.</p>
         <p>Open the <xref href="itemize.dita"/> topic, select the paragraph inside it and invoke the
                 <uicontrol>Itemize</uicontrol> action.</p>
         <p>You can use the <uicontrol>Join Items</uicontrol> action from the <uicontrol>AI Positron

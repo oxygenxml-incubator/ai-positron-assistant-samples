@@ -10,16 +10,16 @@
                 <uicontrol>Rewrite</uicontrol>
             </menucascade> category to ask the AI Positron to correct the grammar mistakes inside a
             DITA topic's selected content. </p>
-        <p>A <b>Correct Grammar</b> AI action is highly valuable to end users as it ensures that
-            their written communication is error-free and professional. This AI action leverages
+        <p>An AI action called <b>Correct Grammar</b> is highly valuable to end users as it ensures
+            that their written communication is error-free and professional. This AI action uses
             advanced language processing algorithms to detect and correct grammatical errors, such
             as punctuation mistakes, subject-verb agreement issues, incorrect verb tenses, and more.
-            By using this AI action, users avoid embarrassing grammar mistakes that could negatively
-            impact their credibility, both in personal and professional contexts. It not only saves
-            time by automatically fixing errors but also serves as a helpful tool for learning and
-            improving one's grammar skills. With an AI assistant dedicated to correct grammar, users
-            can confidently express themselves through flawless writing, making their communication
-            more impactful and effective.</p>
+            By using this AI action, users can avoid embarrassing grammar mistakes that could
+            negatively impact their credibility, both in personal and professional contexts. It not
+            only saves time by automatically fixing errors but also serves as a helpful tool for
+            learning and improving one's grammar skills. With a dedicated AI assistant to correct
+            grammar, users can confidently express themselves through flawless writing, making their
+            communication more impactful and effective.</p>
         <p>Open the <xref href="correct_grammar_sample.dita"/> topic, select the entire content and
             invoke the <uicontrol>Correct Grammar</uicontrol> action.</p>
         <p>Open the <xref href="other_correct_grammar_samples.dita"/> topic, select the entire
