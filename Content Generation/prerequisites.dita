@@ -5,11 +5,32 @@
     <body>
         <p>These samples exemplify how the <uicontrol>AI Positron Assistant</uicontrol> add-on can
             be used to increase a technical documentation writer's productivity.</p>
-        <p>Before you begin:<ul id="ul_uzf_dmd_b1c">
-                <li>Install the <xref
-                        href="https://www.oxygenxml.com/doc/ug-editor/topics/ai_positron.html"
-                        format="html" scope="external">AI Positron Assistant</xref> add-on and
-                    connect to the AI Positron server to start your free evaluation.</li>
-            </ul></p>
+        <p>The samples can be used with the Oxygen <b id="b_mcx_nh3_b1c">AI Positron Assistant
+                add-on</b> for the <b id="b_k1d_4h3_b1c">Oxygen XML Author/Editor</b> desktop or the
+            in-browser <b id="b_ecj_4h3_b1c">WebAuthor</b> application.</p>
+        <p>How to work with the samples:</p>
+        <ul id="ul_mhs_lh3_b1c">
+            <li>If you have installed <b id="b_nhs_lh3_b1c">Oxygen XML Author/Editor</b> desktop:
+                    <ul id="ul_ohs_lh3_b1c">
+                    <li>Install in <b id="b_phs_lh3_b1c">Oxygen</b> the <b id="b_qhs_lh3_b1c">AI
+                            Positron Assistant</b> add-on: <xref
+                            href="https://www.oxygenxml.com/doc/ug-editor/topics/ai_positron.html"
+                            format="html" scope="external"/></li>
+                    <li><xref
+                            href="https://github.com/oxygenxml-incubator/ai-positron-assistant-samples/tree/main"
+                            format="html" scope="external">Clone or download</xref> this project and
+                        open in the Oxygen "DITA Maps Manager" view the <b id="b_rhs_lh3_b1c"
+                            >ai_positron_assistant_samples.ditamap</b></li>
+                    <li>Follow the instructions and samples in the DITA Map.</li>
+                </ul></li>
+            <li>If you want to work with the Oxygen <b id="b_shs_lh3_b1c">WebAuthor</b> in-browser
+                editor and have a GitHub Account: <ul id="ul_ths_lh3_b1c">
+                    <li>Open the demo WebAuthor distribution and open the <xref
+                            href="https://www.oxygenxml.com/oxygen-xml-web-author/app/oxygen.html?url=gitgh%3A%2F%2Fhttps%253A%252F%252Fgithub.com%252Foxygenxml-incubator%252Fai-positron-assistant-samples%2Fmain%2Fai_positron_assistant_samples.ditamap"
+                            format="html" scope="external">samples DITA Map</xref>.</li>
+                    <li>Use the pre-installed <b id="b_uhs_lh3_b1c">AI Positron Assistant</b> side
+                        view.</li>
+                </ul></li>
+        </ul>
     </body>
 </topic>
