@@ -13,3 +13,4 @@ How to work with the samples:
    - Open the demo WebAuthor distribution and open the samples DITA Map: https://www.oxygenxml.com/oxygen-xml-web-author/app/oxygen.html?url=gitgh%3A%2F%2Fhttps%253A%252F%252Fgithub.com%252Foxygenxml-incubator%252Fai-positron-assistant-samples%2Fmain%2Fai_positron_assistant_samples.ditamap
    - Use the pre-installed **AI Positron Assistant** side view.
 
+https://www.youtube.com/embed/Do_KWYZfCFg?si=2Mrm7Bh1pmPvehqV
