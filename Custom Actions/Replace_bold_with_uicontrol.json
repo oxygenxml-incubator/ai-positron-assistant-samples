@@ -11,9 +11,5 @@
   {
     "prompt" : "text1 <b>Run</b> text2",
     "completion" : "text1 <uicontrol>Run</uicontrol> text2"
-  },
-  {
-    "prompt" : "${selection}",
-    "completion" : ""
-  } ]
+  }]
 } ]
