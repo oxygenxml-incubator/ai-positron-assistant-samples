@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc-draft>
+  <context></context>
+  <similar-topic src="similar.dita"/>
+  <draft-data>
+    <draft-summary>We have a new action "Format and Indent..." in the contextual menu of the project explorer. The dialog displayed by the action is very similar to the one displayed by "Spell Check in Files...", so it will probably be helpful to check out the documentation for the spell check action. The only difference is that the Spell Check options button is missing in my dialog, and I added a an option for creating (or not) backup files.
+      The action is available on both the SA and the Eclipse plug-in, on all distributions (editor, developer, author). One important note is that the XQuery pretty printer is not available on oXygen Author, therefore the batch action will ignore XQuery files on this distribution.</draft-summary>
+    <audience/>
+    <images>
+      <image src="format_and_indent_files.png"/>
+    </images>
+  </draft-data>
+</doc-draft>

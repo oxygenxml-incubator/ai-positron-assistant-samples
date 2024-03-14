@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="generate-draft-topic">
+    <title>Generate Draft Topic</title>
+    <body>
+        <p>You can use the <uicontrol>Generate Draft Content</uicontrol> new file template to
+            generate a special XML draft model which contains a custom prompt and references to
+            existing images and similar topics. Starting from that draft XML model the </p>
+        <p>A sample XML draft model file can be found <xref
+                href="doc-draft-model.xml" format="xml">here</xref>.</p>
+    </body>
+</topic>

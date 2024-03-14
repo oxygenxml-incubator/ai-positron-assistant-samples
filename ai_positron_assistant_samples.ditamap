@@ -60,6 +60,7 @@
         <topicref href="Marketing/pain_agitate_solution.dita"/>
         <topicref href="Marketing/features-advantages-benefits.dita"/>
     </topichead>
+    <topicref href="Documentation%20Draft/generate-draft-topic.dita"/>
     <topicref href="Useful%20Prompts/useful_prompts_samples.dita"/>
     <topicref href="Custom%20Actions/custom_actions.dita"/>
     <topicref
