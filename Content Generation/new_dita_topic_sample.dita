@@ -3,7 +3,6 @@
 <topic id="new_dita_topic">
     <title>New DITA Topic</title>
     <body>
-        <p>This action is not compatible with the <b>WebAuthor</b> in-browser editor.</p>
         <p>You can use the <uicontrol>New DITA Topic</uicontrol> action from the <uicontrol>AI
                 Positron Assistant</uicontrol>
             <menucascade>
@@ -35,5 +34,8 @@ Minimum and Recommended. </codeblock>
                 </dd>
             </dlentry>
         </dl>
+        <note id="note_ovw_dsy_s1c">
+            <p>This action is not compatible with the <b>WebAuthor</b> in-browser editor.</p>
+        </note>
     </body>
 </topic>

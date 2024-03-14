@@ -3,8 +3,6 @@
 <topic id="custom_actions">
     <title>Custom Actions</title>
     <body>
-        <p>This facility is not compatible with the <b id="b_atc_y53_b1c">WebAuthor</b> in-browser
-            editor where custom actions need to be defined on the server side.</p>
         <p>You can create <xref
                 href="https://www.oxygenxml.com/doc/ug-editor/topics/ai_positron.html#ai_positron__section_rly_wp4_wxb"
                 format="html" scope="external">custom actions</xref> for the <uicontrol>AI Positron
@@ -18,5 +16,9 @@
             </ul></p>
         <p>The custom actions should be already available for use in the
                 <uicontrol>Actions</uicontrol> drop down.</p>
+        <note id="note_kn4_bsy_s1c">
+            <p>This facility is not compatible with the <b id="b_atc_y53_b1c">WebAuthor</b>
+                in-browser editor where custom actions need to be defined on the server side.</p>
+        </note>
     </body>
 </topic>
