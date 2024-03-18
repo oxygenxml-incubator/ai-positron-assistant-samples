@@ -10,6 +10,9 @@
         <p>Open the <xref href="shortdesc.dita"/> topic and validate it. The validation error has an
             associated quick fix which uses AI to compact the short description to fit a certain
             number of words.</p>
+        <p>Open the <xref href="image-alternate-text.dita"/> topic and validate it. The validation
+            error has an associated quick fix which uses an experimental AI with vision support to
+            create an alternate text for a DITA image.</p>
         <p>These AI extension functions can also be used in <xref
                 href="../XML%20Refactoring/ai-refactor.xsl" format="xsl">XSLT Stylesheets</xref>
             which are used for XML refactoring or for regular XSLT processing and use AI to process
