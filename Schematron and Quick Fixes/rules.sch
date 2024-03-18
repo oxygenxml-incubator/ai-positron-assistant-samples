@@ -1,19 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2"
-    xmlns:sqf="http://www.schematron-quickfix.com/validator/process">
+    xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <sch:ns uri="http://www.oxygenxml.com/ai/function" prefix="ai"/>
     <sch:pattern>
         <sch:rule context="shortdesc">
-            <sch:report 
-                test="count(tokenize(.,'\s+')) > 55"
-                role="warn"
-                sqf:fix="rephrase">The short description must be concise.
-            </sch:report>
+            <sch:report test="count(tokenize(., '\s+')) > 55" role="warn" sqf:fix="rephrase">The
+                short description must be concise. </sch:report>
             <sqf:fix id="rephrase">
-                <sqf:description><sqf:title>Shorten description</sqf:title></sqf:description>
-                <sqf:replace 
-                    match="text()" 
-                    select="ai:transform-content('Rephrase the following text in a single phrase strictly less than 40 words.', .)"/>
+                <sqf:description>
+                    <sqf:title>Shorten description</sqf:title>
+                </sqf:description>
+                <sqf:replace match="text()"
+                    select="ai:transform-content('Rephrase the following text in a single phrase strictly less than 40 words.', .)"
+                />
+            </sqf:fix>
+        </sch:rule>
+    </sch:pattern>
+    
+    <sch:pattern>
+        <sch:rule context="image[@href]">
+            <sch:report test="not(alt)" role="war" sqf:fix="image-alt">The image does not have
+                alternate text. </sch:report>
+            <sqf:fix id="image-alt">
+                <sqf:description>
+                    <sqf:title>Add alternate text</sqf:title>
+                </sqf:description>
+                <sqf:add match="." position="last-child">
+                    <alt>
+                        <xsl:value-of select="
+                            ai:transform-content(
+                            'Create a short alternate text description for this image:',
+                            concat('${attach(', resolve-uri(@href), ')}'))"/>
+                    </alt>
+                </sqf:add>
             </sqf:fix>
         </sch:rule>
     </sch:pattern>
