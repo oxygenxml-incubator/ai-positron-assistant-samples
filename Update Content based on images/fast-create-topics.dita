@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="fast-create-topics">
+  <title>Fast Create Multiple DITA Topics</title>
+  <body>
+    <p id="p_k1m_dgk_54b">To access this feature, right-click a node in the <uicontrol>DITA Maps
+        Manager</uicontrol> where you want the new topics to be inserted and select <uicontrol>Fast
+        Create Topics</uicontrol>. This opens the <uicontrol>Fast Create Topics</uicontrol> dialog
+      box where you can configure the structure for the new topics.</p>
+    <p id="p_l1m_dgk_54b"><image href="img/Fast_create_topics.png" id="image_ljb_4ql_w1c"/></p>
+    <p id="p_n1m_dgk_54b">The <uicontrol>Fast Create Topics</uicontrol> dialog box includes the
+      following features and options:</p>
+    <p id="p_o1m_dgk_54b">
+      <dl id="dl_p1m_dgk_54b">
+        <dlentry id="dlentry_q1m_dgk_54b">
+          <dt>Hierarchy Text Pane</dt>
+          <dd>Use this text area to enter the titles for your new topics, one per line, and specify
+            the hierarchy by using indents (<uicontrol><shortcut>Tab</shortcut></uicontrol> or
+                <uicontrol><shortcut>Space</shortcut></uicontrol>). Topic references will be created
+            in the <term>DITA map</term> according to the hierarchy you enter in this section. </dd>
+        </dlentry>
+        <dlentry id="dlentry_v1m_dgk_54b">
+          <dt><uicontrol>Topic type</uicontrol></dt>
+          <dd>All of the topics that will be created will have the same DITA topic type, which is
+            detected from the most recently created topic. You can click the
+              <uicontrol>Change</uicontrol> button to select a different type from a list of
+            possible DITA templates.<note type="tip" id="note_w1m_dgk_54b">You can convert any of
+              these new files to a different DITA topic type at a later time by using another <xref
+                href="dita-convert-topics.dita#dita-convert-topics">feature that allows you to
+                easily convert DITA documents to other types</xref>.</note></dd>
+        </dlentry>
+      </dl>
+    </p>
+  </body>
+</topic>
