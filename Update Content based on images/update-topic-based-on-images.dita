@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="update-topic-based-on-images">
+    <title>Update Topic Based On Images</title>
+    <body>
+        <p>You can use the <uicontrol>Update content based on images</uicontrol> action to update
+            the contents of a topic based on the referenced images which have already been
+            updated.</p>
+        <p>A sample topic which contains an updated screenshot taken from an application can be
+            found <xref href="fast-create-topics.dita">here</xref>.</p>
+    </body>
+</topic>

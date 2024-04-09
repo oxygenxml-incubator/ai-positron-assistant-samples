@@ -24,10 +24,7 @@
           <dd>All of the topics that will be created will have the same DITA topic type, which is
             detected from the most recently created topic. You can click the
               <uicontrol>Change</uicontrol> button to select a different type from a list of
-            possible DITA templates.<note type="tip" id="note_w1m_dgk_54b">You can convert any of
-              these new files to a different DITA topic type at a later time by using another <xref
-                href="dita-convert-topics.dita#dita-convert-topics">feature that allows you to
-                easily convert DITA documents to other types</xref>.</note></dd>
+            possible DITA templates.</dd>
         </dlentry>
       </dl>
     </p>
