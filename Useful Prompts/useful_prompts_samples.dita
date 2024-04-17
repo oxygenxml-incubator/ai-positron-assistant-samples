@@ -9,7 +9,7 @@
                 <uicontrol>AI Positron Assistant</uicontrol> chat (paste the content inside each
             code block in the Chat input texdt field).</p>
         <p>
-            <dl>
+            <dl id="dl_scp_w4l_cbc">
                 <dlentry>
                     <dt>Convert CSV Content to table</dt>
                     <dd>
@@ -156,7 +156,7 @@ in a year and the second the days in that month.</codeblock>
                     </dd>
                 </dlentry>
             </dl>
-            <dl>
+            <dl id="dl_vcp_w4l_cbc">
                 <dlentry>
                     <dt>Surround action names with &lt;uicontrol></dt>
                     <dd>
@@ -176,28 +176,54 @@ surrounding them in &lt;uicontrol> XML elements: ${selection}</codeblock>
                     </dd>
                 </dlentry>
             </dl>
-            <dl>
+            <dl id="dl_wcp_w4l_cbc">
                 <dlentry>
                     <dt>Find Synonyms</dt>
                     <dd>
-                        <codeblock>I want you to act as a synonyms provider. I will give you a sequence of words, and you will reply to 
+                        <codeblock id="codeblock_xcp_w4l_cbc">I want you to act as a synonyms provider. I will give you a sequence of words, and you will reply to 
 me with a list of synonym alternatives according to my prompt. Provide a max of 10 synonyms per prompt.
 Words: ${selection}</codeblock>
                     </dd>
                 </dlentry>
+            </dl>
+        </p>
+        <section id="section_ynp_w4l_cbc">
+            <title>Process selection containing track changes</title>
+            <p>
+                <codeblock id="codeblock_tqc_z4l_cbc">Analyze these two version of a text and let me know which one is 
+better and justify your answer:
+
+    ORIGINAL #
+    ${selection-original}
+    FINAL #
+    ${selection-final}</codeblock>
+            </p>
+            <p><?oxy_delete author="raducoravu" timestamp="20240417T085548+0300" content="Use"?><?oxy_insert_start author="raducoravu" timestamp="20240417T085548+0300"?>Click<?oxy_insert_end?>
+                the Save
+                <?oxy_delete author="raducoravu" timestamp="20240417T085603+0300" content="button"?><?oxy_insert_start author="raducoravu" timestamp="20240417T085603+0300"?>action<?oxy_insert_end?>
+                to save the
+                <?oxy_insert_start author="raducoravu" timestamp="20240417T085555+0300"?>modified
+                <?oxy_insert_end?>content and the Browse
+                <?oxy_delete author="raducoravu" timestamp="20240417T085606+0300" content="button"?><?oxy_insert_start author="raducoravu" timestamp="20240417T085606+0300"?>action<?oxy_insert_end?>
+                to search for
+                <?oxy_delete author="raducoravu" timestamp="20240417T085612+0300" content="the"?><?oxy_insert_start author="raducoravu" timestamp="20240417T085612+0300"?>a<?oxy_insert_end?>
+                topic on disk.</p>
+        </section>
+        <p>
+            <dl id="dl_ycp_w4l_cbc">
                 <dlentry>
                     <dt>Ask for advice</dt>
                     <dd>
-                        <codeblock>Should I use for technical documentation the phrase 
+                        <codeblock id="codeblock_bdp_w4l_cbc">Should I use for technical documentation the phrase 
 "click a button" or "press a button"?</codeblock>
                     </dd>
                 </dlentry>
             </dl>
-            <dl>
+            <dl id="dl_cdp_w4l_cbc">
                 <dlentry>
                     <dt>Create ISO Schematron rule</dt>
                     <dd>
-                        <codeblock>Create an ISO Schematron validation rule which reports an 
+                        <codeblock id="codeblock_ddp_w4l_cbc">Create an ISO Schematron validation rule which reports an 
 error if a DITA XML image element does not contain a scale attribute</codeblock>
                     </dd>
                 </dlentry>
