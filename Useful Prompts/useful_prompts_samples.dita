@@ -229,5 +229,132 @@ error if a DITA XML image element does not contain a scale attribute</codeblock>
                 </dlentry>
             </dl>
         </p>
+        <section id="section_rbh_gvl_cbc">
+            <title>Create Mermaid Diagram (1)</title>
+            <p>
+                <codeblock id="codeblock_emz_3vl_cbc">Create a Mermaid diagram based on the table below:</codeblock>
+                <table frame="all" rowsep="1" colsep="1" id="table_cmb_lvl_cbc">
+                    <title>Applications Market Share</title>
+                    <tgroup cols="2">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="1*"/>
+                        <thead>
+                            <row>
+                                <entry>Application</entry>
+                                <entry>Market share</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>Oxygen XML Editor</entry>
+                                <entry>50%</entry>
+                            </row>
+                            <row>
+                                <entry>Oxygen XML Author</entry>
+                                <entry>30%</entry>
+                            </row>
+                            <row>
+                                <entry>Oxygen XML Developer</entry>
+                                <entry>15%</entry>
+                            </row>
+                            <row>
+                                <entry>Oxygen Web Author</entry>
+                                <entry>5%</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+        <section id="section_amb_rvl_cbc">
+            <title>Create Mermaid Diagram (2)</title>
+            <p>
+                <codeblock id="codeblock_bmb_rvl_cbc">Create a Mermaid diagram based on the content below:</codeblock>
+                <table frame="all" rowsep="1" colsep="1" id="table_cmb_rvl_cbc">
+                    <title>Applications Market Share</title>
+                    <tgroup cols="2">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="1*"/>
+                        <thead>
+                            <row>
+                                <entry>Application</entry>
+                                <entry>Market share</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>Oxygen XML Editor</entry>
+                                <entry>50%</entry>
+                            </row>
+                            <row>
+                                <entry>Oxygen XML Author</entry>
+                                <entry>30%</entry>
+                            </row>
+                            <row>
+                                <entry>Oxygen XML Developer</entry>
+                                <entry>15%</entry>
+                            </row>
+                            <row>
+                                <entry>Oxygen Web Author</entry>
+                                <entry>5%</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+            <codeblock id="codeblock_hwc_yyl_cbc">Create a Mermaid diagram based on the steps below:</codeblock>
+            <p>
+                <ol id="ol_cjb_dzl_cbc">
+                    <li> Check System Requirements <ul id="ul_djb_dzl_cbc">
+                            <li>Verify that your Windows operating system meets the minimum
+                                requirements for installing Emerald.</li>
+                            <li>Ensure that you have sufficient disk space and memory
+                                available.</li>
+                        </ul></li>
+                    <li> Review Installation Instructions <ul id="ul_ejb_dzl_cbc">
+                            <li>Carefully read through the installation instructions provided with
+                                the Emerald kit.</li>
+                            <li>Make note of any specific steps or requirements unique to the
+                                Emerald installation process.</li>
+                        </ul></li>
+                    <li> Disable Antivirus and Firewall <ul id="ul_fjb_dzl_cbc">
+                            <li>Temporarily disable your antivirus software and firewall to prevent
+                                them from interfering with the installation.</li>
+                            <li>Remember to re-enable your security software once the installation
+                                is complete.</li>
+                        </ul></li>
+                    <li> Run the Installer as Administrator <ul id="ul_gjb_dzl_cbc">
+                            <li>Right-click on the Emerald installer file and select "Run as
+                                Administrator".</li>
+                            <li>This ensures that the installer has sufficient permissions to make
+                                necessary changes to your system.</li>
+                        </ul></li>
+                    <li> Monitor the Installation Process <ul id="ul_hjb_dzl_cbc">
+                            <li>Keep an eye on the installation progress and watch for any error
+                                messages or prompts.</li>
+                            <li>If you encounter any issues, make note of the specific error message
+                                and when it occurred.</li>
+                        </ul></li>
+                    <li> Check for Updates <ul id="ul_ijb_dzl_cbc">
+                            <li>After the installation is complete, check if there are any available
+                                updates for Emerald.</li>
+                            <li>Installing the latest updates can often resolve installation issues
+                                and improve performance.</li>
+                        </ul></li>
+                    <li> Verify Installation <ul id="ul_jjb_dzl_cbc">
+                            <li>Launch Emerald and verify that it starts up correctly without any
+                                error messages.</li>
+                            <li>Test the basic functionality of the software to ensure that it is
+                                working as expected.</li>
+                        </ul></li>
+                    <li> Consult Support Resources <ul id="ul_kjb_dzl_cbc">
+                            <li>If you continue to experience issues, consult the support resources
+                                provided by Emerald.</li>
+                            <li>This may include online documentation, FAQs, forums, or contacting
+                                their support team directly.</li>
+                        </ul></li>
+                </ol>
+            </p>
+        </section>
     </body>
 </topic>
