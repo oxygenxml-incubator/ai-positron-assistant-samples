@@ -232,7 +232,7 @@ error if a DITA XML image element does not contain a scale attribute</codeblock>
         <section id="section_rbh_gvl_cbc">
             <title>Create Mermaid Diagram (1)</title>
             <p>
-                <codeblock id="codeblock_emz_3vl_cbc">Create a Mermaid diagram based on the table below:</codeblock>
+                <codeblock id="codeblock_emz_3vl_cbc">Create a Mermaid diagram based on the table below:${selection}</codeblock>
                 <table frame="all" rowsep="1" colsep="1" id="table_cmb_lvl_cbc">
                     <title>Applications Market Share</title>
                     <tgroup cols="2">
@@ -268,41 +268,7 @@ error if a DITA XML image element does not contain a scale attribute</codeblock>
         </section>
         <section id="section_amb_rvl_cbc">
             <title>Create Mermaid Diagram (2)</title>
-            <p>
-                <codeblock id="codeblock_bmb_rvl_cbc">Create a Mermaid diagram based on the content below:</codeblock>
-                <table frame="all" rowsep="1" colsep="1" id="table_cmb_rvl_cbc">
-                    <title>Applications Market Share</title>
-                    <tgroup cols="2">
-                        <colspec colname="c1" colnum="1" colwidth="1*"/>
-                        <colspec colname="c2" colnum="2" colwidth="1*"/>
-                        <thead>
-                            <row>
-                                <entry>Application</entry>
-                                <entry>Market share</entry>
-                            </row>
-                        </thead>
-                        <tbody>
-                            <row>
-                                <entry>Oxygen XML Editor</entry>
-                                <entry>50%</entry>
-                            </row>
-                            <row>
-                                <entry>Oxygen XML Author</entry>
-                                <entry>30%</entry>
-                            </row>
-                            <row>
-                                <entry>Oxygen XML Developer</entry>
-                                <entry>15%</entry>
-                            </row>
-                            <row>
-                                <entry>Oxygen Web Author</entry>
-                                <entry>5%</entry>
-                            </row>
-                        </tbody>
-                    </tgroup>
-                </table>
-            </p>
-            <codeblock id="codeblock_hwc_yyl_cbc">Create a Mermaid diagram based on the steps below:</codeblock>
+            <codeblock id="codeblock_hwc_yyl_cbc">Create a Mermaid diagram based on the steps below:${selection}</codeblock>
             <p>
                 <ol id="ol_cjb_dzl_cbc">
                     <li> Check System Requirements <ul id="ul_djb_dzl_cbc">
