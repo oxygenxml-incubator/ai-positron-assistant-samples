@@ -268,7 +268,7 @@ error if a DITA XML image element does not contain a scale attribute</codeblock>
         </section>
         <section id="section_amb_rvl_cbc">
             <title>Create Mermaid Diagram (2)</title>
-            <codeblock id="codeblock_hwc_yyl_cbc">Create a Mermaid diagram based on the steps below:${selection}</codeblock>
+            <codeblock id="codeblock_hwc_yyl_cbc">Create a Mermaid diagram based on the steps below, return directly the Mermaid content without any additional details: ${selection}</codeblock>
             <p>
                 <ol id="ol_cjb_dzl_cbc">
                     <li> Check System Requirements <ul id="ul_djb_dzl_cbc">
