@@ -10,7 +10,7 @@ How to work with the samples:
    - Open in the Oxygen "DITA Maps Manager" view the **ai_positron_assistant_samples.ditamap** DITA Map file.
    - Follow the instructions and samples in the DITA Map.
  - If you want to work with the Oxygen **WebAuthor** in-browser editor and have a GitHub Account:
-   - Open the demo WebAuthor distribution and open the samples DITA Map: https://www.oxygenxml.com/oxygen-xml-web-author/app/oxygen.html?url=gitgh%3A%2F%2Fhttps%253A%252F%252Fgithub.com%252Foxygenxml-incubator%252Fai-positron-assistant-samples%2Fmain%2Fai_positron_assistant_samples.ditamap
+   - Open the demo WebAuthor distribution and open the samples DITA Map: [https://www.oxygenxml.com/oxygen-xml-web-author/app/oxygen.html?url=gitgh%3A%2F%2Fhttps%253A%252F%252Fgithub.com%252Foxygenxml-incubator%252Fai-positron-assistant-samples%2Fmain%2Fai_positron_assistant_samples.ditamap](https://www.oxygenxml.com/oxygen-xml-web-author/app/oxygen.html?url=gitgh%3A%2F%2Fhttps%253A%252F%252Fgithub.com%252Foxygenxml-incubator%252Fai-positron-assistant-samples%2Fmain%2Fai_positron_assistant_samples.ditamap&ditamap=gitgh%3A%2F%2Fhttps%253A%252F%252Fgithub.com%252Foxygenxml-incubator%252Fai-positron-assistant-samples%2Fmain%2Fai_positron_assistant_samples.ditamap&showDitaMapView=true&editReferencesInPlace=true)
    - Use the pre-installed **AI Positron Assistant** side view.
 
 Ai Positron Assistant Intro Video:
