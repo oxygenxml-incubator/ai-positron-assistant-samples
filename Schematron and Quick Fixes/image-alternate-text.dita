@@ -4,6 +4,13 @@
 <topic id="image-alternate-text">
     <title>Image Alternate Text</title>
     <body>
-        <image href="../Documentation%20Draft/format_and_indent_files.png"></image>
+        <section>
+            <title>Image with direct href</title>
+            <p><image href="../Documentation%20Draft/format_and_indent_files.png"></image></p>
+        </section>
+        <section>
+            <title>Image with keyref</title>
+            <p><image keyref="format-indent"/></p>
+        </section>
     </body>
 </topic>

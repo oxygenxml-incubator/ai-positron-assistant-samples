@@ -68,5 +68,8 @@
     <topicref href="Useful%20Prompts/useful_prompts_samples.dita"/>
     <topicref href="Custom%20Actions/custom_actions.dita"/>
     <topicref
-        href="Schematron%20and%20Quick%20Fixes/schematron_validation_with_quick_fixes_and_xslt_extensions.dita"/>
+        href="Schematron%20and%20Quick%20Fixes/schematron_validation_with_quick_fixes_and_xslt_extensions.dita">
+        <topicref href="Documentation%20Draft/format_and_indent_files.png" format="png"
+            keys="format-indent"/>
+    </topicref>
 </map>
