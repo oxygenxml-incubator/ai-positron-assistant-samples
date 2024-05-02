@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="code-development">
+    <title>Code Development</title>
+    <body>
+        <p>The AI Positron add-on is a very useful copilot when editing in Oxygen other document
+            types like XSLT Stylesheets, Schematron documents, JSON content.</p>
+        <p>For example when an <xref href="../XML%20Refactoring/ai-refactor.xsl" format="xsl">XSLT
+                stylesheet</xref> is opened in Oxygen the <uicontrol>Development</uicontrol> menu
+            category contains three useful actions:<ul id="ul_bbv_yhq_gbc">
+                <li><uicontrol>Explain code</uicontrol> - select for example an XSLT template and
+                    invoke this action to explain in simple to understand terms what the XSLT
+                    template does.</li>
+                <li><uicontrol>Document code</uicontrol> - select for example an XSLT template and
+                    invoke this action to add documentation before the XSLT template explaining what
+                    it does.</li>
+                <li><uicontrol>New chat</uicontrol> - start a discussion with the AI based on the
+                    contents of an opened XSLT stylesheet or Schematron document.</li>
+            </ul></p>
+    </body>
+</topic>
