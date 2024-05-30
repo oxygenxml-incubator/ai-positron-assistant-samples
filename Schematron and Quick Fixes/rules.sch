@@ -4,7 +4,6 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <sch:ns uri="http://www.oxygenxml.com/ai/function" prefix="ai"/>
     <sch:ns uri="java:ro.sync.ecss.dita.extensions.DITAXSLTExtensionFunctionUtil" prefix="ditaaccess"/>
-    <sch:let name="doc" value="document-uri()"/>
     
     <sch:pattern>
         <sch:rule context="shortdesc">
@@ -34,7 +33,7 @@
                         <xsl:value-of select="
                             ai:transform-content(
                             'Create a short alternate text description for this image:',
-                            concat('${attach(', resolve-uri(@href), ')}'))"/>
+                            concat('${attach(', resolve-uri(@href, base-uri()), ')}'))"/>
                     </alt>
                 </sqf:add>
             </sqf:fix>
@@ -42,7 +41,7 @@
         
         <sch:rule context="image[@keyref]">
             <sch:report test="not(alt)" role="war" sqf:fix="image-alt-keyref">The image does not have
-                alternate text.<sch:value-of select="ditaaccess:getKeyRefAbsoluteReference(@keyref, $doc)"/> </sch:report>
+                alternate text.<sch:value-of select="ditaaccess:getKeyRefAbsoluteReference(@keyref, base-uri())"/> </sch:report>
             <sqf:fix id="image-alt-keyref">
                 <sqf:description>
                     <sqf:title>Add alternate text</sqf:title>
@@ -52,7 +51,7 @@
                         <xsl:value-of select="
                             ai:transform-content(
                             'Create a short alternate text description for this image:',
-                            concat('${attach(', ditaaccess:getKeyRefAbsoluteReference(@keyref, $doc), ')}'))"/>
+                            concat('${attach(', ditaaccess:getKeyRefAbsoluteReference(@keyref, base-uri()), ')}'))"/>
                     </alt>
                 </sqf:add>
             </sqf:fix>
