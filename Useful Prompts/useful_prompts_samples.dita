@@ -322,5 +322,11 @@ error if a DITA XML image element does not contain a scale attribute</codeblock>
                 </ol>
             </p>
         </section>
+        <section>
+            <title>Search for Proper Emoji Symbol</title>
+            <p>
+                <codeblock>emoji for greedy person/animal</codeblock>
+            </p>
+        </section>
     </body>
 </topic>
