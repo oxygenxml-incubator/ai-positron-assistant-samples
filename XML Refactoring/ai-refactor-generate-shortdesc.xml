@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<refactoringOperationDescriptor 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" id="ai-generate-shortdesc" name="AI generate missing short descriptions in DITA XML topics.">
+    <description>Use AI to generate short description elements in DITA XML topics.</description>    
+    <script type="XSLT" href="ai-refactor-generate-shortdesc.xsl"/>
+</refactoringOperationDescriptor>
