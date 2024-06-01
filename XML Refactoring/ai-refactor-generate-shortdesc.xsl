@@ -18,7 +18,7 @@
     </xsl:text>
         <shortdesc>
             <xsl:value-of select="
-                    ai:transform-content('Ypu are a technical documentation writer. Generate a short description in less than 30 words for this content:',
+                    ai:transform-content('You are a technical documentation writer. Generate a short description in less than 30 words for this content:',
                     string-join(parent::*//text(), ''))"/>
         </shortdesc>
     </xsl:template>
