@@ -5,10 +5,12 @@
     <topicref href="Content%20Generation/prerequisites.dita"/>
     <topichead navtitle="Content Generation">
         <topicref href="Content%20Generation/new_dita_topic_sample.dita"/>
+        <topicref href="Documentation%20Draft/generate-draft-topic.dita"/>
         <topicref href="Content%20Generation/continue_writing_overview.dita">
             <topicref href="Content%20Generation/continue_writing_sample.dita"
                 navtitle="Continue Writing Sample" locktitle="yes"/>
         </topicref>
+        <topicref href="Update%20Content%20based%20on%20images/update-topic-based-on-images.dita"/>
         <topicref href="Content%20Generation/short_description_overview.dita">
             <topicref href="Content%20Generation/short_description_sample.dita"
                 navtitle="Short Description Sample" locktitle="yes"/>
@@ -59,10 +61,6 @@
         </topicref>
         <topicref href="Marketing/pain_agitate_solution.dita"/>
         <topicref href="Marketing/features-advantages-benefits.dita"/>
-    </topichead>
-    <topichead navtitle="Vision">
-        <topicref href="Documentation%20Draft/generate-draft-topic.dita"/>
-        <topicref href="Update%20Content%20based%20on%20images/update-topic-based-on-images.dita"/>
     </topichead>
     <topicref href="Code%20Development/code-development.dita"/>
     <topicref href="Useful%20Prompts/useful_prompts_samples.dita"/>
