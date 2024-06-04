@@ -41,7 +41,7 @@
         
         <sch:rule context="image[@keyref]">
             <sch:report test="not(alt)" role="war" sqf:fix="image-alt-keyref">The image does not have
-                alternate text.<sch:value-of select="ditaaccess:getKeyRefAbsoluteReference(@keyref, base-uri())"/> </sch:report>
+                alternate text. </sch:report>
             <sqf:fix id="image-alt-keyref">
                 <sqf:description>
                     <sqf:title>Add alternate text</sqf:title>
