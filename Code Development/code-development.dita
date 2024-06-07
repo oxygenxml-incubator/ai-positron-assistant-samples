@@ -5,7 +5,7 @@
     <body>
         <p>The AI Positron add-on is a very useful copilot when editing in Oxygen other document
             types like XSLT Stylesheets, Schematron documents, JSON content.</p>
-        <p>For example when an <xref href="../XML%20Refactoring/ai-refactor.xsl" format="xsl">XSLT
+        <p>For example when an <xref href="../XML%20Refactoring/ai-refactor-image-alt.xsl" format="xsl">XSLT
                 stylesheet</xref> is opened in Oxygen the <uicontrol>Development</uicontrol> menu
             category contains three useful actions:<ul id="ul_bbv_yhq_gbc">
                 <li><uicontrol>Explain code</uicontrol> - select for example an XSLT template and

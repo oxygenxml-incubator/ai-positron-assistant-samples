@@ -14,7 +14,7 @@
             error has an associated quick fix which uses an experimental AI with vision support to
             create an alternate text for a DITA image.</p>
         <p>These AI extension functions can also be used in <xref
-                href="../XML%20Refactoring/ai-refactor.xsl" format="xsl">XSLT Stylesheets</xref>
+                href="../XML%20Refactoring/ai-refactor-image-alt.xsl" format="xsl">XSLT Stylesheets</xref>
             which are used for XML refactoring or for regular XSLT processing and use AI to process
             content in certain ways.</p>
     </body>
