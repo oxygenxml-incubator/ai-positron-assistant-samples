@@ -39,7 +39,9 @@
         </topicref>
     </topichead>
     <topichead navtitle="Review">
-        <topicref href="Review/proof_read.dita"/>
+        <topicref href="Review/proof_read.dita">
+            <topicref href="Review/styling_mistakes.dita"/>
+        </topicref>
     </topichead>
     <topichead navtitle="Overview">
         <topicref href="Overview/answer_questions_overview.dita">
