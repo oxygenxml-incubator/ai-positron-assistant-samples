@@ -3,9 +3,9 @@
 <topic id="proof_read">
     <title>Proof Read</title>
     <body>
-        <p>The <uicontrol>Proof Read</uicontrol> action adds comments over content which has logical
-            consistency problems, grammar spelling mistakes or is hard to read and comprehend. <ul
-                id="ul_akr_3wh_ybc">
+        <p>The <uicontrol>Proof Read</uicontrol> action from the <b>Review</b> category adds
+            comments over content which has logical consistency problems, grammar spelling mistakes
+            or is hard to read and comprehend. <ul id="ul_akr_3wh_ybc">
                 <li><xref href="../Rewrite/other_correct_grammar_samples.dita"/></li>
             </ul></p>
     </body>
