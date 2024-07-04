@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="resolve_comments">
+    <title>Resolve Comments</title>
+    <body>
+        <p>The <uicontrol>Resolve Comments</uicontrol> action from the <b>Review</b> category allows
+            you to change the selected content based on the comment suggestions and then remove the
+            comments.</p>
+        <p>As an example, use the <xref href="proof_read.dita"/> examples to add comments and then
+            resolve the comments using this action.</p>
+    </body>
+</topic>
