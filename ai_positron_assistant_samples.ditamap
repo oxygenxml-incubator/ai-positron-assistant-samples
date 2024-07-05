@@ -37,6 +37,7 @@
             <topicref href="Rewrite/itemize.dita"/>
             <topicref href="Rewrite/join-items.dita"/>
         </topicref>
+        <topicref href="Rewrite/improve_structure.dita"/>
     </topichead>
     <topichead navtitle="Review">
         <topicref href="Review/proof_read.dita">
