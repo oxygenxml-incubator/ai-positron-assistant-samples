@@ -5,10 +5,6 @@
   "input-type" : "markup",
   "type" : "replace-selection-with-fragment",
   "context" : "Preserve the received DITA XML content as it is and just add comments inside it using this style around words which have grammar problems:\n<?oxy_comment_start author=\"AI Positron\" comment=\"YOUR_SUGGESTION_HERE\"?>DESCRIBED_CONTENT<?oxy_comment_end?>\n",
-  "parameters": {
-      "engine": {"name": "gpt-4-turbo"},
-      "temperature": 0
-  },
   "examples" : [ {
     "prompt" : "<b>This is problems to consider.</b>",
     "completion" : "<b>This is <?oxy_comment_start author=\"AI Positron\" comment=\"Replace with 'a problem'\"?>problems<?oxy_comment_end?> to consider.</b>"

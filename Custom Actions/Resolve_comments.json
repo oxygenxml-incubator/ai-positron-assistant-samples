@@ -6,10 +6,6 @@
         "input-type": "markup",
         "type": "replace-selection-with-fragment",
         "context": "Preserve the received DITA XML content as it is, remove the comments inside it which have this style:\n<?oxy_comment_start author=\"AI Positron\" comment=\"COMMENT_HERE\"?>DESCRIBED_CONTENT<?oxy_comment_end?>\nAlso change the content to match the comment suggestion which is removed.\n",
-        "parameters": {
-            "engine": {"name": "gpt-4-turbo"},
-            "temperature": 0
-        },
         "examples": [
             {
                 "prompt": "<b>This is <?oxy_comment_start author=\"AI Positron\" comment=\"Replace with 'a problem'\"?>problems<?oxy_comment_end?> to consider.</b>",
