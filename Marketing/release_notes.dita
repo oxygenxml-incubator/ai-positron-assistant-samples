@@ -3,24 +3,24 @@
 <topic id="release_notes_2">
     <title>Create Release Notes</title>
     <body>
-        <p>You can use one of the <uicontrol>Create Release Notes</uicontrol> action from the
-                <uicontrol>AI Positron Assistant</uicontrol>
+        <p>You can use one of the <uicontrol>Release Notes</uicontrol> action from the <uicontrol>AI
+                Positron Assistant</uicontrol>
             <menucascade>
                 <uicontrol>Actions</uicontrol>
                 <uicontrol>Marketing</uicontrol>
             </menucascade> category to ask the AI Positron to create release notes from a selection
             in an opened document.</p>
-        <p>The AI action <b>Create release notes</b> is immensely useful to end users as it provides
-            a concise and comprehensive summary of the latest updates, improvements, and bug fixes
-            in a specific content or software release. With this action, users can quickly
-            understand what changes have been made, allowing them to stay informed and up-to-date
-            with the latest features and enhancements. It saves users time and effort by eliminating
-            the need to manually sift through lengthy documentation or changelogs. Whether it's a
-            software update, a website release, or a content update, the <b>Create release notes</b>
-            AI action ensures that users can easily grasp the key information and make the most of
-            the latest changes.</p>
+        <p>The AI action <b>Release notes</b> is immensely useful to end users as it provides a
+            concise and comprehensive summary of the latest updates, improvements, and bug fixes in
+            a specific content or software release. With this action, users can quickly understand
+            what changes have been made, allowing them to stay informed and up-to-date with the
+            latest features and enhancements. It saves users time and effort by eliminating the need
+            to manually sift through lengthy documentation or changelogs. Whether it's a software
+            update, a website release, or a content update, the <b>Release notes</b> AI action
+            ensures that users can easily grasp the key information and make the most of the latest
+            changes.</p>
         <p>Select the content in the code block below containing issue IDs and titles and invoke the
-                <uicontrol>Create Release Notes</uicontrol> action.</p>
+                <uicontrol>Release Notes</uicontrol> action.</p>
         <codeblock>EXM-53376 Present in input URL panels unescaped URL contents
 EXM-53377 Avoid escaping non ASCII chars when correcting URLs
 EXM-53378 Check if publishing works if all file names in a DITA project are translated to Chinese
