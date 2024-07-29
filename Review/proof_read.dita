@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="proof_read">
-    <title>Proof Read</title>
+    <title>Proofread</title>
     <body>
-        <p>The <uicontrol>Proof Read</uicontrol> action from the <b>Review</b> category adds
-            comments over content which has logical consistency problems, grammar spelling mistakes
-            or is hard to read and comprehend. <ul id="ul_akr_3wh_ybc">
+        <p>The <uicontrol>Proofread</uicontrol> action from the <b>Review</b> category adds comments
+            over content which has logical consistency problems, grammar spelling mistakes or is
+            hard to read and comprehend. <ul id="ul_akr_3wh_ybc">
                 <li><xref href="../Rewrite/other_correct_grammar_samples.dita"/></li>
                 <li><xref href="styling_mistakes.dita"/></li>
             </ul></p>
