@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc-draft>
+  <title>Documentation Draft Configuration File</title>
+  <context>You absolutely MUST use this new file template when generating the new topic:
+
+&lt;!DOCTYPE oxyTopic PUBLIC "OXY-PUB" "oxy-system">
+&lt;oxyTopic>
+    &lt;title>&lt;/title>
+    &lt;body>
+    &lt;/body>
+&lt;/oxyTopic></context>
+  <instructions>
+    <draft-summary>Create a new topic which MUST match the template above.
+We have a new action "Format and Indent..." in the contextual menu of the project explorer. </draft-summary>
+    <image href="format_and_indent_files.png"/>
+  </instructions>
+  <relationship-context>
+    <similar-topic href="similar.dita"/>
+  </relationship-context>
+</doc-draft>
