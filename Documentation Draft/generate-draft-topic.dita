@@ -8,5 +8,7 @@
             existing images and similar topics. Starting from that draft XML model the </p>
         <p>A sample XML draft model file can be found <xref
                 href="doc-draft-model.xml" format="xml">here</xref>.</p>
+        <p>And a  draft model file which generates a <b>specialized</b> DITA XML content can be
+            found here:<xref href="doc-draft-model-specialization.xml" format="xml"/>.</p>
     </body>
 </topic>
