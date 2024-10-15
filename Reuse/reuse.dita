@@ -6,7 +6,8 @@
         <p>DITA XML is famous for its reuse capabilities. So how can I use the AI to identify
             content which can be replaced with a reference to a reusable component or with a product
             named defined as a key in the DITA Map? We worked on two specific AI actions to help you
-            with identifying reusable content and product names:<ul>
+            with identifying reusable content and product names (available for now only in the
+            desktop application):<ul>
                 <li><uicontrol>Reuse->Product Names</uicontrol> An action which uses the AI to
                     identify possible product names in the selected content. For each product name,
                     if there is a key defined for it in the DITA Map a key reference is used as its
