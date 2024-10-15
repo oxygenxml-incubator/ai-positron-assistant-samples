@@ -58,6 +58,7 @@
                 locktitle="yes"/>
         </topicref>
     </topichead>
+    <topicref href="Reuse/reuse.dita"/>
     <topichead navtitle="Marketing">
         <topicref href="Marketing/release_notes.dita"/>
         <topicref href="Marketing/marketing_post.dita"/>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title><ph keyref="godzilla"/> XML Editor</title>
+    <keydef keys="godzilla">
+        <topicmeta>
+            <keywords>
+                <keyword>GODZILLA</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef keys="oxygen-editor">
+        <topicmeta>
+            <keywords>
+                <keyword>Oxygen XML Editor</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef keys="oxygen-feedback">
+        <topicmeta>
+            <keywords>
+                <keyword>Oxygen Feedback</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef keys="oxygen-webhelp">
+        <topicmeta>
+            <keywords>
+                <keyword>Oxygen XML WebHelp</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <topicref href="functionality.dita"/>
+</map>

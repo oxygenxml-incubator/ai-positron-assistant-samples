@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="reuse">
+    <title>Reuse</title>
+    <body>
+        <p>DITA XML is famous for its reuse capabilities. So how can I use the AI to identify
+            content which can be replaced with a reference to a reusable component or with a product
+            named defined as a key in the DITA Map? We worked on two specific AI actions to help you
+            with identifying reusable content and product names:<ul>
+                <li><uicontrol>Reuse->Product Names</uicontrol> An action which uses the AI to
+                    identify possible product names in the selected content. For each product name,
+                    if there is a key defined for it in the DITA Map a key reference is used as its
+                    replacement. <xref href="sample-dita-ai/functionality.dita">Example</xref>.</li>
+            </ul></p>
+    </body>
+</topic>
