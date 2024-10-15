@@ -11,6 +11,10 @@
                     identify possible product names in the selected content. For each product name,
                     if there is a key defined for it in the DITA Map a key reference is used as its
                     replacement. <xref href="sample-dita-ai/functionality.dita">Example</xref>.</li>
+                <li><uicontrol>Reuse->Component</uicontrol> An action which uses the AI to identify
+                    the closest reusable component which could potentially be used instead of the
+                    current selected content. <xref href="sample-dita-ai/functionality.dita"
+                        >Example</xref>.</li>
             </ul></p>
     </body>
 </topic>
