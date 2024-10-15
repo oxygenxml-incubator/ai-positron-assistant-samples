@@ -31,5 +31,5 @@
         </topicmeta>
     </keydef>
     <topicref href="functionality.dita"/>
-    <keydef keys="reusables" href="reusables/reusables.ditamap" format="ditamap"/>
+    <mapref href="reusables/reusables.ditamap" format="ditamap"></mapref>
 </map>
