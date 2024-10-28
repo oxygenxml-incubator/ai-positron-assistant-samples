@@ -59,6 +59,7 @@
         </topicref>
     </topichead>
     <topicref href="Reuse/reuse.dita"/>
+    <topicref href="Intelligent%20Agents/intelligent_agents.dita"/>
     <topichead navtitle="Marketing">
         <topicref href="Marketing/release_notes.dita"/>
         <topicref href="Marketing/marketing_post.dita"/>

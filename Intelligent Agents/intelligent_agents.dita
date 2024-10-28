@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="intelligent_agents">
+    <title>Intelligent Agents</title>
+    <body>
+        <p>Using more complex interactions and feedback loops the AI engine can be used as a way of
+            splitting existing content in modules, expanding a documentation draft or to create a
+            hierarchy of new DITA XML topics from an initial content.<dl id="dl_pv2_fp5_2dc">
+                <dlentry>
+                    <dt>Split Topic</dt>
+                    <dd>Analyze the current DITA XML topic based on modular document development
+                        best practices. If the topic is too large or contains multiple subjects, the
+                        AI may split it into several topic files. <xref
+                            href="split/ai_positron_enterprise.dita">Example</xref>. </dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Expand Draft</dt>
+                    <dd>Enhances a draft of a DITA XML documentation topic by refining preliminary
+                        draft content, adding markup consistent with similar topics, and
+                        incorporating images. Example:</dd>
+                </dlentry>
+            </dl></p>
+    </body>
+</topic>
