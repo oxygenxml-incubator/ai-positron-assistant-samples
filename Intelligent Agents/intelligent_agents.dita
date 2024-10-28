@@ -17,7 +17,8 @@
                     <dt>Expand Draft</dt>
                     <dd>Enhances a draft of a DITA XML documentation topic by refining preliminary
                         draft content, adding markup consistent with similar topics, and
-                        incorporating images. Example:</dd>
+                        incorporating images. <xref href="expand-draft/xml-refactoring-draft.dita"
+                            >Example.</xref></dd>
                 </dlentry>
             </dl></p>
     </body>
