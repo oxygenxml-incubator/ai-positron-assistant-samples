@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="draft">
+    <title>XML Refactoring</title>
+    <body>
+        <p>The XML Refactoring tool in Oxygen XML Editor (available in the Tools menu) helps manage
+            the structure of XML documents by allowing users to perform various structure management
+            tasks such as inserting, deleting, or renaming attributes in all instances of
+            aparticular element. The tool is presented as a wizard with multiple pages, including
+            options to configure operation parameters and select the scope and filters for the
+            operation. Users can preview the changes before applying them, but there is no automatic
+            way to revert the operations once they are finished. Additionally, the tool cannot
+            preserve CDATA sections in the XML documents.</p>
+        
+        <p>The tool is avaialble in Tools > XML Refactoring... and it presents a dialog, more
+            precisly a wizard.  These images present the flow of the operation.</p>
+            <image href="img/xmlrefactoring_step1.png" id="image_oj5_hsc_wcc"/>
+            <image href="img/xmlrefactoring_step2.png" id="image_pj5_hsc_wcc"/>
+            <image href="img/xmlrefactoring_step3.png" id="image_qj5_hsc_wcc"/>
+            <image href="img/xmlrefactoring_preview.png" id="image_nj5_hsc_wcc"/>
+        <p/>
+    </body>
+    <related-links>
+        <link href="similar-converting-between-schema-languages.dita"/>
+    </related-links>
+</topic>
