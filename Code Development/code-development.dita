@@ -3,19 +3,68 @@
 <topic id="code-development">
     <title>Code Development</title>
     <body>
-        <p>The AI Positron add-on is a very useful copilot when editing in Oxygen other document
-            types like XSLT Stylesheets, Schematron documents, JSON content.</p>
-        <p>For example when an <xref href="../XML%20Refactoring/ai-refactor-image-alt.xsl" format="xsl">XSLT
-                stylesheet</xref> is opened in Oxygen the <uicontrol>Development</uicontrol> menu
-            category contains three useful actions:<ul id="ul_bbv_yhq_gbc">
-                <li><uicontrol>Explain code</uicontrol> - select for example an XSLT template and
-                    invoke this action to explain in simple to understand terms what the XSLT
-                    template does.</li>
-                <li><uicontrol>Document code</uicontrol> - select for example an XSLT template and
-                    invoke this action to add documentation before the XSLT template explaining what
-                    it does.</li>
-                <li><uicontrol>New chat</uicontrol> - start a discussion with the AI based on the
-                    contents of an opened XSLT stylesheet or Schematron document.</li>
+        <p>The AI Positron add-on is a very useful copilot when editing in Oxygen XML
+            Editor/Developer and Oxygen JSON Editor documents such as XSLT stylesheets, XSD,
+            Schematron, and JSON Schema documents.</p>
+        <p>For example, when such a document is opened in Oxygen, the
+                <uicontrol>Development</uicontrol> menu category contains useful actions:<ul
+                id="ul_bbv_yhq_gbc">
+                <li><uicontrol>Explain Code</uicontrol> - generates an explanation of the code in
+                    the Chat view.<ul id="ul_vp3_lzv_cdc">
+                        <li>Select, for example, an <xref href="ExplainCode/profilerCommons.xsl"
+                                format="xsl">XSLT template</xref> and use this action from the
+                            contextual menu or the quick assist menu. It will show an explanation in
+                            simple terms of what the XSLT template does in the chat view.</li>
+                    </ul></li>
+                <li><uicontrol>Document Code</uicontrol> - generates the documentation of the code
+                    as a comment in the document.<ul id="ul_gnk_nzv_cdc">
+                        <li>Select, for example, an <xref href="DocumentCode/escape-for-regex.xsl"
+                                format="xsl">XSLT template</xref> and use this action to add
+                            documentation before the XSLT template explaining what it does.</li>
+                    </ul></li>
+                <li><uicontrol>Chat About Code</uicontrol> - creates a new chat to start a
+                    discussion with the AI regarding the code.<ul id="ul_p1c_4zv_cdc">
+                        <li>Start a discussion with the AI regarding the <xref
+                                href="ChatAboutCode/personal.xsl" format="xsl">XSLT code</xref>
+                            found in the current selection or the element content at the current
+                            cursor location. You can use the chat to improve the code, modify the
+                            generated content, or ask questions about the code.</li>
+                    </ul></li>
+                <li><uicontrol>Generate Code</uicontrol> - generates code based on a specified
+                        instruction.<ul id="ul_m4s_pzv_cdc">
+                        <li>For example, you can generate the content of an <xref
+                                href="GenerateCode/xsl/gradebook.xsl" format="xsl">XSLT
+                                stylesheet</xref> that will process your XML document. Just place
+                            the caret after the comment that describes what you want to generate and
+                            use the action. </li>
+                        <li>You can also generate specific <xref href="GenerateCode/xsl/data.xsl"
+                                format="xsl">XSLT templates or functions</xref> based on
+                            instructions. The instruction can be a selected text, in which case the
+                            text will be replaced with the generated code. Alternatively, the
+                            instruction can be the previous XML comment, in which case the generated
+                            text will be inserted after the comment.</li>
+                    </ul></li>
+                <li><uicontrol>Suggest Refactoring</uicontrol> - proposes a suggestion for
+                    refactoring the code to simplify it and make it easier to read and
+                        understand.<ul id="ul_hhn_szv_cdc">
+                        <li>For instance, you can choose the content of an <xref
+                                href="SuggestRefactoring/xsl/modularization.xsl" format="xsl">XSLT
+                                stylesheet</xref> with a monolithic template and execute the action.
+                            Once the action is performed, several templates will be generated,
+                            enhancing the readability and comprehension of the stylesheet.</li>
+                        <li>You can select, for example, an <xref
+                                href="SuggestRefactoring/xsl/xsltChangeMethods.xsl" format="xsl"
+                                >XSLT template</xref> to be refactored and the action will simplify
+                            the code and reuse already defined templates and functions.</li>
+                    </ul></li>
             </ul></p>
+        <p>In addition, when moving the cursor within the document, a <i>quick assist</i> bulb
+            appears in the navigation vertical stripe bar. Clicking the bulb opens a popup with
+            available actions.</p>
     </body>
+    <related-links>
+        <link
+            href="https://www.oxygenxml.com/doc/ug-editor/topics/ai_positron.html#ai_positron__dlentry_xvf_zdx_jbc"
+            format="html" scope="external"/>
+    </related-links>
 </topic>
