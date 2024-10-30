@@ -37,12 +37,15 @@
                                 stylesheet</xref> that will process your XML document. Just place
                             the caret after the comment that describes what you want to generate and
                             use the action. </li>
-                        <li>You can also generate specific <xref href="GenerateCode/xsl/data.xsl"
+                        <li>You can generate specific <xref href="GenerateCode/xsl/data.xsl"
                                 format="xsl">XSLT templates or functions</xref> based on
                             instructions. The instruction can be a selected text, in which case the
                             text will be replaced with the generated code. Alternatively, the
                             instruction can be the previous XML comment, in which case the generated
                             text will be inserted after the comment.</li>
+                        <li>For <xref href="GenerateCode/xsd/shippingOrder.xsd" format="xsd"
+                                >XSD</xref>, you can create new schema components using a
+                            description and reuse existing components from the document.</li>
                     </ul></li>
                 <li><uicontrol>Suggest Refactoring</uicontrol> - proposes a suggestion for
                     refactoring the code to simplify it and make it easier to read and
