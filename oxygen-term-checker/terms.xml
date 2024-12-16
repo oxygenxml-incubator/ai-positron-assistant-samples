@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <incorrect-terms>
   <incorrect-term ignorecase="true">
-    <match>volkswagen bug</match>
-    <suggestion>Volkswagen Beetle</suggestion>
+    <match>folkswagen bug</match>
+    <suggestion>Folkswagen Beetle</suggestion>
     <message>Use "Beetle" instead of "bug"</message>
   </incorrect-term>
   <incorrect-term ignorecase="true">
