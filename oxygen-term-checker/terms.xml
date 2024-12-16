@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incorrect-terms>
+  <incorrect-term ignorecase="true">
+    <match>volkswagen bug</match>
+    <suggestion>Volkswagen Beetle</suggestion>
+    <message>Use "Beetle" instead of "bug"</message>
+  </incorrect-term>
+  <incorrect-term ignorecase="true">
+    <match type="whole-word">car</match>
+    <suggestion>vehicle</suggestion>
+    <message>Use "vehicle" instead of "car"</message>
+  </incorrect-term>
+  <incorrect-term ignorecase="true">
+    <match type="whole-word">truck</match>
+    <suggestion>lorry</suggestion>
+    <message>Use "lorry" instead of "truck"</message>
+  </incorrect-term>
+  <incorrect-term ignorecase="true">
+    <match type="whole-word">taillight</match>
+    <suggestion>rear position lamp</suggestion>
+    <message>Use "rear position lamp" instead of "taillight"</message>
+  </incorrect-term>
+  <incorrect-term ignorecase="true">
+    <match type="whole-word">drivetrain</match>
+    <suggestion>powertrain</suggestion>
+    <message>Use "powertrain" instead of "drivetrain"</message>
+  </incorrect-term>
+  <incorrect-term ignorecase="true">
+    <match type="whole-word">Otto engine</match>
+    <suggestion>petrol engine</suggestion>
+    <message>Use "petrol engine" instead of "Otto engine"</message>
+  </incorrect-term>
+  <incorrect-term ignorecase="true">
+    <match type="whole-word">motor-bike</match>
+    <suggestion>motorcycle</suggestion>
+    <message>Use "motorcycle" instead of "motor-bike"</message>
+  </incorrect-term>
+  <incorrect-term ignorecase="true">
+    <match type="whole-word">motor</match>
+    <suggestion>engine</suggestion>
+    <message>Use "engine" instead of "motor"</message>
+  </incorrect-term>
+  <incorrect-term ignorecase="true">
+    <match type="whole-word">ESP</match>
+    <suggestion>electronic stability control</suggestion>
+    <message>Use "electronic stability control" instead of "ESP"</message>
+  </incorrect-term>
+  <incorrect-term ignorecase="true">
+    <match type="whole-word">vehicle frame</match>
+    <suggestion>motor vehicle chassis</suggestion>
+    <message>Use "motor vehicle chassis" instead of "vehicle frame"</message>
+  </incorrect-term>
+</incorrect-terms>
