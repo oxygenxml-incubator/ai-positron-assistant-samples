@@ -4,7 +4,7 @@ Various samples and a playground showing the usefulness of the Oxygen AI Positro
 How to work with the samples:
 
  - If you have installed **Oxygen XML Author/Editor** desktop:
-   - Install in **Oxygen** the **AI Positron Assistant** add-on: https://www.oxygenxml.com/doc/ug-editor/topics/ai_positron.html
+   - Install in **Oxygen** the **AI Positron Assistant** add-on: https://www.oxygenxml.com/doc/ug-addons/topics/ai_positron.html
    - Clone or download this project.
    - Open in the Oxygen "Project" view the **ai_positron_assistant_samples.xpr** project file.
    - Open in the Oxygen "DITA Maps Manager" view the **ai_positron_assistant_samples.ditamap** DITA Map file.
