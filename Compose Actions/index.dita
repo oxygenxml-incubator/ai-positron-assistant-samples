@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="index">
+  <title>Flowers by Season</title>
+  <shortdesc>Flowers and seasons ar intimately bound to each other. Most of the flowers are
+    season-specific.</shortdesc>
+  <body>
+    <p>The various climatic changes that occu in cyclic pattern are termed as 'Seasons'. There are
+      four general seasons occurring on Earth - Spring, Summer, Autumn and Winter.</p>
+    <p>Flowers and seasons are intimately bound to each other. Most of the flowers are
+      season-specific. However, some flowers are found throughout the year, not particularly
+      affected by changing seasons.</p>
+    <p>All CSS files in the webhelp folder will be referenced in <codeph>hpe_webhelp.css</codeph>. </p>
+  </body>
+</topic>
