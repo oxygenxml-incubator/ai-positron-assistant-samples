@@ -1,0 +1,18 @@
+[
+    {
+        "id": "action.formula.equation",
+        "title": "Formula/Equation",
+        "categoryId": "Content Generation",
+        "type": "prompt-user",
+        "framework": "text/xml",
+        "input-type": "markup",
+        "description": "Create a MathML formula or equation based on the provided input (material types, equation overall description or Latex equation).",
+        "context": "# CONTEXT #\n${contextInfo}\n\n#########\n\n# OBJECTIVE #\nYour task is to create a MathML equation in XML format based on the input provided by the end user.\n\n# Choices:\n- If the end user provides an equation in Latex format, try to convert it to a valid MathML equation.\n- If the end user provides the name of a chemical compound or a material type, try to convert it to a valid MathML formula.\n- If the end user provides the overall description of a mathematical or physical equation, try to convert it to a valid MathML equation.\n\n# Important\n- Return the generated MathML XML equation directly without any extra explanation and WITHOUT wrapping it in Markdown codeblocks.",
+        "expand-params": [
+            {
+                "name": "contextInfo",
+                "value": "${contextInfo}"
+            }
+        ]
+    }
+]
