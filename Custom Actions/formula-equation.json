@@ -4,6 +4,7 @@
         "title": "Formula/Equation",
         "categoryId": "Content Generation",
         "type": "prompt-user",
+        "additional_info": {"prompt-example": "hydrogen peroxide"},
         "framework": "text/xml",
         "input-type": "markup",
         "description": "Create a MathML formula or equation based on the provided input (material types, equation overall description or Latex equation).",
