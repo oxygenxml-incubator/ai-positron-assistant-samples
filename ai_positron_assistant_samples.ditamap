@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
-    <title>AI Positron Assistan Samples</title>
+    <title>AI Positron Assistant Samples</title>
     <topicref href="Content%20Generation/prerequisites.dita"/>
     <topichead navtitle="Content Generation">
         <topicref href="Content%20Generation/new_dita_topic_sample.dita"/>
