@@ -17,7 +17,7 @@
     "parameters": {
       "function_refs": [
         {"ref": "invoke_ai_action"},
-        {"ref": "retrieve_all_ai_action_ids"}
+        {"ref": "retrieve_all_ai_actions"}
       ]
     }
   },
@@ -55,7 +55,7 @@
     "parameters": {
       "function_refs": [
         {"ref": "invoke_ai_action"},
-        {"ref": "retrieve_all_ai_action_ids"}
+        {"ref": "retrieve_all_ai_actions"}
       ]
     }
   }
