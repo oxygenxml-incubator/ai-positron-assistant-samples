@@ -16,6 +16,6 @@
         <p>The <b>codeph</b> element is used to highlight specific code within a paragraph, like this:
             <codeph>System.out.println("Hello, World!");</codeph></p>
         <p>The <b>filepath</b> element is used to indicate a file path, like this:
-            <filepath>C:\Users\username\Documents\file.txt</filepath></p>
+            <codeph>C:\Users\username\Documents\file.txt</codeph></p>
     </body>
 </topic>
