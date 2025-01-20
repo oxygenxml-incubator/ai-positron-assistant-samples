@@ -8,5 +8,8 @@
             comments.</p>
         <p>As an example, use the <xref href="proof_read.dita"/> examples to add comments and then
             resolve the comments using this action.</p>
+        <p>Or use the available <uicontrol>AI Resolve Comments</uicontrol> actions from the callouts
+            or <uicontrol>Review</uicontrol> view contextual menus with the <xref
+                href="fix_review_comments.dita"/> example.</p>
     </body>
 </topic>

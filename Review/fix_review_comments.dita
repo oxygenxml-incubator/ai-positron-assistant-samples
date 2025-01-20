@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="critical_thinking_mistakes">
+    <title>Fix Review Comments</title>
+    <shortdesc>Fix comments reported by reviewers using the "AI Resolve Comments" actions from the
+        Callouts or Review view contextual menus.</shortdesc>
+    <body>
+        <p><?oxy_comment_start author="alex" timestamp="20250115T101357+0200" comment="Review this. Oxygen runs only in Windows and MacOS."?>Oxygen
+            is a cross-platform application which runs only on Windows designed to accommodate all
+            of your XML editing, authoring, developing, and publishing needs. </p><?oxy_comment_end?>
+        <p><?oxy_comment_start author="alex" timestamp="20250115T100822+0200" comment="Review this information
+" id="rjs_jmv_12c"?><?oxy_comment_start author="alex" timestamp="20250115T100853+0200" parentID="rjs_jmv_12c" comment="The first version of released Oxygen was 0.0.5." mid="2"?><?oxy_comment_start author="alex" timestamp="20250115T100945+0200" parentID="rjs_jmv_12c" comment="The information is incorrect. The first version of Oxygen were 0.0.9, released in 1999." mid="3"?>The
+            first version of Oxygen was 1.0.0, released in
+            1998.<?oxy_comment_end mid="3"?><?oxy_comment_end mid="2"?><?oxy_comment_end?></p>
+        <p><?oxy_comment_start author="alex" timestamp="20250115T104804+0200" comment="The paragraph is too large! Review this" id="phs_4rv_12c"?><?oxy_comment_start author="alex" timestamp="20250115T104825+0200" parentID="phs_4rv_12c" comment="It should be into 2 paragraphs" mid="5"?><?oxy_comment_start author="alex" timestamp="20250115T104851+0200" parentID="phs_4rv_12c" comment="It is better to split into 3 paragraphs" mid="6"?>Oxygen
+            XML Editor is a robust, feature-rich, and versatile tool designed to meet the needs of
+            professionals working with XML, XSLT, XQuery, and related technologies. Widely regarded
+            as one of the most powerful XML editing tools available, it provides an intuitive
+            interface combined with advanced functionality to facilitate efficient and accurate
+            editing, transformation, and validation of XML documents. Oxygen XML Editor supports a
+            wide range of XML standards, including DITA, DocBook, TEI, and XHTML, making it an
+            essential tool for technical writers, software developers, and content managers. It
+            includes features such as syntax highlighting, real-time validation against schemas
+            (e.g., DTD, XSD, RELAX NG), intelligent content completion, and a powerful debugging
+            environment for XSLT and XQuery. Its robust support for collaborative workflows, version
+            control systems like Git, and integration with CMSs ensures that teams can work
+            seamlessly on complex projects. Additionally, its cross-platform compatibility and
+            extensibility through plugins make it adaptable to a variety of use cases. Whether you
+            are authoring structured content, managing metadata, or developing web services, Oxygen
+            XML Editor provides a comprehensive toolkit that simplifies complex processes and boosts
+            productivity.</p><?oxy_comment_end?><?oxy_comment_end mid="5"?><?oxy_comment_end mid="6"?>
+        <p/>
+    </body>
+</topic>
