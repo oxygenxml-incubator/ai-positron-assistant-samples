@@ -19,6 +19,7 @@
             <topicref href="Content%20Generation/index_terms_sample.dita" navtitle="Index Terms Sample"
                 locktitle="yes"/>
         </topicref>
+        <topicref href="Content%20Generation/generate_formula_or_equation.dita"/>
     </topichead>
     <topichead navtitle="Rewrite">
         <topicref href="Rewrite/correct_grammar_overview.dita">

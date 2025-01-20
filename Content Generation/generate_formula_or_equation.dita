@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="generate_formula_or_equation">
+    <title>Generate Formula or Equation</title>
+    <body>
+        <p>The <uicontrol>Formula/Equation</uicontrol> action can be used to generate a Chemical
+            formula, Physics or Mathematics equation from a plain text description or Latex
+            equation.</p>
+    </body>
+</topic>
