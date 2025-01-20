@@ -30,6 +30,12 @@
    Growing tulips
    Maintainance problems</codeblock></dd>
                 </dlentry>
+            </dl><dl id="dl_ypn_mvf_c2c">
+                <dlentry>
+                    <dt>Fix Validation Problems</dt>
+                    <dd>Use AI to fix validation problems in a topic like this one: <xref
+                            href="../Schematron%20and%20Quick%20Fixes/flowers.xml"/></dd>
+                </dlentry>
             </dl></p>
     </body>
 </topic>
