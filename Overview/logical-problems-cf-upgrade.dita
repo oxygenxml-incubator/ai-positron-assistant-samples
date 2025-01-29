@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="cf-upgrading">
+    <title>Upgrading Content Fusion</title>
+    <prolog>
+        <metadata>
+            <keywords>
+                <indexterm>Content Fusion Enterprise - Upgrading</indexterm>
+                <indexterm>Upgrading</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <body>
+        <section id="preupgrade_notes">
+            <title>Pre-Upgrade Notes</title>
+            <p id="p_ll5_dgk_54b">
+                <ul id="ul_ml5_dgk_54b">
+                    <li id="li_nl5_dgk_54b">System requirements: On the server running Content Fusion, you need enough disk space
+                        to create a backup. The backup file contains a compressed archive of all files located
+                        in <filepath>/fusion/data/</filepath>, so to be safe, the free space should be at least
+                        equal to the size of the data folder.</li>
+                    <li id="li_ol5_dgk_54b">You cannot upgrade <b>Content Fusion</b> on the existing server. It needs to be
+                        installed on a new server and all tasks and configurations will be imported to the new
+                        server during the upgrade process.</li>
+                    <li id="li_pl5_dgk_54b">Custom frameworks and plugins will need to be reinstalled manually on the new
+                        server.</li>
+                    <li id="li_ql5_dgk_54b">The upgrade process will involve some downtime, so pick a time that does not affect
+                        the users.</li>
+                </ul>
+            </p>
+        </section>
+        <section id="upgrade_procedure">
+            <title>Recommended Upgrade Procedure</title>
+            <ol id="ol_rl5_dgk_54b">
+                <li id="li_sl5_dgk_54b">Deploy the new version of Content Fusion on a new
+                    server.</li>
+                <li>Access the Configuration Page and set the administrator password. See the configuration
+                    section:<ul id="ul_gj4_jk3_vsb">
+                        <li id="li_owq_qk3_vsb"><xref href="cf-linux.dita#cf-linux/d1225e101">Linux: Initial
+                                Oxygen Content Fusion Configuration</xref></li>
+                    </ul></li>
+                <li id="li_xl5_dgk_54b">Once the <b>new server</b> is ready, <xref href="cf-custom-frameworks.dita">reinstall
+                        any custom Web Author frameworks or plugins</xref> that you were using on the old
+                    server.</li>
+                <li id="li_yl5_dgk_54b"><xref href="cf-enterprise-configuration.dita#cf-enterprise-configuration/maintenance"
+                        >Enable maintenance mode</xref> on the <b>old server</b>. Maintenance mode is needed to
+                    ensure that users are not making any changes to the tasks while the backup is being
+                    created.</li>
+                <li id="li_zl5_dgk_54b">
+                    <p id="p_am5_dgk_54b">Create a backup of the old server by running the following command on the <b>old
+                            server</b>:<codeblock xml:space="preserve" outputclass="language-javascript" id="codeblock_bm5_dgk_54b">sudo bash /fusion/admin/create-fusion-backup.sh</codeblock></p>
+                    <note id="note_zyw_c21_54b" type="important">The
+                        <filepath>create-fusion-backup.sh</filepath> script had an inherited critical bug in
+                        Content Fusion 2.0 and 3.0 and should be updated before attempting to create a new
+                        backup. More details can be found here: <xref
+                            href="https://www.oxygenxml.com/content_fusion/critical_content_fusion_backup.html"
+                            format="html" scope="external"/>.</note>
+                    <p id="p_cm5_dgk_54b">This will create a backup archive <codeph>fusion-backup.tar.gz</codeph> in the current
+                        directory. If the backup file already exists, it will be overwritten.</p>
+                </li>
+                <li id="li_dm5_dgk_54b">Copy the <codeph>fusion-backup.tar.gz</codeph> backup file to the <b>newly deployed
+                        server</b>.</li>
+                <li id="li_em5_dgk_54b">
+                    <p id="p_fm5_dgk_54b">On the <b>newly deployed server</b>, run the following command to restore the
+                        backup:<codeblock xml:space="preserve" outputclass="language-javascript" id="codeblock_gm5_dgk_54b">sudo bash /fusion/admin/restore-fusion-backup.sh /path/to/fusion-backup.tar.gz</codeblock>where
+                        the path to the backup file is updated to match your situation. </p>
+                    <p id="p_hm5_dgk_54b"><b>Step Result:</b> After restoring the backup, all the user tasks
+                        and configurations will be available in the new <b>Content Fusion</b> server.</p>
+                </li>
+                <li id="li_jm5_dgk_54b">Because the backup was created while maintenance mode was enabled, the new <b>Content
+                        Fusion</b> server will be in maintenance mode after the backup restore. Go to the <xref
+                            href="cf-enterprise-configuration.dita#cf-enterprise-configuration/maintenance"
+                            >Administration Page and disable maintenance mode</xref>.</li>
+                <li id="li_km5_dgk_54b">To test the upgrade, check to make sure the tasks and configurations that were present
+                    on the old server are now present on the new server.<note id="note_lm5_dgk_54b">Depending on the configuration,
+                        you may have to configure your mail server to accept emails from the new Content Fusion
+                        server.</note></li>
+                <li id="li_mm5_dgk_54b">Replace the old server with the new one.</li>
+            </ol>
+        </section>
+        <section id="section_pnn_kf4_rsb">
+            <title>Fast Upgrade Procedure</title>
+            <p id="p_qnn_kf4_rsb">
+                <note id="note_sly_lf4_rsb" type="restriction">This procedure is only available for
+                    installations created with the Linux installation kit and the version you want to upgrade
+                    from is at least 5.0.</note>
+            </p>
+            <p id="p_v52_4f4_rsb">To upgrade an installation that was created by the installation kit:<ol
+                    id="ol_aqj_rf4_rsb">
+                    <li id="li_bqj_rf4_rsb">Go to the <xref
+                            href="https://www.oxygenxml.com/content_fusion/download.html" format="html"
+                            scope="external">Content Fusion Download webpage</xref>.</li>
+                    <li id="li_t3t_1g4_rsb">Go to the <uicontrol>Linux</uicontrol> tab and download the
+                        <uicontrol>Oxygen Content Fusion Enterprise Server</uicontrol> installation kit.</li>
+                    <li id="li_nwy_cg4_rsb"><xref href="cf-enterprise-backups.dita">Create a backup</xref> of
+                        your current installation.<note id="note_m3g_sf2_gzb" type="important">Before upgrading,
+                            it is important to copy the backup files from the <filepath>/fusion/</filepath> folder
+                            to another location. This folder will be cleared during the upgrade
+                            process.</note></li>
+                    <li id="li_etq_gg4_rsb">Run the installer (the installation requires root privileges)
+                        using the <codeph>-u</codeph>
+                        flag.<codeblock outputclass="language-ini">sudo bash Oxygen_Content_Fusion_Enterprise.sh -u </codeblock></li>
+            </ol><note id="note_klw_lg4_rsb">When the <codeph>-u</codeph> flag is used, the installation
+                kit will upgrade the current version of Content Fusion, while keeping all the existing
+                data and configuration.</note></p>
+        </section>
+    </body>
+</topic>
