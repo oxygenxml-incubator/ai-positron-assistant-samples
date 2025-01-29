@@ -1,6 +1,6 @@
 {
     "id": "action.review.logical.mistakes",
-    "title": "Report Logical Inconsistencies",
+    "title": "Logical Inconsistencies",
     "description": "Review the given content and find logical mistakes",
     "categoryId": "Overview",
     "type": "show-response",
