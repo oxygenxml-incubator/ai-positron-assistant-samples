@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_jhr_mgz_g2c">
+    <title>Rewrite</title>
+    <body>
+        <ol id="ol_ymw_mgz_g2c">
+            <li><b>apple</b> - something about it</li>
+            <li><b>plum</b> - sometning about it</li>
+        </ol>
+    </body>
+</topic>
