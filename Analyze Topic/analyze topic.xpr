@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <meta>
+        <filters directoryPatterns="" filePatterns="\Qanalyze topic.xpr\E" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options>
+            <serialized xml:space="preserve">
+                <serializableOrderedMap>
+                    <entry>
+                        <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.actions.folder</String>
+                        <String>${pd}/positron-ai-actions</String>
+                    </entry>
+                    <entry>
+                        <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.enable.positron</String>
+                        <String>true</String>
+                    </entry>
+                    <entry>
+                        <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.load.default.actions</String>
+                        <String>true</String>
+                    </entry>
+                    <entry>
+                        <String>Positron_addon_rag_config_page</String>
+                        <Boolean>false</Boolean>
+                    </entry>
+                    <entry>
+                        <String>Positron_enterprise_addon_preferences_engine_page</String>
+                        <Boolean>false</Boolean>
+                    </entry>
+                    <entry>
+                        <String>Positron_enterprise_addon_preferences_page</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
+                        <String>additional.frameworks.directories</String>
+                        <String-array>
+                            <String>/Users/george/git/oxygen-ai-positron-composite/oxygen-ai-positron-addon/base/frameworks</String>
+                        </String-array>
+                    </entry>
+                    <entry>
+                        <String>key.editor.document.type.custom.locations.option.pane</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                </serializableOrderedMap>
+            </serialized>
+        </options>
+    </meta>
+    <projectTree name="analyze%20topic.xpr">
+        <folder name="resources">
+            <folder path="../"/>
+            <folder path="../../docmod/"/>
+            <folder path="../../oxygen-wiki/"/>
+            <folder path="../../../../Documents/workspace/userguide/"/>
+            <file name="../../../../git/oxygen-ai-positron-composite/oxygen-ai-positron-addon/base/frameworks/ai-actions-json/css/ai-actions.css"/>
+            <file name="../ai-positron-samples.xpr"/>
+        </folder>
+        <folder path="."/>
+    </projectTree>
+</project>
