@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="analyze-dita-topic">
+    <title>Analyze DITA topic</title>
+    <body>
+        <p>${context}</p>
+        <p>Your task is to analyze a DITA topic and determine if it follows the main characteristics
+            of DITA topics and propose and execute updates on that topic to make it adhere to DITA
+            philosophy. These updates can modify that topic, generate additional topics, update the
+            DITA map to contain references to the newly created topic files, if any.</p>
+    </body>
+</topic>

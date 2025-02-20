@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="https://www.dita-ot.org/project">    
+  <deliverable name="User's Guide to HTML5" id="ug_html5">
+    <context name="Analyze Topic">
+      <input href="dita/prompts.ditamap"/>  
+    </context>
+    <output href="md"/> 
+    <publication transtype="markdown"/>
+  </deliverable>
+</project>
