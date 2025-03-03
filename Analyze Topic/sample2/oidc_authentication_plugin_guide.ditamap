@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>OIDC Authentication Plugin Guide</title>
+    <topicref href="oidc_overview.dita"/>
+    <topicref href="high-level-system-architecture.dita"/>
+    <topicref href="create-authentication-provider.dita"/>
+    <topicref href="create-callback-servlet.dita"/>
+    <topicref href="store-temporary-state.dita"/>
+    <topicref href="plugin-registration.dita"/>
+    <topicref href="oidc-authentication-sequence.dita"/>
+    <topicref href="api-summary.dita"/>
+    <topicref href="additional_tips.dita"/>
+</map>

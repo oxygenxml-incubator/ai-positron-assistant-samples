@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd">
+<dita>
+    <concept id="tools">
+        <title>Tools</title>
+        <conbody>
+            <section>
+                <title>Functions</title>
+                <p>The functions namespace provides various tools for document validation, key reference resolution, and content retrieval.</p>
+                <section>
+                    <title>Validate Document Content</title>
+                    <p>The <codeph>validate_document_content</codeph> function checks a document's content for errors and reports them in JSON format, including location and severity.</p>
+                </section>
+                <section>
+                    <title>Resolve DITA Key or Content Reference</title>
+                    <p>The <codeph>resolve_dita_key_or_content_reference</codeph> function resolves DITA XML key references, content key references, or content references, providing additional information without expanding the original content.</p>
+                </section>
+                <section>
+                    <title>Get Corresponding DITA Keyrefs</title>
+                    <p>The <codeph>get_corresponding_dita_keyrefs</codeph> function retrieves a mapping between product names and DITA XML key references.</p>
+                </section>
+                <section>
+                    <title>Get Related Content from Project</title>
+                    <p>The <codeph>get_related_content_from_project</codeph> function retrieves content from the user's local project based on given keywords, providing context for composing suitable answers.</p>
+                </section>
+            </section>
+            <section>
+                <title>Multi Tool Use</title>
+                <p>The <codeph>multi_tool_use</codeph> namespace allows for the parallel execution of multiple tools, provided they can operate simultaneously.</p>
+            </section>
+        </conbody>
+    </concept>
+    <concept id="additional_tips">
+        <title>Additional Tips</title>
+        <conbody>
+            <ul>
+                <li><p><b>Token verification</b>: Use a JWT library to parse/verify ID tokens if your IdP issues them.</p></li>
+                <li><p><b>HTTPS</b>: Always use HTTPS endpoints for real deployments.</p></li>
+                <li><p><b>Session management</b>: If you want to keep the users credentials for later calls, store them securely in the <codeph>SessionStore</codeph> or as needed.</p></li>
+                <li><p><b>Error handling</b>: Ensure you gracefully handle cases where a user denies consent or an error occurs in the OIDC flow.</p></li>
+            </ul>
+            <p>With this tutorial, you should have a good handle on how to create and register a plugin that provides OIDC-based authentication to Oxygen XML Web Author using only the <b>public</b> Web Author plugin API.</p>
+        </conbody>
+    </concept>
+</dita>

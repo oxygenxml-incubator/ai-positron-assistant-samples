@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="high-level-system-architecture">
+    <title>High-Level System Architecture</title>
+    <conbody>
+        <p>Below is a conceptual depiction of how your plugin will integrate into Oxygen XML Web Authors authentication flow:</p>
+        <ol>
+            <li><p><b>Web Author</b> displays a login page that includes your <b>OIDC</b> authentication option.</p></li>
+            <li><p>When the user clicks Sign in with OIDC, Web Author calls your <codeph>ApplicationAuthenticationProvider.prepareAuthenticationRedirect(sessionId)</codeph> method.</p></li>
+            <li><p>Your provider constructs the <b>OIDC authorization URL</b> (using your IdPs endpoints). You typically embed a <b>random <codeph>state</codeph> parameter</b> in that URL and store it (with the session ID) in <codeph>SessionStore</codeph>.</p></li>
+            <li><p>User is <b>redirected</b> to the IdPs login page.</p></li>
+            <li><p>After logging in, IdP calls back to your <b>callback endpoint</b> in the plugin (a path you define, e.g., <codeph>/oidc-callback</codeph>).</p></li>
+            <li><p>In that callback, you <b>verify the <codeph>state</codeph></b>, extract the <b>authorization code</b>, and <b>exchange</b> it with the IdPs <b>token endpoint</b> for tokens.</p></li>
+            <li><p>You parse the <b>ID token</b> (JWT) or call the <b>UserInfo endpoint</b> to get user claims (ID, display name, email).</p></li>
+            <li><p>You create an <codeph>ApplicationUser</codeph> from that info, then call <codeph>applicationAuthenticationManager.getApplicationUserStore().authenticateApplicationUser(sessionId, applicationUser)</codeph>.</p></li>
+            <li><p>The user is now authenticated in Web Author.</p></li>
+        </ol>
+    </conbody>
+</concept>
