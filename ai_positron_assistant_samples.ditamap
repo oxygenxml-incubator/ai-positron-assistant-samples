@@ -5,12 +5,12 @@
     <topicref href="Content%20Generation/prerequisites.dita"/>
     <topichead navtitle="Content Generation">
         <topicref href="Content%20Generation/new_dita_topic_sample.dita"/>
-        <topicref href="Documentation%20Draft/generate-draft-topic.dita"/>
+        <topicref href="Documentation%20Draft/Formant%20and%20Indent%20Sample/generate-draft-topic.dita"/>
         <topicref href="Content%20Generation/continue_writing_overview.dita">
             <topicref href="Content%20Generation/continue_writing_sample.dita"
                 navtitle="Continue Writing Sample" locktitle="yes"/>
         </topicref>
-        <topicref href="Update%20Content%20based%20on%20images/update-topic-based-on-images.dita"/>
+        <topicref href="Update%20Content%20based%20on%20images/Fast%20Create%20Topics%20Sample/update-topic-based-on-images.dita"/>
         <topicref href="Content%20Generation/short_description_overview.dita">
             <topicref href="Content%20Generation/short_description_sample.dita"
                 navtitle="Short Description Sample" locktitle="yes"/>
@@ -76,7 +76,7 @@
     <topicref href="Custom%20Actions/custom_actions.dita"/>
     <topicref
         href="Schematron%20and%20Quick%20Fixes/schematron_validation_with_quick_fixes_and_xslt_extensions.dita">
-        <topicref href="Documentation%20Draft/format_and_indent_files.png" format="png"
+        <topicref href="Documentation%20Draft/Formant%20and%20Indent%20Sample/format_and_indent_files.png" format="png"
             keys="format-indent"/>
     </topicref>
 </map>

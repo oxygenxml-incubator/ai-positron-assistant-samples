@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc-draft>
+  <title>XML Refactoring Doc Draft</title>
+  <instructions>
+    <!-- This is an AI-generated short-description used as draft-summary-->
+    <draft-summary>The XML Refactoring tool in Oxygen XML Editor (available in the Tools menu) helps
+      manage the structure of XML documents by allowing users to perform various structure
+      management tasks such as inserting, deleting, or renaming attributes in all instances of a
+      particular element. The tool is presented as a wizard with multiple pages, including options
+      to configure operation parameters and select the scope and filters for the operation. Users
+      can preview the changes before applying them, but there is no automatic way to revert the
+      operations once they are finished. Additionally, the tool cannot preserve CDATA sections in
+      the XML documents.</draft-summary>
+    <instruction>Add each image in the documentation and present the flow of the operation as
+      suggested by these images. Add them in the correct order of the steps. You should document
+      each UI element shown in the images.</instruction>
+    <image href="img/xmlrefactoring_step1.png"/>
+    <image href="img/xmlrefactoring_step2.png"/>
+    <image href="img/xmlrefactoring_step3.png"/>
+    <!-- Here I mentioned "the previous image" and the AI "understood" my request. -->
+    <instruction>For the previous image, make sure to document all the available options using DITA definition lists.</instruction>
+    <instruction>Also add an important note about the fact that the operation results can be previewed,
+    and add the following image as an example, with the caption "Isn't it cool?".</instruction>
+    <image href="img/xmlrefactoring_preview.png"/>
+  </instructions>
+  <relationship-context>
+    <similar-topic href="similar-converting-between-schema-languages.dita"/>
+  </relationship-context>
+</doc-draft>

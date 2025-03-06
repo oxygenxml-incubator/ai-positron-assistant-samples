@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="xml-refactoring-tool">
+  <title>XML Refactoring Tool Usage in Oxygen XML Editor</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>XML Refactoring</indexterm>
+        <indexterm>Oxygen XML Editor</indexterm>
+        <indexterm>XML Structure Management</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <p id="p_xml_ref_intro">The <uicontrol>XML Refactoring</uicontrol> tool, accessible from the <uicontrol>Tools</uicontrol> menu in Oxygen XML Editor, facilitates the management of XML document structure by enabling users to insert, delete, or rename attributes across all instances of a specific element. The tool operates as a wizard with several steps, each providing different options to tailor the operation.</p>
+    <p id="p_xml_ref_limitations">Note that once changes are applied, they cannot be automatically reversed, and CDATA sections within the XML documents are not preserved.</p>
+    <section id="sec_refactoring_steps">
+      <title>Refactoring Steps</title>
+      <p id="p_refactoring_step1">The first step of the refactoring process involves selecting an operation from the list of available refactoring operations.</p>
+      <fig id="fig_refactoring_step1">
+        <title>Select Refactoring Operation Interface</title>
+        <image href="img/xmlrefactoring_step1.png"/>
+      </fig>
+      <p id="p_refactoring_step2">After selecting an operation, users must specify the parameters required for the operation, such as providing an XPath expression.</p>
+      <fig id="fig_refactoring_step2">
+        <title>Specify Operation Parameters</title>
+        <image href="img/xmlrefactoring_step2.png"/>
+      </fig>
+      <p id="p_refactoring_step3">Users must then define the scope and filters for the operation to determine which XML documents will be affected.</p>
+      <fig id="fig_refactoring_step3">
+        <title>Define Scope and Filters</title>
+        <image href="img/xmlrefactoring_step3.png"/>
+      </fig>
+      <p id="p_refactoring_scope_filter">The <uicontrol>Scope and Filters</uicontrol> section provides various options:</p>
+      <dl id="dl_scope_filters">
+        <dlentry id="dlentry_scope">
+          <dt>Scope</dt>
+          <dd>
+            <p id="p_scope_options">Define the set of resources to which the refactoring will be applied:</p>
+            <ul id="ul_scope_options">
+              <li><uicontrol>Current File</uicontrol> - The operation will only affect the active file.</li>
+              <li><uicontrol>Project</uicontrol> - Refactoring will be applied to all files within the open project.</li>
+              <li><uicontrol>Selected project resources</uicontrol> - The operation will apply to specific resources selected within the project.</li>
+              <li><uicontrol>All opened files</uicontrol> - Targets all files currently open in the editor.</li>
+              <li><uicontrol>Current DITA map hierarchy</uicontrol> - Limits the operation to files structured within the current DITA map hierarchy.</li>
+              <li><uicontrol>Opened archive</uicontrol> - Applies the refactoring to files within an open archive file.</li>
+              <li><uicontrol>Working sets</uicontrol> - The operation will affect files organized into predefined working sets.</li>
+            </ul>
+          </dd>
+        </dlentry>
+        <dlentry id="dlentry_filters">
+          <dt>Filters</dt>
+          <dd>
+            <p id="p_filter_options">Choose the files to include in the operation:</p>
+            <ul id="ul_filter_options">
+              <li><uicontrol>Include files</uicontrol> - Specify patterns to include only matching files.</li>
+              <li><uicontrol>Restrict to known XML file types only</uicontrol> - Limits the operation to files recognized as XML.</li>
+              <li><uicontrol>Look inside archives</uicontrol> - If enabled, refactoring will also consider files inside archive formats like ZIP.</li>
+            </ul>
+          </dd>
+        </dlentry>
+      </dl>
+      <p id="p_preview_note"><b>Important:</b> It's possible to preview the results of the refactoring operation before applying them to ensure accuracy.</p>
+      <fig id="fig_preview_example">
+        <title>Isn't it cool?</title>
+        <image href="img/xmlrefactoring_preview.png"/>
+      </fig>
+    </section>
+  </body>
+</topic>
