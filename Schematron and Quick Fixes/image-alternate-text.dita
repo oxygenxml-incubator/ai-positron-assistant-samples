@@ -6,7 +6,7 @@
     <body>
         <section>
             <title>Image with direct href</title>
-            <p><image href="../Documentation%20Draft/format_and_indent_files.png"></image></p>
+            <p><image href="../Documentation%20Draft/Formant%20and%20Indent%20Sample/format_and_indent_files.png"></image></p>
         </section>
         <section>
             <title>Image with keyref</title>
