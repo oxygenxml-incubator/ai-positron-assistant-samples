@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <title>OIDC Integration Guide</title>
+  
+  <topicref href="overview_and_key_components.dita"/>
+  <topicref href="high_level_system_architecture.dita"/>
+  <topicref href="step_by_step_implementation.dita"/>
+  <topicref href="putting_it_all_together.dita"/>
+  <topicref href="summary_of_api_references.dita"/>
+  <topicref href="additional_tips.dita"/>
+</map>
