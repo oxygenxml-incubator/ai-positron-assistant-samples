@@ -25,6 +25,12 @@
                     <xsl:text><![CDATA[
 </map>]]></xsl:text>
                 </converted>
+                <parsed filename="{@mapFilename}" type="map">
+                    <map xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d)                            (topic abbrev-d)                            (topic delay-d)                            a(props deliveryTarget)                            (map ditavalref-d)                            (map glossref-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " class="- map/map ">
+                        <title class="- topic/title "><xsl:value-of select="@mapTitle"/></title>
+                        <xsl:apply-templates mode="parsed"/>
+                    </map>
+                </parsed>
             </part>
         </xsl:copy>
     </xsl:template>
@@ -40,4 +46,15 @@
         <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="text()"/>
+    
+    
+    <xsl:template match="converted" mode="parsed">
+        <topicref href="{@filename}" class="- map/topicref "/>
+    </xsl:template>
+    
+    <xsl:template match="*" mode="parsed">
+        <xsl:apply-templates mode="parsed"/>
+    </xsl:template>
+    <xsl:template match="text()" mode="parsed"/>
+    
 </xsl:stylesheet>

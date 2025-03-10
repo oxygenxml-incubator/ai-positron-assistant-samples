@@ -11,7 +11,12 @@
         </xsl:variable>
         <xsl:variable name="split" select="ai:invoke-action('com.oxygenxml.ai.positron.action.dita.splitIntoTopicParts', '', $content)"/>
         
-        <xsl:variable name="unwrapCode" select="if (starts-with($split, '```xml')) then substring($split, 7, string-length($split)-10) else $split"/>
+        <xsl:variable name="unwrapCode" select="
+            replace(
+                if (starts-with($split, '```xml')) then substring($split, 7, string-length($split)-10) else
+                (if (starts-with($split, '&lt;think&gt;')) then substring-after($split, '&lt;/think&gt;') else $split),
+                '^\s+|\s+$', '' 
+             )"/>
                 
         <xsl:try>
             <xsl:copy-of select="parse-xml($unwrapCode)"/>
