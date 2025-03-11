@@ -3,7 +3,7 @@
 <topic id="analyze-dita-topic">
     <title>Analyze DITA topic</title>
     <body>
-        <p>${context}</p>
+        <p>${contextInfo}</p>
         <p>Your task is to analyze a DITA topic and determine if it follows the main characteristics
             of DITA topics and propose and execute updates on that topic to make it adhere to DITA
             philosophy. These updates can modify that topic, generate additional topics, update the
