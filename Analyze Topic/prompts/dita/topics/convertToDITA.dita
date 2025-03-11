@@ -3,7 +3,7 @@
 <topic id="convert-to-dita">
     <title>Convert to DITA</title>
     <body>
-        <p>${context}</p>
+        <p>${contextInfo}</p>
         <p>Your task is to analyze given content and to convert it to DITA. Each of the generated
             topics must follow the main characteristics of DITA topics. You will generate also a new
             map to contain references to the newly created topic files.</p>

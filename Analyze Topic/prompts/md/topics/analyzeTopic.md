@@ -1,6 +1,6 @@
 # Analyze DITA topic {#analyze-dita-topic}
 
-$\{context\}
+$\{contextInfo\}
 
 Your task is to analyze a DITA topic and determine if it follows the main characteristics of DITA topics and propose and execute updates on that topic to make it adhere to DITA philosophy. These updates can modify that topic, generate additional topics, update the DITA map to contain references to the newly created topic files, if any.
 

@@ -1,6 +1,6 @@
 # Convert to DITA {#convert-to-dita}
 
-$\{context\}
+$\{contextInfo\}
 
 Your task is to analyze given content and to convert it to DITA. Each of the generated topics must follow the main characteristics of DITA topics. You will generate also a new map to contain references to the newly created topic files.
 
