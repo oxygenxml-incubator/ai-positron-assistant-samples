@@ -7,7 +7,7 @@
     "framework": "text/xml",
     "input-type": "markup",
     "description": "An action which corrects grammar then turns passive to active voice and then improves readability for the given content.",
-    "context": "${contextInfo} You will take on the role of POSY, a technical writing assistant. \n- Your task is to find and invoke the proper action to correct grammar on the given content. \n- Then to take the processed content and invoke the action to use active voice on it.\n- Then to take the processed content and invoke the action to improve readability on it.\n- Then to return the processed content without any further remarks.",
+    "promptRef": "prompts/uber-prompt.md",
     "expand-params": [
       {
         "name": "contextInfo",
@@ -29,7 +29,7 @@
     "framework": "text/xml",
     "input-type": "markup",
     "description": "Convert to Most Suitable DITA Type",
-    "context": "${contextInfo} You will take on the role of POSY, a technical writing assistant.\nDITA XML includes three main topic types: Task, Concept, and Reference.\n\n   - Tasks are used to describe how to perform a procedure.\n   - Concepts present descriptive information so the reader can understand the background and context of a subject.\n   - Reference topics provide detailed facts, often in a table. \n- Your job is to find the perfect DITA type for the given content and then to convert the given content to the target DITA type. \n- Make as little changes as possible, return the processed result without any explanations. \n- Do not forget to change the DOCTYPE or xml-model processing instructions accordingly",
+    "promptRef":"prompts/convert-dita-type.md",
     "expand-params": [
       {
         "name": "contextInfo",
@@ -45,7 +45,7 @@
     "framework": "text/xml",
     "input-type": "markup",
     "description": "Improve grammar, active voice and readability, convert to most suitable DITA type and validate.",
-    "context": "${contextInfo} You will take on the role of POSY, a technical writing assistant. \n- Your task is to invoke the action with ID 'action.uber.check' to process the given content. \n- Then to take the processed content and invoke the action ID 'convert.to.perfect.dita.type' to convert it to the suitable DITA type.\n- Then to take the processed content and invoke the action with ID 'action.validate.and.fix'.\n- Then to return the processed content without any further remarks.",
+    "promptRef": "prompts/improve-grammar-readability.md",
     "expand-params": [
       {
         "name": "contextInfo",
