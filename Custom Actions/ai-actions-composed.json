@@ -7,7 +7,7 @@
     "framework": "text/xml",
     "input-type": "markup",
     "description": "An action which corrects grammar then turns passive to active voice and then improves readability for the given content.",
-    "promptRef": "prompts/uber-prompt.md",
+    "prompt_ref": "prompts/uber-prompt.md",
     "expand-params": [
       {
         "name": "contextInfo",
@@ -29,7 +29,7 @@
     "framework": "text/xml",
     "input-type": "markup",
     "description": "Convert to Most Suitable DITA Type",
-    "promptRef":"prompts/convert-dita-type.md",
+    "prompt_ref":"prompts/convert-dita-type.md",
     "expand-params": [
       {
         "name": "contextInfo",
@@ -45,7 +45,7 @@
     "framework": "text/xml",
     "input-type": "markup",
     "description": "Improve grammar, active voice and readability, convert to most suitable DITA type and validate.",
-    "promptRef": "prompts/improve-grammar-readability.md",
+    "prompt_ref": "prompts/improve-grammar-readability.md",
     "expand-params": [
       {
         "name": "contextInfo",
