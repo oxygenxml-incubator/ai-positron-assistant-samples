@@ -8,7 +8,7 @@
         "input-type": "markup",
         "description": "Analyze DITA topic",
         "context": "${contextInfo}",
-        "promptRef": "analyzeTopic.md",
+        "prompt_ref": "analyzeTopic.md",
         "expand-params": [
             {
                 "name": "contextInfo",
@@ -40,7 +40,7 @@
         "input-type": "markup",
         "description": "Convert content to DITA topics",
         "context": "${contextInfo} ",
-        "promptRef": "convertToDITA.md",
+        "prompt_ref": "convertToDITA.md",
         "expand-params": [
             {
                 "name": "contextInfo",
@@ -72,7 +72,7 @@
         "input-type": "markup",
         "description": "Convert content to DITA topics 2",
         "context": "${contextInfo}",
-        "promptRef": "convertToDITA2.md",
+        "prompt_ref": "convertToDITA2.md",
         "expand-params": [
             {
                 "name": "contextInfo",
@@ -104,7 +104,7 @@
             }
         ],
         "context": "${contextInfo}",
-        "promptRef": "formatTask.md",
+        "prompt_ref": "formatTask.md",
         "parameters": {
             "temperature": 0,
             "function_refs": [
@@ -130,7 +130,7 @@
             }
         ],
         "context": "${contextInfo}",
-        "promptRef": "formatConcept.md",
+        "prompt_ref": "formatConcept.md",
         "parameters": {
             "temperature": 0,
             "function_refs": [
@@ -156,7 +156,7 @@
             }
         ],
         "context": "${contextInfo}",
-        "promptRef": "formatReference.md",
+        "prompt_ref": "formatReference.md",
         "parameters": {
             "temperature": 0,
             "function_refs": [
@@ -182,7 +182,7 @@
             }
         ],
         "context": "${contextInfo}",
-        "promptRef": "formatTroubleshooting.md",
+        "prompt_ref": "formatTroubleshooting.md",
         "parameters": {
             "temperature": 0,
             "function_refs": [
@@ -208,7 +208,7 @@
             }
         ],
         "context": "${contextInfo}",
-        "promptRef": "formatGlossary.md",
+        "prompt_ref": "formatGlossary.md",
         "parameters": {
             "temperature": 0,
             "function_refs": [
