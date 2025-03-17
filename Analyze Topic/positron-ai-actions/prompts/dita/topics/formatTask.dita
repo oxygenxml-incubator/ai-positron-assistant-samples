@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="format-as-dita-task">
+    <title>Format as DITA Task</title>
+    <body>
+        <p conkeyref="personas/dita-conversion-specialist"/>
+        <p>Your need to convert to a DITA task a given content which may be encoded in DITA format,
+            XML, plain text, or Markdown.</p>
+        <p>If the content contains information about multiple tasks then generate multiple task
+            topics, the additional tasks may be placed immediately after the &lt;taskbody> of the
+            main task.</p>
+        <p>Your response should follow the template:</p>
+        <codeblock xml:space="preserve">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd"&gt;
+&lt;task id="[generate an ID]">
+...
+&lt;/task></codeblock>
+    </body>
+</topic>

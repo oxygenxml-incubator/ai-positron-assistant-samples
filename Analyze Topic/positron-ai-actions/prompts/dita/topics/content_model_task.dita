@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="content-model-information">
+    <title>Content model information</title>
+    <body>
+        <p>In the models below "?" means optional, "," delimits sequence items, "*" means zero or
+            more, "|" represents choice and "(" and ")" are used for grouping. Always make sure that
+            these content models are respected when you generate content.</p>
+        <codeblock xml:space="preserve">&lt;task&gt; contains: 
+&lt;title&gt;, &lt;titlealts&gt;?, (&lt;abstract&gt; | &lt;shortdesc&gt;)?, &lt;prolog&gt;?, &lt;taskbody&gt;?, &lt;related-links&gt;?, &lt;task&gt;*
+
+&lt;taskbody&gt; contains: 
+(&lt;context&gt; | &lt;prereq&gt; | &lt;section&gt;)*, (&lt;steps&gt; | &lt;steps-informal&gt; | &lt;steps-unordered&gt;)?, &lt;result&gt;?, &lt;tasktroubleshooting&gt;?, &lt;example&gt;*, &lt;postreq&gt;*
+
+&lt;steps&gt; or &lt;steps-unordered&gt; contain:
+(&lt;data&gt; | &lt;data-about&gt; | &lt;sort-as&gt;)*, &lt;stepsection&gt;?, (&lt;step&gt;)+
+
+&lt;step&gt; contains:
+(&lt;hazardstatement&gt; | &lt;note&gt;)*, &lt;cmd&gt;, (&lt;choices&gt; | &lt;choicetable&gt; | &lt;info&gt; | &lt;itemgroup&gt; | &lt;stepxmp&gt; | &lt;substeps&gt; | &lt;tutorialinfo&gt;)*, &lt;stepresult&gt;?, &lt;steptroubleshooting&gt;?
+
+&lt;substeps&gt; contains:
+(&lt;data&gt; | &lt;data-about&gt; | &lt;sort-as&gt;)*, &lt;substep&gt;+
+
+&lt;substep&gt; contains:
+(&lt;hazardstatement&gt; | &lt;note&gt;)*, &lt;cmd&gt;, (&lt;info&gt; | &lt;itemgroup&gt; | &lt;stepxmp&gt; | &lt;tutorialinfo&gt;)*, &lt;stepresult&gt;?
+
+&lt;choices&gt; contains:
+(&lt;data&gt; | &lt;data-about&gt; | &lt;sort-as&gt;)*, &lt;choice&gt;+
+
+choicetable&gt; contains:
+&lt;chhead&gt;?, &lt;chrow&gt;+
+
+&lt;chhead&gt; contains:
+&lt;choptionhd&gt;, &lt;chdeschd&gt;
+
+&lt;chrow&gt; contains
+&lt;choption&gt;, &lt;chdesc&gt;
+
+&lt;prereq&gt; or &lt;steps-informal&gt; or &lt;result&gt; or &lt;tasktroubleshooting&gt; or &lt;postreq&gt; or &lt;stepsection&gt; or &lt;choice&gt; or &lt;choptionhd&gt; or &lt;chdeschd&gt; or &lt;choption&gt; or &lt;chdesc&gt; or &lt;info&gt; or &lt;cmd&gt; or &lt;itemgroup&gt; or &lt;stepxmp&gt; or &lt;tutorialinfo&gt; or &lt;stepresult&gt; or &lt;steptroubleshooting&gt; contain:
+(text data | &lt;abbreviated-form&gt; | &lt;apiname&gt; | &lt;b&gt; | &lt;boolean&gt; | &lt;cite&gt; | &lt;cmdname&gt; | &lt;codeblock&gt; | &lt;codeph&gt; | &lt;data&gt; | &lt;data-about&gt; | &lt;div&gt; | &lt;dl&gt; | &lt;draft-comment&gt; | &lt;equation-block&gt; | &lt;equation-figure&gt; | &lt;equation-inline&gt; | &lt;fig&gt; | &lt;filepath&gt; | &lt;fn&gt; | &lt;foreign&gt; | &lt;hazardstatement&gt; | &lt;i&gt; | &lt;image&gt; | &lt;imagemap&gt; | &lt;indexterm&gt; | &lt;indextermref&gt; | &lt;keyword&gt; | &lt;line-through&gt; | &lt;lines&gt; | &lt;lq&gt; | &lt;markupname&gt; | &lt;mathml&gt; | &lt;menucascade&gt; | &lt;msgblock&gt; | &lt;msgnum&gt; | &lt;msgph&gt; | &lt;note&gt; | &lt;numcharref&gt; | &lt;object&gt; | &lt;ol&gt; | &lt;option&gt; | &lt;overline&gt; | &lt;p&gt; | &lt;parameterentity&gt; | &lt;parml&gt; | &lt;parmname&gt; | &lt;ph&gt; | &lt;pre&gt; | &lt;q&gt; | &lt;required-cleanup&gt; | &lt;screen&gt; | &lt;sectiondiv&gt; | &lt;simpletable&gt; | &lt;sl&gt; | &lt;sort-as&gt; | &lt;state&gt; | &lt;sub&gt; | &lt;sup&gt; | &lt;svg-container&gt; | &lt;synph&gt; | &lt;syntaxdiagram&gt; | &lt;systemoutput&gt; | &lt;table&gt; | &lt;term&gt; | &lt;text&gt; | &lt;textentity&gt; | &lt;tm&gt; | &lt;tt&gt; | &lt;u&gt; | &lt;uicontrol&gt; | &lt;ul&gt; | &lt;unknown&gt; | &lt;userinput&gt; | &lt;varname&gt; | &lt;wintitle&gt; | &lt;xmlatt&gt; | &lt;xmlelement&gt; | &lt;xmlnsname&gt; | &lt;xmlpi&gt; | &lt;xref&gt;)*
+
+&lt;example&gt; contains:
+(text data | &lt;b&gt; | &lt;boolean&gt; | &lt;cite&gt; | &lt;data&gt; | &lt;data-about&gt; | &lt;div&gt; | &lt;dl&gt; | &lt;draft-comment&gt; | &lt;fig&gt; | &lt;fn&gt; | &lt;foreign&gt; | &lt;hazardstatement&gt; | &lt;i&gt; | &lt;image&gt; | &lt;imagemap&gt; | &lt;indexterm&gt; | &lt;indextermref&gt; | &lt;keyword&gt; | &lt;line-through&gt; | &lt;lines&gt; | &lt;lq&gt; | &lt;note&gt; | &lt;object&gt; | &lt;ol&gt; | &lt;overline&gt; | &lt;p&gt; | &lt;ph&gt; | &lt;pre&gt; | &lt;q&gt; | &lt;required-cleanup&gt; | &lt;simpletable&gt; | &lt;sl&gt; | &lt;sort-as&gt; | &lt;state&gt; | &lt;sub&gt; | &lt;sup&gt; | &lt;table&gt; | &lt;term&gt; | &lt;text&gt; | &lt;title&gt; | &lt;tm&gt; | &lt;tt&gt; | &lt;u&gt; | &lt;ul&gt; | &lt;unknown&gt; | &lt;xref&gt;)*</codeblock>
+    </body>
+</topic>

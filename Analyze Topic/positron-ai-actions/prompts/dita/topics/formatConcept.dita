@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="format-as-dita-concept">
+    <title>Format as DITA Concept</title>
+    <body>
+        <p conkeyref="personas/dita-conversion-specialist"/>
+        <p>Your need to convert to a DITA concept a given content which may be encoded in DITA
+            format, XML, plain text, or Markdown.</p>
+        <p>If the content contains information about multiple concepts then generate multiple
+            concept topics, the additional concepts may be placed immediately after the &lt;conbody>
+            of the main concept.</p>
+        <p>Your response should follow the template:</p>
+        <codeblock xml:space="preserve">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="[generate an ID]">
+...
+&lt;/concept></codeblock>
+    </body>
+</topic>

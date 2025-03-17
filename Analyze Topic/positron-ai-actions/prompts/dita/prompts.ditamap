@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Prompts</title>
+    <topicref href="topics/analyzeTopic.dita" format="dita" chunk="to-content">
+        <topicref href="topics/analyze_what_you_need_to_do.dita" format="dita"/>
+        <topicref href="topics/general_instructions.dita" format="dita"/>
+        <topicref href="topics/information_about_dita_topic_types.dita" format="dita"/>
+        <topicref href="topics/bestPracticeTips.dita"/>
+        <topicref href="topics/tool_information.dita" format="dita"/>
+        <topicref href="topics/followingContent.dita" format="dita"/>
+    </topicref>
+    <topicref href="topics/convertToDITA.dita" format="dita" chunk="to-content">
+        <topicref href="topics/information_about_dita_topic_types.dita" format="dita"/>
+        <topicref href="topics/convert_what_you_need_to_do.dita" format="dita"/>
+        <topicref href="topics/tool_information.dita" format="dita"/>
+        <topicref href="topics/followingContent.dita" format="dita"/>
+    </topicref>
+    <topicref href="topics/convertToDITA2.dita" format="dita" chunk="to-content">
+        <topicref href="topics/information_about_dita_topic_types.dita" format="dita"/>
+        <topicref href="topics/tool_information.dita" format="dita"/>
+        <topicref href="topics/followingContent.dita" format="dita"/>
+    </topicref>
+    <topicref href="topics/formatConcept.dita" format="dita" chunk="to-content">
+        <topicref href="topics/tips_concept.dita" format="dita"/>
+        <topicref href="topics/information_about_dita_concept_topic_types.dita" format="dita"/>
+        <topicref href="topics/content_model_concept.dita" format="dita"/>
+        <topicref href="topics/followingContent.dita" format="dita"/>
+    </topicref>
+    <topicref href="topics/formatGlossary.dita" format="dita" chunk="to-content">
+        <topicref href="topics/tips_glossary.dita" format="dita"/>
+        <topicref href="topics/information_about_dita_glossary_topic_types.dita" format="dita"/>
+        <topicref href="topics/content_model_glossary.dita" format="dita"/>
+        <topicref href="topics/example_glossary.dita" format="dita"/>
+        <topicref href="topics/followingContent.dita" format="dita"/>
+    </topicref>
+    <topicref href="topics/formatReference.dita" format="dita" chunk="to-content">
+        <topicref href="topics/tips_reference.dita" format="dita"/>
+        <topicref href="topics/information_about_dita_reference_topic_types.dita" format="dita"/>
+        <topicref href="topics/content_model_reference.dita" format="dita"/>
+        <topicref href="topics/followingContent.dita" format="dita"/>
+    </topicref>
+    <topicref href="topics/formatTask.dita" format="dita" chunk="to-content">
+        <topicref href="topics/tips_task.dita" format="dita"/>
+        <topicref href="topics/information_about_dita_task_topic_types.dita" format="dita"/>
+        <topicref href="topics/content_model_task.dita" format="dita"/>
+        <topicref href="topics/followingContent.dita" format="dita"/>
+    </topicref>
+    <topicref href="topics/formatTroubleshooting.dita" format="dita" chunk="to-content">
+        <topicref href="topics/tips_troubleshooting.dita" format="dita"/>
+        <topicref href="topics/information_about_dita_troubleshooting_topic_types.dita"
+            format="dita"/>
+        <topicref href="topics/content_model_troubleshooting.dita" format="dita"/>
+        <topicref href="topics/followingContent.dita" format="dita"/>
+    </topicref>
+    <topicgroup processing-role="resource-only">
+        <topicref href="components/general_tips.dita" keys="tips"/>
+        <topicref href="components/personas.dita" keys="personas"/>
+    </topicgroup>
+</map>

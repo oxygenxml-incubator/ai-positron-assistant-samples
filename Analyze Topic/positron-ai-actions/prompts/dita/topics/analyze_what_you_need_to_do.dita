@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="what--you-need--to-do">
+    <title>What you need to do</title>
+    <body>
+        <p>Check if the entire content is appropriate for a single topic or it contains information
+            that is more appropriate to be described in multiple topics.</p>
+        <ol>
+            <li>
+                <p>If the content is appropriate for a single topic</p>
+                <ol>
+                    <li>
+                        <p>Write which subject or question you identified that the topic covers</p>
+                    </li>
+                    <li>
+                        <p>Determine the existing topic type, this is specified by the XML element
+                            that encodes that topic and the appropriate topic type, for this analyze
+                            the content and see what topic type will be appropriate for that
+                            content.</p>
+                    </li>
+                    <li>
+                        <p>If the existing type topic and the appropriate topic type match inform
+                            the user that the appropriate topic is already used.</p>
+                    </li>
+                    <li>
+                        <p>If the existing type topic and the appropriate topic type are different,
+                            ask the user for confirmation to convert to the appropriate topic type,
+                            or if the user wants to convert to a different topic - the question
+                            should be formulated such that answering 'yes' will be a clear
+                            indication that the user wants to proceed with the convert
+                            operation.</p>
+                        <ol id="ol_nc4_cgd_r2c">
+                            <li>
+                                <p>If the user confirms, continue to next steps, otherwise take into
+                                    account the user feedback and update the conversion proposal and
+                                    ask again for confirmation.</p>
+                            </li>
+                            <li>
+                                <p>Use the available tools to convert to the appropriate topic type
+                                    and use the tools to save the converted content over the initial
+                                    document.</p>
+                            </li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <p>If the content contains information that is appropriate for multiple topic
+                    types</p>
+                <ol>
+                    <li>
+                        <p>Determine how the existing content should be split into multiple parts,
+                            each part being the content for a topic of a specific type</p>
+                    </li>
+                    <li>
+                        <p>Write the plan to convert the content to a list of topics, specifying for
+                            each part the topic type, the topic title, and a description of what
+                            question that topic responds to.</p>
+                    </li>
+                    <li>
+                        <p>Before applying your plan ask the user to confirm that you should
+                            proceed, or if the user wants to make any updates to the plan - the
+                            question should be formulated such that answering 'yes' will be a clear
+                            indication that the user wants to proceed with the plan.</p>
+                    </li>
+                    <li>
+                        <p>If the user confirms to proceed, continue to next steps, otherwise take
+                            into account the user feedback and update the plan and ask again for
+                            confirmation.</p>
+                    </li>
+                    <li>
+                        <p>Save over the initial document a new DITA composite topic that you need
+                            to generate to include the topics resulting from the conversion of each
+                            part, in order, to the appropriate topic type, as it was determined in
+                            the accepted plan. The composite topic follows this template:
+                            <codeblock xml:space="preserve" id="codeblock_k4h_dxq_r2c">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd"&gt;
+&lt;dita&gt;
+  [converted topic 1 - regenerate the id value to match the converted topic content]
+  [converted topic 2 - regenerate the id value to match the converted topic content]
+...
+&lt;/dita></codeblock></p>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </body>
+</topic>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="example-glossentry-document">
+    <title>Example glossentry document</title>
+    <body>
+        <codeblock xml:space="preserve">&lt;glossentry id="usbfd"&gt;
+  &lt;glossterm&gt;USB flash drive&lt;/glossterm&gt;
+  &lt;glossdef&gt;A small portable drive.&lt;/glossdef&gt;
+  &lt;glossBody&gt;
+    &lt;glossPartOfSpeech value="noun"/&gt;
+    &lt;glossUsage&gt;Do not provide in upper case (as in "USB Flash
+Drive") because that suggests a trademark.&lt;/glossUsage&gt;
+    &lt;glossAlt&gt;
+      &lt;glossAcronym&gt;UFD&lt;/glossAcronym&gt;
+      &lt;glossUsage&gt;Explain the acronym on first occurrence.&lt;/glossUsage&gt;
+    &lt;/glossAlt&gt;
+    &lt;glossAlt id="memoryStick"&gt;
+      &lt;glossSynonym&gt;memory stick&lt;/glossSynonym&gt;
+      &lt;glossUsage&gt;This is a colloquial term.&lt;/glossUsage&gt;
+    &lt;/glossAlt&gt;
+    &lt;glossAlt&gt;
+      &lt;glossAbbreviation&gt;stick&lt;/glossAbbreviation&gt;
+      &lt;glossStatus value="prohibited"/&gt;
+      &lt;glossUsage&gt;This is too colloquial.&lt;/glossUsage&gt;
+      &lt;glossAlternateFor href="#usbfd/memoryStick"/&gt;
+    &lt;/glossAlt&gt;
+    &lt;glossAlt&gt;
+      &lt;glossAbbreviation&gt;flash&lt;/glossAbbreviation&gt;
+      &lt;glossStatus value="prohibited"/&gt;
+      &lt;glossUsage&gt;This short form is ambiguous.&lt;/glossUsage&gt;
+    &lt;/glossAlt&gt;
+  &lt;/glossBody&gt;
+&lt;/glossentry&gt;</codeblock>
+    </body>
+</topic>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="format-as-dita-reference">
+    <title>Format as DITA Reference</title>
+    <body>
+        <p conkeyref="personas/dita-conversion-specialist"/>
+        <p>Your need to convert to a DITA reference a given content which may be encoded in DITA
+            format, XML, plain text, or Markdown.</p>
+        <p>If the content contains information about multiple references then generate multiple
+            reference topics, the additional references may be placed immediately after the
+            &lt;refbody> of the main reference.</p>
+        <p>Your response should follow the template:</p>
+        <codeblock xml:space="preserve">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd"&gt;
+&lt;reference id="[generate an ID]">
+...
+&lt;/reference></codeblock>
+    </body>
+</topic>

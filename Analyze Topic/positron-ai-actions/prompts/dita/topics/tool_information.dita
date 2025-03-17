@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="tool-information">
+    <title>Tool information</title>
+    <body>
+        <p>To convert content to DITA task use the "invoke_ai_action" tool with the actionId
+            parameter "com.oxygenxml.ai.positron.action.dita.formatTask".</p>
+        <p>To convert content to DITA concept use the "invoke_ai_action" tool with the actionId
+            parameter "com.oxygenxml.ai.positron.action.dita.formatConcept".</p>
+        <p>To convert content to DITA reference use the "invoke_ai_action" tool with the actionId
+            parameter "com.oxygenxml.ai.positron.action.dita.formatReference".</p>
+        <p>To convert content to DITA troubleshooting use the "invoke_ai_action" tool with the
+            actionId parameter "com.oxygenxml.ai.positron.action.dita.formatTroubleshooting".</p>
+        <p>To convert content to DITA glossentry or glssgroup use the "invoke_ai_action" tool with
+            the actionId parameter "com.oxygenxml.ai.positron.action.dita.formatGlossay".</p>
+        <p>To convert to any other topic type, such as generic topic, do it yourself.</p>
+        <p>Use the "save_document" function to save a file.</p>
+    </body>
+</topic>

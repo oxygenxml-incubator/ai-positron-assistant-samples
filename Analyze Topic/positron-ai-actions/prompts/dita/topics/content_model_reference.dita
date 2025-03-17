@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="content-model-information">
+    <title>Content model information</title>
+    <body>
+        <p>In the models below "?" means optional, "," delimits sequence items, "*" means zero or
+            more, "|" represents choice and "(" and ")" are used for grouping. Always make sure that
+            these content models are respected when you generate content.</p>
+        <codeblock xml:space="preserve">&lt;reference&gt; contains: 
+&lt;title&gt;, &lt;titlealts&gt;?, (&lt;abstract&gt; | &lt;shortdesc&gt;)?, &lt;prolog&gt;?, &lt;refbody&gt;?, &lt;related-links&gt;?, (&lt;concept&gt; | &lt;glossentry&gt; | &lt;glossgroup&gt; | &lt;reference&gt; | &lt;task&gt; | &lt;topic&gt; | &lt;troubleshooting&gt;)*
+
+
+&lt;refbody&gt; contains: 
+(&lt;data&gt; | &lt;data-about&gt; | &lt;example&gt; | &lt;foreign&gt; | &lt;mathml&gt; | &lt;properties&gt; | &lt;refbodydiv&gt; | &lt;refsyn&gt; | &lt;section&gt; | &lt;simpletable&gt; | &lt;sort-as&gt; | &lt;svg-container&gt; | &lt;table&gt; | &lt;unknown&gt;)*
+
+&lt;refbodydiv&gt; contains:
+(&lt;data&gt; | &lt;data-about&gt; | &lt;example&gt; | &lt;foreign&gt; | &lt;mathml&gt; | &lt;properties&gt; | &lt;refbodydiv&gt; | &lt;refsyn&gt; | &lt;section&gt; | &lt;simpletable&gt; | &lt;sort-as&gt; | &lt;svg-container&gt; | &lt;table&gt; | &lt;unknown&gt;)*
+
+&lt;properties&gt; contains:
+&lt;prophead&gt;?, &lt;property&gt;+
+
+&lt;prophead&gt; contains:
+&lt;proptypehd&gt;?, &lt;propvaluehd&gt;?, &lt;propdeschd&gt;?
+
+&lt;property&gt; contains:
+&lt;proptype&gt;?, &lt;propvalue&gt;?, &lt;propdesc&gt;?
+
+&lt;refsyn&gt; or &lt;example&gt; contain:
+(text data | &lt;abbreviated-form&gt; | &lt;apiname&gt; | &lt;b&gt; | &lt;boolean&gt; | &lt;cite&gt; | &lt;cmdname&gt; | &lt;codeblock&gt; | &lt;codeph&gt; | &lt;data&gt; | &lt;data-about&gt; | &lt;div&gt; | &lt;dl&gt; | &lt;draft-comment&gt; | &lt;equation-block&gt; | &lt;equation-figure&gt; | &lt;equation-inline&gt; | &lt;fig&gt; | &lt;filepath&gt; | &lt;fn&gt; | &lt;foreign&gt; | &lt;hazardstatement&gt; | &lt;i&gt; | &lt;image&gt; | &lt;imagemap&gt; | &lt;indexterm&gt; | &lt;indextermref&gt; | &lt;keyword&gt; | &lt;line-through&gt; | &lt;lines&gt; | &lt;lq&gt; | &lt;markupname&gt; | &lt;mathml&gt; | &lt;menucascade&gt; | &lt;msgblock&gt; | &lt;msgnum&gt; | &lt;msgph&gt; | &lt;note&gt; | &lt;numcharref&gt; | &lt;object&gt; | &lt;ol&gt; | &lt;option&gt; | &lt;overline&gt; | &lt;p&gt; | &lt;parameterentity&gt; | &lt;parml&gt; | &lt;parmname&gt; | &lt;ph&gt; | &lt;pre&gt; | &lt;q&gt; | &lt;required-cleanup&gt; | &lt;screen&gt; | &lt;sectiondiv&gt; | &lt;simpletable&gt; | &lt;sl&gt; | &lt;sort-as&gt; | &lt;state&gt; | &lt;sub&gt; | &lt;sup&gt; | &lt;svg-container&gt; | &lt;synph&gt; | &lt;syntaxdiagram&gt; | &lt;systemoutput&gt; | &lt;table&gt; | &lt;term&gt; | &lt;text&gt; | &lt;textentity&gt; | &lt;title&gt; | &lt;tm&gt; | &lt;tt&gt; | &lt;u&gt; | &lt;uicontrol&gt; | &lt;ul&gt; | &lt;unknown&gt; | &lt;userinput&gt; | &lt;varname&gt; | &lt;wintitle&gt; | &lt;xmlatt&gt; | &lt;xmlelement&gt; | &lt;xmlnsname&gt; | &lt;xmlpi&gt; | &lt;xref&gt;)*</codeblock>
+    </body>
+</topic>

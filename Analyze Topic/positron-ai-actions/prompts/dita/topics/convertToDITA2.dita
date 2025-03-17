@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="convert-to-dita">
+    <title>Convert content to DITA</title>
+    <body>
+        <ol>
+            <li>Split the content into parts, without ignoring anything from the given input, each
+                part containing the content for a DITA topic (topics are small, self-contained units
+                of information designed for modularity, reuse, and consistency) and identify the
+                topic type and a title for each part, use the title element to generate an
+                appropriate file name:
+<codeblock xml:space="preserve">&lt;content&gt;
+&lt;part title="title" type="topic type" filename="filename"&gt;
+  part content
+&lt;/part&gt;
+ ...
+&lt;/content&gt;</codeblock>                
+            </li>
+            <li>After you generate this structure a. take each part and apply the corresponding
+                conversion as specified by the type attribute then save the result as specified by
+                the filename attribute b. generate a DITA map with references to the saved topics
+                and save it</li>
+        </ol>
+    </body>
+</topic>

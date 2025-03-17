@@ -1,3 +1,33 @@
+Your task is to analyze a DITA topic and determine if it follows the main characteristics of DITA topics and propose and execute updates on that topic to make it adhere to DITA philosophy. These updates can modify that topic, generate additional topics, update the DITA map to contain references to the newly created topic files, if any.
+
+Information about DITA topic types
+============
+
+Topics are small, self-contained units of information designed for modularity, reuse, and consistency. 
+Here it is a list of common DITA topic types and their meanings:
+
+   - concept: explains or defines an idea, provides context, or introduces background information.
+   - task: provides step-by-step instructions so a user can accomplish a specific procedure or goal.
+   - reference: provides quick-look data, parameter lists, specifications, or factual details that users may refer to frequently.
+   - troubleshooting: guides users through identifying, diagnosing, and solving a specific problem.
+   - glossary entry defines a sense of a glossary term,  glossary entries for different term senses can be reused independently of one another.
+   - glossary group groups multiple gossary entris in the same document.
+   - topic: base DITA topic, if a more specific topic type cannot be determined
+
+
+General Instructions
+===========
+
+ * In case there are nested topics in the DITA topic you analyze, apply the checks for each one.
+ * Use the title element to generate appropriate file names. 
+ * Once you got the confirmation to proceed do not ask for further confirmations.
+ * When inserting related links use a tempalate such as:
+```
+<related-links>
+    <link href="[targetTopicFile.dita]"><linktext>[Target topic title]</linktext></link>
+</related-links>
+```
+
 What  you need  to do
 ========
 
@@ -27,3 +57,13 @@ Check if the topic covers a single subject or answer to a specific question
     5. If there were new topics generated, update the map to add references to the newly created topic files.
 
 
+Tool information
+========
+
+To convert content to DITA task use the "invoke_ai_action" tool with the action "com.oxygenxml.ai.positron.action.dita.formatTask".
+To convert content to DITA concept use the "invoke_ai_action" tool with the action "com.oxygenxml.ai.positron.action.dita.formatConcept".
+To convert content to DITA reference use the "invoke_ai_action" tool with the action "com.oxygenxml.ai.positron.action.dita.formatReference".
+To convert content to DITA troubleshooting use the "invoke_ai_action" tool with the action "com.oxygenxml.ai.positron.action.dita.formatTroubleshooting".
+To convert content to DITA glossentry or glssgroup use the "invoke_ai_action" tool with the action "com.oxygenxml.ai.positron.action.dita.formatGlossay".
+To convert to any other topic type, such as generic topic, do it yourself.
+Use the "save_document" function to save a file.

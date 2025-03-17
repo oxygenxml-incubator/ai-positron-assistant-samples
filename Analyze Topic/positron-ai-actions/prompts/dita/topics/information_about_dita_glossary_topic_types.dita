@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="information-about-dita-glossentry-and-glossgroup">
+    <title>Information about DITA glossentry and glossgroup</title>
+    <body>
+        <p>The <codeph>&lt;glossentry&gt;</codeph> element defines a single sense of a glossary
+            term. Glossary entries for different term senses can be reused independently of one
+            another.</p>
+        <p>The <codeph>&lt;glossterm&gt;</codeph> element specifies the preferred term that is
+            associated with a definition of a sense. If the same term has multiple senses, create a
+            separate <codeph>&lt;glossentry&gt;</codeph> topic for each sense.</p>
+        <p>The <codeph>&lt;glossdef&gt;</codeph> element specifies the definition of one sense of a
+            term. If a term has multiple senses, create a separate `&lt;glossentry&gt;` topic to
+            define each sense.</p>
+        <p>The <codeph>&lt;glossAbbreviation&gt;</codeph> element provides an abbreviated form of the term that is
+            contained in a <codeph>&lt;glossterm&gt;</codeph> element.</p>
+        <p>The <codeph>&lt;glossAcronym&gt;</codeph> element defines an acronym for the term that is defined in The
+            <codeph>&lt;glossterm&gt;</codeph> element.</p>
+        <p>The <codeph>&lt;glossAlt&gt;</codeph> element contains a variant term for the preferred term. The
+            variant should have the same meaning as the term in The <codeph>&lt;glossterm&gt;</codeph> element; the
+            variant is simply another way to refer to the same term. There might be many ways to
+            refer to a term; each variant is placed in its own <codeph>&lt;glossAlt&gt;</codeph> element. The
+            <codeph>&lt;glossUsage&gt;</codeph> element can be used within <codeph>&lt;glossAlt&gt;</codeph> to indicate when use
+            of the alternate term is appropriate.</p>
+        <p>The <codeph>&lt;glossAlternateFor&gt;</codeph> element indicates when a variant term has a relationship
+            to another variant term in addition to the preferred term.</p>
+        <p>The <codeph>&lt;glossBody&gt;</codeph> element is used to provide details about a glossary term (such as
+            part of speech or additional forms of the term).</p>
+        <p>The <codeph>&lt;glossPartOfSpeech&gt;</codeph> element identifies the part of speech for the preferred
+            and alternate terms. Alternate terms must have the same part of speech as the preferred
+            term, because all terms in The <codeph>&lt;glossentry&gt;</codeph> topic designate the same
+            subject.</p>
+        <p>The <codeph>&lt;glossProperty&gt;</codeph> element is a specialization of The <codeph>&lt;data&gt;</codeph> element.
+            You can use it to specify additional details about the preferred term or its subject,
+            for example, the gender of a noun.</p>
+        <p>The <codeph>&lt;glossScopeNote&gt;</codeph> element contains a clarification of the subject that is
+            designated by The <codeph>&lt;glossterm&gt;</codeph>, such as examples of included or excluded companies
+            or products. For instance, a scope note for "Linux" might explain that the term doe not
+            apply to UNIX products; it might give examples of Linux products that are included as
+            well as UNIX products that are excluded. </p>
+        <p>The <codeph>&lt;glossShortForm&gt;</codeph> element provides a shorter alternative to the primary term
+            that is specified in The <codeph>&lt;glossterm&gt;</codeph> element. </p>
+        <p>The <codeph>&lt;glossStatus&gt;</codeph> element identifies the usage status of a preferred or alternate
+            term. If the status isn't specified, The <codeph>&lt;glossterm&gt;</codeph> provides a preferred term
+            and an alternate term provides an allowed term.</p>
+        <p>The <codeph>&lt;glossSurfaceForm&gt;</codeph> element specifies an unambiguous presentation of The
+            <codeph>&lt;glossterm&gt;</codeph> that might combine multiple forms. The surface form is suitable to
+            introduce the term in new contexts.</p>
+        <p>The <codeph>&lt;glossSymbol&gt;</codeph> element identifies a standard image that is associated with the
+            subject of The <codeph>&lt;glossterm&gt;</codeph> element.</p>
+        <p>The <codeph>&lt;glossSynonym&gt;</codeph> element provides a term that is a synonym of the primary value
+            in The <codeph>&lt;glossterm&gt;</codeph> element.</p>
+        <p>The <codeph>&lt;glossUsage&gt;</codeph> element provides information about the correct use of a term,
+            such as where or how it can be used.</p>
+        <p>The <codeph>&lt;abbreviated-form&gt;</codeph> element represents a reference to a term that might appear
+            in an abbreviated form (often an acronym). The long and short forms of the term are
+            generally defined in a <codeph>&lt;glossentry&gt;</codeph> topic. Processors display the referenced
+            term when rendering an <codeph>&lt;abbreviated-form&gt;</codeph> element.</p>
+        <p>The <codeph>&lt;glossref&gt;</codeph> element is a convenience element in maps for creating a reference
+            to a glossary topic. It has a required @keys attribute, which forces the author to
+            create a key by which inline terms can reference their definition. For example, when
+            <codeph>&lt;glossentry&gt;</codeph> topics are used to define acronyms, this reminds authors to create
+            a key which <codeph>&lt;abbreviated-form&gt;</codeph> elements can use to reference the short and
+            expanded versions of that acronym.</p>
+        <p>The <codeph>&lt;glossgroup&gt;</codeph> is a specialized topic that can contain multiple
+                <codeph>&lt;glossentry&gt;</codeph> topics within a single document.</p>
+    </body>
+</topic>

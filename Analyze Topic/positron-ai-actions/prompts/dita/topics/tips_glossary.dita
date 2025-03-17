@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="tips">
+    <title>Tips</title>
+    <body>
+        <ul id="ul_gcc_bzp_r2c" conkeyref="tips/ai">
+            <li/>
+        </ul>
+        <ul conkeyref="tips/xml" id="ul_kpj_dzp_r2c">
+            <li/>
+        </ul>
+        <ul conkeyref="tips/dita" id="ul_xmm_dzp_r2c">
+            <li/>
+        </ul>
+        <ul id="ul_bch_gjm_r2c">
+            <li>
+                <p>Generate id attribute for the &lt;glossgroup> or &lt;glossentry> elements.</p>
+            </li>
+        </ul>
+    </body>
+</topic>
