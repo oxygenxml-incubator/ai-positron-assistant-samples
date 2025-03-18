@@ -1,18 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="oidc-authentication-sequence">
-    <title>OIDC Authentication Sequence</title>
-    <shortdesc>This concept describes the sequence of steps involved in authenticating a user using OpenID Connect (OIDC) in Web Author.</shortdesc>
-    <conbody>
-        <p>The overall sequence for authenticating a user with OIDC in Web Author is as follows:</p>
-        <ol>
-            <li><b>User clicks</b> Sign in with OIDC.</li>
-            <li><b>Web Author</b> calls <codeph>OidcAuthenticationProvider.prepareAuthenticationRedirect(...)</codeph>.</li>
-            <li><b>Provider</b> returns the OIDC <codeph>authorize</codeph> endpoint.</li>
-            <li><b>User</b> logs into the IdP, which then <b>redirects</b> to your plugins <codeph>/my-oidc</codeph> callback.</li>
-            <li><b><codeph>OidcCallbackServlet</codeph></b> verifies the request, exchanges the code for tokens, identifies the user, and calls <codeph>authenticateApplicationUser(...)</codeph> on the <codeph>ApplicationUserStore</codeph>.</li>
-            <li><b>User</b> is now recognized by Web Author as authenticated with a user identity from OIDC.</li>
-        </ol>
-        <p>At this point, any standard Web Author features that rely on the current user will see your users name/email.</p>
-    </conbody>
-</concept>
