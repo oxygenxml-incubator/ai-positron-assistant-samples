@@ -1,8 +1,8 @@
 {
-    "id": "action.validate.and.fix.line.changes",
+    "id": "action.validate.and.fix.line.changes2",
     "categoryId": "Line Changes",
     "type": "replace-selection-with-fragment",
-    "title": "Fix Validation Problems (Line Changes)",
+    "title": "Fix Validation Problems (Line Changes 2)",
     "description": "Validate the content of the current document and fix any reported validation issues.",
     "input-type": "markup",
     "expand-params": [
@@ -25,5 +25,5 @@
       "input_content": "document",
       "input_flavor": "line_numbers"
     },
-    "prompt_ref": "prompts/action_validate_and_fix.markdown"
+    "prompt_ref": "prompts/action_validate_and_fix_2.markdown"
   }
