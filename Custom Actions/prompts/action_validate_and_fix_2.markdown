@@ -27,7 +27,7 @@ A replace operation to be made to a topic's lines:
 # Important Requirements:
 
 1. Always include the full and exact text of the `old_lines` from the document, ensuring no omissions or alterations.
-2. Ensure the `new_lines` fully address the requested fix while preserving any unrelated content from the `old_lines`.
+2. Ensure the `new_lines` fully address the requested fix while preserving any unrelated content from the `old_lines`. Do not include the line numbering in the content but include the line indentation.
 3. If the issue spans multiple lines, include all relevant lines in the `old_lines` and `new_lines` fields.
 
 
