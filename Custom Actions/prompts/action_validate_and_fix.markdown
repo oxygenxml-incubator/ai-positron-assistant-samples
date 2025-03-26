@@ -14,5 +14,5 @@ Your task is to validate the given content of type ${contentType} and fix the re
 # Important
 - The given content has line numbers for convenience.
 - Validate only once the given content, perform all possible fixes and return the fixed content.
-- Each 'text' property in the returned JSON array must contain exactly the original content for the specific line without the line number and with the changes applied to it.
+- Each 'text' property in the returned JSON array must contain exactly the original content for the specific line. Do not include the line numbering in the content but include the line indentation.
 - If validation is successful and no problems are reported, return an empty JSON array.
