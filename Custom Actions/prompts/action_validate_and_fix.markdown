@@ -7,12 +7,32 @@ ${contextInfo}
 Your task is to validate the given content of type ${contentType} and fix the received validation problems.
 
 # Steps:
-1. Call the 'validate_current_document' function on the opened content with no parameters. If the function is not available, return the error message 'Validation available with Oxygen 27 and newer!'.
-2. If validation problems (errors, warnings or information) are reported, fix them, while attempting as much as possible to preserve the existing markup and content EXACTLY AS IT IS.
-3. Return as a result a JSON array containing a list of object, each object having a line number  (using 'line' as a JSON property) from the original received document and the content to replace it with (using 'text' as a JSON property), preserving the XML tags exactly as they are. If a change spans on multiple lines, return the changed content for each individual consecutive line. If a line must be deleted, use null as the replacement text.
+Call the 'validate_current_document' function. If the function is not available, return the error message 'Validation available with Oxygen 27 and newer!'.
+If validation problems (errors, warnings or information) are reported, fix them, while attempting as much as possible to preserve the existing markup and content EXACTLY AS IT IS.
+Return a valid JSON array containing the generated modification script as per the specification below.
+
+You will receive an XML document containing line numbered content.
+
+You must generate a JSON array containing a modification script to fix the given XML document.
+
+# SCRIPT
+
+A replace operation to be made to a topic's lines:
+
+`line_start`: The line number which identifies the start of the range of text to be replaced. Inclusive. Indexed in 1.
+`line_end`: The EXCLUSIVE line number which identifies the end of the range of text to be replaced. Exclusive. Indexed in 1.
+`new_lines`: The new lines of content to replace the old lines of content identified by the range. Use empty for deletion.
+`old_lines`: The old lines of content to be replaced. Ensure this matches the exact text from the document.
+
+# Important Requirements:
+
+1. Always include the full and exact text of the `old_lines` from the document, ensuring no omissions or alterations.
+2. Ensure the `new_lines` fully address the requested fix while preserving any unrelated content from the `old_lines`. Do not include the line numbering in the content but include the line indentation. Do not include 
+3. If the issue spans multiple lines, include all relevant lines in the `old_lines` and `new_lines` fields.
+
 
 # Important
-- The given content has line numbers for convenience.
 - Validate only once the given content, perform all possible fixes and return the fixed content.
-- Each 'text' property in the returned JSON array must contain exactly the original content for the specific line. Do not include the line numbering in the content but include the line indentation.
 - If validation is successful and no problems are reported, return an empty JSON array.
+- Do not wrap the returned JSON array inside a Mardkwon codeblock.
+- Do not return additional explanations
