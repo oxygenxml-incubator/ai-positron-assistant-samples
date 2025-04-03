@@ -8,9 +8,7 @@
       management tasks such as inserting, deleting, or renaming attributes in all instances of a
       particular element. The tool is presented as a wizard with multiple pages, including options
       to configure operation parameters and select the scope and filters for the operation. Users
-      can preview the changes before applying them, but there is no automatic way to revert the
-      operations once they are finished. Additionally, the tool cannot preserve CDATA sections in
-      the XML documents.</draft-summary>
+      can preview the changes before applying them.</draft-summary>
     <instruction>Add each image in the documentation and present the flow of the operation as
       suggested by these images. Add them in the correct order of the steps. You should document
       each UI element shown in the images.</instruction>
@@ -22,6 +20,8 @@
     <instruction>Also add an important note about the fact that the operation results can be previewed,
     and add the following image as an example, with the caption "Isn't it cool?".</instruction>
     <image href="img/xmlrefactoring_preview.png"/>
+    <instruction>Towards the end of the generated content, also add a section about this feature's limitations, as seen in the content of the following file:</instruction>
+    <file href="notes_from_devs.docx"/>
   </instructions>
   <relationship-context>
     <similar-topic href="similar-converting-between-schema-languages.dita"/>
