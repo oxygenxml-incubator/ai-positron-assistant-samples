@@ -1,0 +1,11 @@
+{
+    "id": "find.add.related.links",
+    "title": "Find and add related links",
+    "categoryId": "Rewrite",
+    "type": "replace-selection-with-fragment",
+    "input-type": "markup",
+    "prompt_ref": "prompts/add-related-links.md",
+    "additional_info": {
+        "input_content": "document"
+    }
+}
