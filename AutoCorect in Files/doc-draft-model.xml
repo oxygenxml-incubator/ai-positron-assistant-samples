@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc-draft>
+  <title>Documentation Draft Configuration File</title>
+  <instructions>
+    <draft-summary>We have a new action in our product called "AutoCorrect...", found in the contextual menu of the Project Explorer and of the DITA Maps Manager. This does exactly when the AutoCorrect would normally do, but in a collection of files.</draft-summary>
+    <image href="autocorrect_in_files.png"/>
+    <instruction>You must consider the following file's content for more context about how AutoCorrect works. Give brief explanations about how AutoCorrect works at the beginning of the document and include the info about the DITA Maps Manager at the end.</instruction>
+    <file href="autocorrect-in-files-context.docx"/>
+  </instructions>
+  <relationship-context>
+    <similar-topic href="similar.dita"/>
+  </relationship-context>
+</doc-draft>
