@@ -11,25 +11,16 @@
             </menucascade> category to ask the <b>AI Positron</b> to create a new DITA topic
             containing content expanded by the <b>AI</b> based on an initial idea expressed in plain
             text format.</p>
-        <p>Examples (paste the content from each code block below in the <uicontrol>New DITA
-                Topic</uicontrol> prompt dialog):</p>
+        <p>The <uicontrol>New DITA Topic</uicontrol> prompt dialog allows attaching images, PDF,
+            Word or PowerPoint documents. There are some sample documents in: <xref
+                href="https://github.com/oxygenxml-incubator/ai-positron-assistant-samples/tree/main/Convert"
+                format="html" scope="external"/>.</p>
         <dl>
             <dlentry>
-                <dt>Create a DITA XML topic for installing a fictional application</dt>
+                <dt>Create a DITA XML topic from a PDF document</dt>
                 <dd>
                     <p>
-                        <codeblock id="codeblock_nsk_ndw_11c">Installing an application named Emerald on Mac OS using the DMG installer.</codeblock>
-                    </p>
-                </dd>
-            </dlentry>
-            <dlentry>
-                <dt>Create a DITA XML topic based on a short description</dt>
-                <dd>
-                    <p>
-                        <codeblock id="codeblock_t2y_khb_b1c">Create an "Installation" DITA topic with 2 sections: "System requirements" and "Installation steps". 
-Provide some minimum and recommended values for the system requirements. 
-Use a 3-column table for the system resources, the columns being called Resource, 
-Minimum and Recommended. </codeblock>
+                        <codeblock id="codeblock_nsk_ndw_11c">Create a valid DITA XML topic from the following content. </codeblock>
                     </p>
                 </dd>
             </dlentry>
