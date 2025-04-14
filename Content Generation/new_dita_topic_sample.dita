@@ -17,7 +17,7 @@
                 format="html" scope="external"/>.</p>
         <dl>
             <dlentry>
-                <dt>Create a DITA XML topic from a PDF document</dt>
+                <dt>Create a DITA XML topic from an attached document</dt>
                 <dd>
                     <p>
                         <codeblock id="codeblock_nsk_ndw_11c">Create a valid DITA XML topic from the following content. </codeblock>
