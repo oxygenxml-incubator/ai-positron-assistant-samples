@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="convert_to_dita">
+    <title>Convert to DITA</title>
+    <body>
+        <p>The <uicontrol>DITA Conversion</uicontrol> category host actions which allow you to
+            convert a DITA topic or a Markdown document to a DITA
+            task/concept/reference/troubleshooting or glossary.</p>
+        <p>Example: <xref href="convert.md" format="markdown"/></p>
+    </body>
+</topic>
