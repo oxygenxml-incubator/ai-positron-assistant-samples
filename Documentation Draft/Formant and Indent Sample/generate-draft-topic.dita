@@ -10,5 +10,8 @@
                 href="doc-draft-model.xml" format="xml">here</xref>.</p>
         <p>And a  draft model file which generates a <b>specialized</b> DITA XML content can be
             found here:<xref href="doc-draft-model-specialization.xml" format="xml"/>.</p>
+        <p>A documentation draft can also be created by attaching PDF, Word or Powerpoint documents,
+            an example can be found here: <xref
+                href="../AutoCorect%20in%20Files/doc-draft-model.xml" format="xml"/></p>
     </body>
 </topic>

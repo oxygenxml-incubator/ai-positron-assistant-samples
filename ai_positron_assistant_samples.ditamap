@@ -6,10 +6,6 @@
     <topichead navtitle="Content Generation">
         <topicref href="Content%20Generation/new_dita_topic_sample.dita"/>
         <topicref href="Documentation%20Draft/Formant%20and%20Indent%20Sample/generate-draft-topic.dita"/>
-        <topicref href="Content%20Generation/continue_writing_overview.dita">
-            <topicref href="Content%20Generation/continue_writing_sample.dita"
-                navtitle="Continue Writing Sample" locktitle="yes"/>
-        </topicref>
         <topicref href="Update%20Content%20based%20on%20images/Fast%20Create%20Topics%20Sample/update-topic-based-on-images.dita"/>
         <topicref href="Content%20Generation/short_description_overview.dita">
             <topicref href="Content%20Generation/short_description_sample.dita"
