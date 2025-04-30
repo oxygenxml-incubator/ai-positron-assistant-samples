@@ -1,0 +1,17 @@
+[
+    {
+        "id": "action.update.prolog",
+        "title": "Update Prolog",
+        "categoryId": "Content Generation",
+        "type": "replace-selection-with-fragment",
+        "input-type": "markup",
+        "description": "Update prolog",
+        "context": "Update the DITA XML topic prolog with the current date ${currentDate} in the <revised modified> element.",
+        "expand-params": [
+            {
+                "name": "currentDate",
+                "value": "${date(yyyy-MM-dd)}"
+            }
+        ]
+    }
+]
