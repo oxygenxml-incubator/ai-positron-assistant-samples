@@ -17,12 +17,12 @@ You must generate a JSON array containing a modification script to fix the given
 
 # SCRIPT
 
-A replace operation to be made to a topic's lines:
+A replace operation to be made to a topic's lines which returns an array of objects containing the following properties:
 
 `line_start`: The line number which identifies the start of the range of text to be replaced. Inclusive. Indexed in 1.
-`line_end`: The EXCLUSIVE line number which identifies the end of the range of text to be replaced. Exclusive. Indexed in 1.
-`new_lines`: The new lines of content to replace the old lines of content identified by the range. Use empty for deletion.
-`old_lines`: The old lines of content to be replaced. Ensure this matches the exact text from the document.
+`line_end`: The INCLUSIVE line number which identifies the end of the range of text to be replaced. INCLUSIVE. Indexed in 1.
+`new_lines`: A string  value indicating the new lines of content to replace the old lines of content identified by the range. Use empty for deletion.
+`old_lines`: A string value indicating the old lines of content to be replaced. Ensure this matches the exact text from the document.
 
 # Important Requirements:
 
