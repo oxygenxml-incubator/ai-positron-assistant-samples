@@ -1,8 +1,0 @@
-<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="concept_${id}">
-    <title></title>
-    <shortdesc></shortdesc>
-    <conbody>
-        <p>${xpath_eval(ai:transform-content('Create a paragraph with a couple of sentences following the instructions:', '${ask('What should this draft be about?', generic, 'What is Markdown?')}'))}</p>
-    </conbody>
-</concept>
