@@ -1,0 +1,29 @@
+{
+    "id": "action.fix.terms.line.changes",
+    "categoryId": "Line Changes",
+    "type": "replace-selection-with-fragment",
+    "title": "Fix Terminology Problems (Line Changes)",
+    "description": "Fix terminology problems in the content of the current document.",
+    "input-type": "markup",
+    "expand-params": [
+      {
+        "name": "contentType",
+        "value": "${contentTypeDescription}"
+      },
+      {
+        "name": "contextInfo",
+        "value": "${contextInfo}"
+      }
+    ],
+    "parameters": {
+      
+      "function_refs": [
+      {"ref": "term_check_current_document"}
+      ]
+    },
+    "additional_info": {
+      "input_content": "document",
+      "input_flavor": "line_numbers"
+    },
+    "prompt_ref": "prompts/action_term_check_lines.md"
+  }

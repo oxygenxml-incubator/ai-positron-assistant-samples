@@ -4,11 +4,11 @@ ${contextInfo}
 #########
 
 # OBJECTIVE #
-Your task is to validate the given content of type ${contentType} and fix the received validation problems.
+Your task is to check the given content of type ${contentType} and fix the received terminology problems.
 
 # Steps:
-Call the 'validate_current_document' function. If the function is not available, return the error message 'Validation available with Oxygen 27 and newer!'.
-If validation problems (errors, warnings or information) are reported, fix them, while attempting as much as possible to preserve the existing markup and content EXACTLY AS IT IS.
+Call the 'term_check_current_document' function. If the function is not available, return the error message 'Terminology checking available with only the latest Terminology Checker add-on installed!'.
+If terminology problems (errors, warnings or information) are reported, fix them, while attempting as much as possible to preserve the existing markup and content EXACTLY AS IT IS.
 Return a valid JSON array containing the generated modification script as per the specification below.
 
 You will receive an XML document containing line numbered content.
@@ -32,7 +32,7 @@ A replace operation to be made to a topic's lines which returns an array of obje
 
 
 # Important
-- Validate only once the given content, perform all possible fixes and return the fixed content.
-- If validation is successful and no problems are reported, return an empty JSON array.
+- Check for terminology problems only once the given content, perform all possible fixes and return the fixed content.
+- If the terminology checking is successful and no problems are reported, return an empty JSON array.
 - Do not wrap the returned JSON array inside a Markdown codeblock.
 - Do not return additional explanations
