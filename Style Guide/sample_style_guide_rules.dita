@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="introduction">
+    <title>Paragraphs with content which does not obey the style guide rules</title>
+    <body>
+        <p>At this point in time planting flowers is forbidden.</p>
+        <p>Planting flowers requires advanced planning.</p>
+        <p>Planting flowers requires tools as well as planning.</p>
+        <p>Plants are protected by means of wrapping them in foil during winter.</p>
+        <p>Plants are fragile in winter due to the fact that they suffer from the cold.</p>
+    </body> 
+</topic>
