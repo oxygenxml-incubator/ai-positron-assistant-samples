@@ -1,0 +1,7 @@
+[ {
+  "id" : "rephrase.terminology.style.guide",
+  "title" : "Rewrite - Terminology and Style Guide",
+  "input-type" : "markup",
+  "type" : "replace-selection-with-fragment",
+  "context" : "Rephrase the given DITA XML content to adhere precisely to the provided terminology and style guide rules. Keep the modifications minimal and keep the DITA XML structure unchanged.."
+} ]

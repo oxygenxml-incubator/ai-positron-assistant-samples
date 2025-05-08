@@ -16,6 +16,7 @@
                 locktitle="yes"/>
         </topicref>
         <topicref href="Content%20Generation/generate_formula_or_equation.dita"/>
+        <topicref href="Content%20Generation/terminology_and_styleguide.dita"/>
     </topichead>
     <topichead navtitle="Rewrite">
         <topicref href="Rewrite/correct_grammar_overview.dita">
