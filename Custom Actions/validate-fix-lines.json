@@ -25,5 +25,5 @@
       "input_content": "document",
       "input_flavor": "line_numbers"
     },
-    "prompt_ref": "prompts/action_validate_and_fix.markdown"
+    "prompt_ref": "prompts/action_validate_and_fix.md"
   }
