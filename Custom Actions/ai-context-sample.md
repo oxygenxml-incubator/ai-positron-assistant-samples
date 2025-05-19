@@ -4,7 +4,7 @@ The current project contains technical documentation for a fun and easy to drive
 
 # Audience
 
-Technical documentation must be precise and easy to understand. Our clients are not technical, they are usually beginners when it comes to driving and there English understanding may vary.
+Technical documentation must be precise and easy to understand. Our clients are not technical, they are usually beginners when it comes to driving and their understanding of English may vary.
 
 # Terminology
 
