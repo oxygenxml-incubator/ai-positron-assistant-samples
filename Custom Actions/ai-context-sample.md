@@ -47,3 +47,37 @@ during the course of => during
 end result => result
 ```
 
+# Vocabulary Changes
+
+DITA XML topics generated for our project's user's manual have the following structure and DOCTYPE declaration:
+
+```
+<!DOCTYPE oxyTopic PUBLIC "OXY-PUB-TOPIC" "oxy-system">
+<oxyTopic>
+    <title>&lt;/title>
+    <body>
+           
+    </body>
+</oxyTopic>
+```
+
+DITA XML concepts generated for our project's user's manual have the following structure and DOCTYPE declaration:
+
+```
+<!DOCTYPE oxyConcept PUBLIC "OXY-PUB-CONCEPT" "oxy-system">
+<oxyConcept>
+    <title>&lt;/title>
+    <body>
+           
+    </body>
+</oxyConcept>
+```
+
+New DITA XML elements are defined in our specific DITA XML vocabulary as follows:
+
+There is a new <part-term> XML element which must be used to tag various car parts.
+There is a new <product> XML element which must be used to tag product names.
+
+Example:
+
+The <product>Hisense</product> <part-term>engine</part-term> is more efficient. 
