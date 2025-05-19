@@ -12,7 +12,7 @@
             certain terms or to obey certain style guide rules when generating content.</p>
         <p>The linked Markdown file contains a sample <b>Context</b> prompt which establishes the
             project scope, defines a couple of allowed terms and a couple of style guide rules:
-                <xref href="../Custom%20Actions/ai-context.md" format="markdown"/>.</p>
+                <xref href="../Custom%20Actions/ai-context-sample.md" format="markdown"/>.</p>
         <p>Examples:<ul id="ul_fcb_15k_gfc">
                 <li>The topic <xref href="../Terminology%20Checker/test-term-checking-fixes.dita"/>
                     contains not allowed terms. You can use the <uicontrol>Rewrite - Terminology and
