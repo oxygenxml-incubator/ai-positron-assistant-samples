@@ -1,6 +1,10 @@
 # Project context
 
-The current project contains technical documentation for the car manufacturing industry. Technical documentation must be precise and easy to understand.
+The current project contains technical documentation for a fun and easy to drive beach vehicle named the Sharkfin Rover.
+
+# Audience
+
+Technical documentation must be precise and easy to understand. Our clients are not technical, they are usually beginners when it comes to driving and there English understanding may vary.
 
 # Terminology
 
@@ -8,7 +12,7 @@ Specific terms in the DITA XML content must be wrapped in the <term> element. Pr
 
 Always prefer to use the terms below instead of possible synonyms:
 ```
-Folkswagen Beetle (instead of 'Folkswagen Bug')
+Sharkfin Rover (instead of 'Sharkfin Buggy')
 vehicle (instead of 'car')
 lorry (instead of 'truck')
 rear position lamp (instead of 'tailgate')
@@ -24,8 +28,13 @@ motor vehicle chassis (instead of 'vehicle frame')
 
 There is a set of company specific Style Guide rules which are important to follow when rewriting or creating new content, the most important rules are mentioned below:
 
-- Don’t use text that points to other topics such as “In the document below” or “in the following section.”
 
+- Never use a metaphor, simile, or other figure of speech.
+- Never use a long word where a short one will do.
+- Keep sentences short. If it is possible to cut a word out, always cut it out.
+- Never use the passive where you can use the active.
+- Never use a foreign phrase, a scientific word, or a jargon word if you can think of an everyday English equivalent.
+- Don’t use text that points to other topics such as "In the document below" or "in the following section."
 - Some words or phrases are disallowed to be used. Mapping of disallowed phrases to their valid equivalent constructs:
 ```
 as well as, in addition to => and
