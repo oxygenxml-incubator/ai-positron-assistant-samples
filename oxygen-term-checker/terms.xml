@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <incorrect-terms>
   <incorrect-term ignorecase="true">
-    <match>folkswagen bug</match>
-    <suggestion>Folkswagen Beetle</suggestion>
-    <message>Use "Beetle" instead of "bug"</message>
+    <match>sharkfin buggy</match>
+    <suggestion>Sharkfin Rover</suggestion>
+    <message>Use "rover" instead of "buggy"</message>
   </incorrect-term>
   <incorrect-term ignorecase="true">
     <match type="whole-word">car</match>
