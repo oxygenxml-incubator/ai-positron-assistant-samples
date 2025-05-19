@@ -1,6 +1,6 @@
 {
     "id": "action.get.oxygen.version.web.site",
-    "categoryId": "Other",
+    "categoryId": "Samples",
     "type": "insert-schema-aware-fragment",
     "title": "Insert Latest Oxygen Version",
     "description": "Obtain the latest Oxygen version from the what's new and insert it at the caret position",

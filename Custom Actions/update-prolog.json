@@ -2,7 +2,7 @@
     {
         "id": "action.update.prolog",
         "title": "Update Prolog",
-        "categoryId": "Content Generation",
+        "categoryId": "Samples",
         "type": "replace-selection-with-fragment",
         "input-type": "markup",
         "description": "Update prolog",

@@ -1,6 +1,6 @@
 {
     "id": "action.fix.terms.line.changes",
-    "categoryId": "Line Changes",
+    "categoryId": "Samples - Line Changes",
     "type": "replace-selection-with-fragment",
     "title": "Fix Terminology Problems (Line Changes)",
     "description": "Fix terminology problems in the content of the current document.",

@@ -2,7 +2,7 @@
     {
         "id": "action.create.schema",
         "title": "Create XML Schema",
-        "categoryId": "Development",
+        "categoryId": "Samples",
         "type": "create-new-document",
         "additional_info": {"file_extension": "xsd", "prompt-example": "a list of counteries, each country with code and name"},
         "description": "Create an XML Schema based on the provided description",

@@ -1,6 +1,6 @@
 {
     "id": "action.update.title.based.on.content",
-    "categoryId": "Other",
+    "categoryId": "Samples",
     "type": "insert-schema-aware-fragment",
     "title": "Update Title",
     "description": "Update the title in the DITA topic based on the contents",

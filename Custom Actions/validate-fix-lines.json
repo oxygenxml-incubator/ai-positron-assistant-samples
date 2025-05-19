@@ -1,6 +1,6 @@
 {
     "id": "action.validate.and.fix.line.changes",
-    "categoryId": "Line Changes",
+    "categoryId": "Samples - Line Changes",
     "type": "replace-selection-with-fragment",
     "title": "Fix Validation Problems (Line Changes)",
     "description": "Validate the content of the current document and fix any reported validation issues.",

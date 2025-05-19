@@ -2,7 +2,7 @@
   {
     "id": "action.uber.check",
     "title": "Uber check", 
-    "categoryId": "Compose Actions",
+    "categoryId": "Samples - Compose Actions",
     "type": "replace-selection-with-fragment",
     "framework": "text/xml",
     "input-type": "markup",
@@ -24,7 +24,7 @@
   {
     "id": "convert.to.perfect.dita.type",
     "title": "Convert to Suitable DITA Type",
-    "categoryId": "Compose Actions",
+    "categoryId": "Samples - Compose Actions",
     "type": "replace-selection-with-fragment",
     "framework": "text/xml",
     "input-type": "markup",
@@ -40,7 +40,7 @@
   {
     "id": "action.one.with.everything",
     "title": "One with Everything",
-    "categoryId": "Compose Actions",
+    "categoryId": "Samples - Compose Actions",
     "type": "replace-selection-with-fragment",
     "framework": "text/xml",
     "input-type": "markup",

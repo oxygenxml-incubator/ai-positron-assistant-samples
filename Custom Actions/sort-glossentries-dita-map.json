@@ -1,7 +1,7 @@
 {
     "id": "sort.glossentries.dita.map",
     "title": "Sort Glossary Entries",
-    "categoryId": "Rewrite",
+    "categoryId": "Samples",
     "type": "replace-selection-with-fragment",
     "input-type": "markup",
     "prompt_ref": "prompts/sort-glossentries.md",

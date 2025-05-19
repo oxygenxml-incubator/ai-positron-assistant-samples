@@ -2,7 +2,7 @@
     {
         "id": "action.formula.equation",
         "title": "Formula/Equation",
-        "categoryId": "Content Generation",
+        "categoryId": "Samples",
         "type": "prompt-user",
         "additional_info": {"prompt-example": "hydrogen peroxide"},
         "framework": "text/xml",
