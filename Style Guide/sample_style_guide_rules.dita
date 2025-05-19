@@ -3,10 +3,10 @@
 <topic id="introduction">
     <title>Paragraphs with content which does not obey the style guide rules</title>
     <body>
-        <p>At this point in time planting flowers is forbidden.</p>
-        <p>Planting flowers requires advanced planning.</p>
-        <p>Planting flowers requires tools as well as planning.</p>
-        <p>Plants are protected by means of wrapping them in foil during winter.</p>
+        <p>Planting flowers requires tools as well as advanced planning.</p>
+        <p>When winter comes, the temperature drops by a lot. At this point in time planting flowers
+            is forbidden. Existing plants are protected by means of wrapping them in foil during
+            winter.</p>
         <p>Plants are fragile in winter due to the fact that they suffer from the cold.</p>
     </body> 
 </topic>
