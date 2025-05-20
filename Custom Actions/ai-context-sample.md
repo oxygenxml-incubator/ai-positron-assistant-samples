@@ -52,7 +52,7 @@ end result => result
 DITA XML topics generated for our project's user's manual have the following structure and DOCTYPE declaration:
 
 ```
-<!DOCTYPE oxyTopic PUBLIC "OXY-PUB-TOPIC" "oxy-system">
+<!DOCTYPE oxyTopic PUBLIC "OXY-PUB-TOPIC" "oxy-system-topic">
 <oxyTopic>
     <title>&lt;/title>
     <body>
@@ -64,12 +64,31 @@ DITA XML topics generated for our project's user's manual have the following str
 DITA XML concepts generated for our project's user's manual have the following structure and DOCTYPE declaration:
 
 ```
-<!DOCTYPE oxyConcept PUBLIC "OXY-PUB-CONCEPT" "oxy-system">
+<!DOCTYPE oxyConcept PUBLIC "OXY-PUB-CONCEPT" "oxy-system-concept">
 <oxyConcept>
     <title>&lt;/title>
-    <body>
+    <conbody>
            
-    </body>
+    </conbody>
+</oxyConcept>
+```
+
+DITA XML tasks generated for our project's user's manual have the following structure and DOCTYPE declaration:
+
+```
+<!DOCTYPE oxyTask PUBLIC "OXY-PUB-TASK" "oxy-system-task">
+<oxyTask>
+    <title>&lt;/title>
+    <taskbody>
+        <context>
+            <p></p>
+        </context>
+        <steps>
+            <step>
+                <cmd></cmd>
+            </step>
+        </steps>
+    </taskbody>
 </oxyConcept>
 ```
 
