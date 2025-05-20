@@ -8,8 +8,12 @@
             existing images and similar topics. Starting from that draft XML model the </p>
         <p>A sample XML draft model file can be found <xref
                 href="doc-draft-model.xml" format="xml">here</xref>.</p>
-        <p>And a  draft model file which generates a <b>specialized</b> DITA XML content can be
-            found here:<xref href="doc-draft-model-specialization.xml" format="xml"/>.</p>
+        <p>And a draft model file which generates a <b>specialized</b> DITA XML content can be found
+                here:<xref href="doc-draft-model-specialization.xml" format="xml"/>. The recommended
+            way to handle generating new DITA XML content for a specific DITA specialization would
+            be to specify the DITA vocabulary changes in the <xref
+                href="https://blog.oxygenxml.com/topics/customizing_ai_positron_for_your_dita_xml_project.html"
+                format="html" scope="external">AI Positron Context prompt</xref>.</p>
         <p>A documentation draft can also be created by attaching PDF, Word or Powerpoint documents,
             an example can be found here: <xref
                 href="../AutoCorect%20in%20Files/doc-draft-model.xml" format="xml"/></p>
