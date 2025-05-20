@@ -1,7 +1,8 @@
 # Create ISO Schematron rules based on style guide content.
 
 - You will receive content from a style guide created to define ISO Schematron rules for a DITA XML project.
-- Create and return an ISO Schematron schema similar to the one below. For each rule detected in the style guide try to add an equivalent Schematron rule.
+- Create and return an ISO Schematron schema similar to the one below. 
+- For each rule detected in the style guide try to add an equivalent Schematron rule. Do not skip a single rule.
 - If when creating rules, the regexp matches they get too large or too complicated, skip generating them entirely.
 - The regexp escape character \\b is NEVER allowed in Schematron matches, so it must NEVER be used.
 - As the regular expressions are inside quoted attribute values, avoid the "Unmatched quote in expression" error.
