@@ -1,0 +1,17 @@
+{
+    "id": "action.create.schematron.rules",
+    "title": "Schematron Rules from Style Guide",
+    "description": "Create Schematron rules from a Style Guide attached or pasted in the text area.",
+    "categoryId": "Samples",
+    "type": "create-new-document",
+    "additional_info": {
+        "properties": {"file_extension": "sch"}
+    },
+    "expand-params": [
+        {
+            "name": "contextInfo",
+            "value": "${contextInfo}"
+        }
+    ],
+    "prompt_ref": "prompts/create-schematron-rules.md"
+}

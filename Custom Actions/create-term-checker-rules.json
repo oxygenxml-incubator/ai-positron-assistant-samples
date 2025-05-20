@@ -1,6 +1,6 @@
 {
     "id": "action.create.term.checker.rules",
-    "title": "Create Terminology Checker Rules",
+    "title": "Terminology Checker Rules from Style Guide",
     "description": "Create Rules for the Oxygen Terminology Checker add-on from a Style Guide attached or pasted in the text area.",
     "categoryId": "Samples",
     "type": "create-new-document",
