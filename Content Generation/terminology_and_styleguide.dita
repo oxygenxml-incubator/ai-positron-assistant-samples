@@ -13,6 +13,12 @@
         <p>The linked Markdown file contains a sample <b>Context</b> prompt which establishes the
             project scope, defines a couple of allowed terms and a couple of style guide rules:
                 <xref href="../Custom%20Actions/ai-context-sample.md" format="markdown"/>.</p>
+        <p>You can also try to convert your style guide rules to an XML rule file which can be used
+            by the Oxygen Terminology Checker add-on to impose the rules when editing. The <b>Create
+                Terminology Rules</b> AI action attempts to take the content of a style guide (for
+            example in Markdown format like <xref href="../Style%20Guide/oxygen-styleguide.md"
+                format="html"/>) and create an XML file containing rules for the Oxygen Terminology
+            Checker add-on.</p>
         <p>Examples:<ul id="ul_fcb_15k_gfc">
                 <li>The topic <xref href="../Terminology%20Checker/test-term-checking-fixes.dita"/>
                     contains not allowed terms. You can use the <uicontrol>Rewrite - Terminology and
