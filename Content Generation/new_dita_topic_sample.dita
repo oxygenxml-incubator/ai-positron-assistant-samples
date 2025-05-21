@@ -27,6 +27,221 @@
         </dl>
         <note id="note_ovw_dsy_s1c">
             <p>This action is not compatible with the <b>WebAuthor</b> in-browser editor.</p>
+            <p><b>Purpose of Home Device Manager. </b>Home Device Manager allows broadband providers
+                to remotely manage <i>CPE (customer premises equipment)</i>, such as residential
+                gateways, DSL and cable modems, femtocell access points, IP set-top boxes, and VoIP
+                terminal adapters. Allowing for large-scale remote management of a multi-vendor CPE
+                network, Home Device Manager offers a standardized CPE integration layer that
+                enables providers to manage CPE that support either the Broadband Forum's TR-069
+                protocol or other protocols such as Telnet. </p>
+            <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>After executing
+                the <b>Improve Structure</b> Positron AI action <?oxy_custom_end?>:</p>
+            <p><uicontrol>Purpose of Home Device Manager</uicontrol></p>
+            <p>Home Device Manager allows broadband providers to remotely manage <i>CPE (customer
+                    premises equipment)</i>, such as:</p>
+            <ul id="ul_efw_vcc_kfc">
+                <li>Residential gateways</li>
+                <li>DSL and cable modems</li>
+                <li>Femtocell access points</li>
+                <li>IP set-top boxes</li>
+                <li>VoIP terminal adapters</li>
+            </ul>
+            <p>Allowing for large-scale remote management of a multi-vendor CPE network, Home Device
+                Manager offers a standardized CPE integration layer that enables providers to manage
+                CPE that support either the <keyword>Broadband Forum's TR-069 protocol</keyword> or
+                other protocols such as <codeph>Telnet</codeph>.</p>
         </note>
+        <section id="section_m21_xzb_kfc">
+            <title>Resolved issues</title>
+            <p>
+                <table id="tableID-resolved_issues" frame="all" rowsep="1" colsep="1">
+                    <title>Resolved issues</title>
+                    <tgroup cols="3">
+                        <colspec colnum="1" colname="col1"/>
+                        <colspec colnum="2" colname="col2"/>
+                        <colspec colnum="3" colname="col3"/>
+                        <thead>
+                            <row>
+                                <entry>ID</entry>
+                                <entry>Summary</entry>
+                                <entry>Description</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>HDM-21598</entry>
+                                <entry>HDM throws an exception when the USP device sends any
+                                    notifications prior to the OnBoard notification</entry>
+                                <entry><b>Symptoms.</b> HDM encounters a NullPointerException (NPE)
+                                    when it receives notifications from the USP devices before the
+                                    OnBoard notification, Due to these exceptions, trace log file
+                                    grows quickly.<p><b>Resolution.</b> This issue occurs due to the
+                                        absence of the DeviceID triplet for the agent's endpointID.
+                                        This issue has been fixed in this release.</p></entry>
+                            </row>
+                            <row>
+                                <entry>HDM-21606</entry>
+                                <entry>The firmware upgrade custom function fails because required
+                                    parameters are missing in the USP event notifications</entry>
+                                <entry><b>Symptoms.</b> The firmware upgrade function fails to
+                                    complete successfully. This issue also affects other custom
+                                    functions that depend on the same parameters.
+                                            <p><b>Resolution.</b> The root cause is missing
+                                        parameters in _inform.getParameters(), impacting all USP
+                                        devices using this functionality. This issue has been fixed
+                                        in this release.</p></entry>
+                            </row>
+                            <row>
+                                <entry>HDM-21600</entry>
+                                <entry>Issue with HDMADMIN console displaying domains incorrectly in
+                                    HDM 23</entry>
+                                <entry>
+                                    <p><b>Symptoms.</b> When a user logs in to the /hdmadmin console
+                                        and clicks on the <b>Domains</b> tab, an error message
+                                        appears if the logged-in user has the
+                                        HDM_Domain_Administrator role but does not belong to any
+                                        domain.</p>
+                                    <p><b>Resolution.</b> The resolution is to provide an
+                                        appropriate message to the user when the issue occurs. This
+                                        issue has been fixed in this release.</p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>HDM-21594</entry>
+                                <entry>TR-181 devices fail to retry CF activation after
+                                    Activation.waitForOSSDataTimeoutSecs timeout, leaving users
+                                    non-activated</entry>
+                                <entry>
+                                    <p><b>Symptoms.</b> For TR-181 devices, the activation does not
+                                        retry upon getting stuck at waiting for provisioning
+                                        information state as they don't make use of SCE
+                                        Activation.waitForOSSDataTimeoutSecs.</p>
+                                    <p><b>Resolution.</b> This issue has been fixed in this release
+                                        and the same SCE now serves both TR098 and TR181
+                                        devices.</p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>HDM-21579</entry>
+                                <entry>Communication log via UI, NBI, manually and more, for
+                                    specific devices is not turned on by default</entry>
+                                <entry>
+                                    <p><b>Symptoms.</b> By default, the communication log for
+                                        specific devices is disabled during the zero activation
+                                        process. Users can only manually enable the communication
+                                        log through the UI, NBI, or other methods after the device
+                                        is created. As a result, any issues or inconsistencies in
+                                        device communication are not captured for debugging
+                                        purposes.</p>
+                                    <p><b>Resolution.</b> Any device activated during zero touch
+                                        activation mode, the communication log can now be enabled by
+                                        default, using SCE parameter :
+                                        communication.logging.enable.on.activation = true.</p>
+                                    <p>The default value is "false". To turn it on, users need to
+                                        set the value to "true" and no cluster restart is required
+                                        post setting this SCE.</p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>HDM-21557</entry>
+                                <entry>The Install command and path in JSonUtil.java are incorrect,
+                                    causing issues during software module installation</entry>
+                                <entry>
+                                    <p><b>Symptoms.</b> The current Install() command and its path
+                                        are incorrect, leading to installation failures. Users may
+                                        experience errors during the installation process, and the
+                                        software modules may not be deployed correctly.</p>
+                                    <p><b>Resolution.</b> Update the Install command and path from
+                                        Device.SoftwareModules.DeploymentUnit.[UUID=="&lt;UUID_val>"].Install()
+                                        to Device.SoftwareModules.InstallDU() to resolve the
+                                        installation issues. This issue has been fixed in this
+                                        release.</p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>HDM-21554</entry>
+                                <entry>Domain based filtering of HDM artefacts fails to work when
+                                    upgraded from HDM 20.2 to HDM 23.0.4</entry>
+                                <entry>
+                                    <p><b>Symptoms.</b> Domain based filtering of HDM objects does
+                                        not work as expected and hierarchical rules are not
+                                        followed. This bug has been present since HDM R 23.</p>
+                                    <p><b>Resolution.</b> This issue has been fixed in this
+                                        release.</p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>HDM-21329</entry>
+                                <entry>Redis errors after upgrade to version 6.2.13 for HDM as part
+                                    of the 24.0.1 release</entry>
+                                <entry>
+                                    <p><b>Symptoms.</b> When a user upgrades to Redis version 6.2.13
+                                        for HDM as part of the 24.0.1 release, it causes Redis
+                                        exceptions and errors. Restarting Redis and HDM Cluster does
+                                        not seem to fix this issue.</p>
+                                    <p><b>Resolution.</b> This issue has been fixed in this
+                                        release.</p>
+                                    <p><b> Note: </b>Redis cluster is not supported with USP.</p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>HDM-21330</entry>
+                                <entry>USP CPE devices failed to connect with MQTT broker because
+                                    broker credentials were not persistent</entry>
+                                <entry><b>Symptoms.</b> When USP devices are activated using
+                                    Pre-provisioning mode. There are two unexpected behaviour such
+                                        as:<ul id="ul_kf1_xzb_kfc">
+                                        <li>When a user tries to connect to the MQTT broker using
+                                            the broker's username and password, the connection
+                                            fails.</li>
+                                        <li>A USP device could connect to the broker using the
+                                            broker username and password of another device.</li>
+                                    </ul><p><b>Resolution.</b> Both issues have been resolved in
+                                        this release.</p></entry>
+                            </row>
+                            <row>
+                                <entry>HDM-21192</entry>
+                                <entry>On HDM 23.0.0, The Rest NBI Resource PUT
+                                    /alarmDefinitions/&lt;alarmName> ignores the field
+                                    "filterParameters"</entry>
+                                <entry>
+                                    <p><b>Symptoms.</b> On HDM 23.0.0, The Rest NBI Resource PUT
+                                        /alarmDefinitions/&lt;alarmName> ignores the field
+                                        "filterParameters".</p>
+                                    <p><b>Resolution.</b> This issue has been fixed in this release
+                                        by removing the filterParameters Array Value
+                                        Device.X_SWISSCOM-COM_DeviceManagement.FirewallLevel2.</p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>HDM-17740</entry>
+                                <entry>HTTP 400 error encountered while saving certain IWE
+                                    scripts</entry>
+                                <entry>
+                                    <p><b>Symptoms.</b> It is observed that IWE returns an HTTP 400
+                                        error when saving a script. Even if no actual update is
+                                        performed, clicking <b>Save</b> returns the error. The
+                                        expected behavior should allow IWE scripts containing
+                                        strings with single quotes. However, if the script contains
+                                        'and' and 'or', the IWE console throws an error.</p>
+                                    <p><b>Resolution.</b> A pop-up error message and logging have
+                                        been added to address this issue. When
+                                        "&lt;space>and&lt;space>" or "&lt;space>or&lt;space>" is
+                                        added in any section of an IWE script (including comments),
+                                        an error dialogue is displayed to the user and the script
+                                        will not be saved. In addition, the error will be logged in
+                                        the iwe.log file, stating that:</p>
+                                    <p><i>Text ' and ', ' or ' are not permitted in IWE script, not
+                                            even in comments section hence Security filter REJECTS
+                                            HTTP param (SQL inject)</i></p>
+                                    <p>This is applicable for both old and new IWE consoles.</p>
+                                    <p>This issue has been fixed in this release.</p>
+                                </entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
     </body>
 </topic>
