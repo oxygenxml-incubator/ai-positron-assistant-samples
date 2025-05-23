@@ -1,6 +1,6 @@
 # Project context
 
-The current project contains technical documentation for a fun and easy to drive beach vehicle named the Sharkfin Rover.
+The current DITA XML project contains technical documentation for a fun and easy to drive beach vehicle named the Sharkfin Rover.
 
 # Audience
 
