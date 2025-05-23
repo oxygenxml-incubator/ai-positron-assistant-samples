@@ -10,6 +10,10 @@
                         <String>${pd}/Custom Actions</String>
                     </entry>
                     <entry>
+                        <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.additional.context.file</String>
+                        <String>${pd}/Custom Actions/ai-context.md</String>
+                    </entry>
+                    <entry>
                         <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.load.default.actions</String>
                         <String>true</String>
                     </entry>
