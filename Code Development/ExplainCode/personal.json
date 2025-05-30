@@ -1,0 +1,90 @@
+{
+    "$schema": "https://json-schema.org/draft-04/schema#",
+    "id": "http://www.oxygenxml.com/ns/samples/personal#",
+    "definitions": {
+        "name": {
+            "type": "object",
+            "required": [
+                "family",
+                "given"
+            ],
+            "properties": {
+                "family": {"type": "string"},
+                "given": {"type": "string"}
+            }
+        },
+        "link": {
+            "type": "object",
+            "properties": {
+                "manager": {"type": "string"},
+                "subordinates": {
+                    "type": "array",
+                    "items": {"type": "string"}
+                }
+            }
+        },
+        "url": {
+            "type": "object",
+            "properties": {
+                "href": {
+                    "type": "string",
+                    "default": "http://"
+                }
+            }
+        },
+        "person": {
+            "type": "object",
+            "required": [
+                "name",
+                "id"
+            ],
+            "properties": {
+                "name": {"$ref": "#/definitions/name"},
+                "email": {
+                    "type": "array",
+                    "items": {"type": "string"},
+                    "minItems": 0
+                },
+                "link": {"$ref": "#/definitions/link"},
+                "url": {
+                    "type": "array",
+                    "items": {"$ref": "#/definitions/url"},
+                    "minItems": 0
+                },
+                "id": {"type": "string"},
+                "note": {"type": "string"},
+                "contr": {
+                    "type": "string",
+                    "default": "false",
+                    "enum": [
+                        "true",
+                        "false"
+                    ]
+                },
+                "salary": {"type": "integer"},
+                "photo": {"type": "string"}
+            }
+        },
+        "personnel": {
+            "type": "object",
+            "required": ["person"],
+            "properties": {
+                "person": {
+                    "type": "array",
+                    "items": {"$ref": "#/definitions/person"},
+                    "minItems": 1
+                }
+            }
+        }
+    },
+    "properties": {
+        "person": {"$ref": "#/definitions/person"},
+        "name": {"$ref": "#/definitions/name"},
+        "link": {"$ref": "#/definitions/link"},
+        "url": {"$ref": "#/definitions/url"},
+        "personnel": {"$ref": "#/definitions/personnel"},
+        "given": {"type": "string"},
+        "family": {"type": "string"},
+        "email": {"type": "string"}
+    }
+}

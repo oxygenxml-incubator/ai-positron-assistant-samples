@@ -9,29 +9,54 @@
         <p>For example, when such a document is opened in Oxygen, the
                 <uicontrol>Development</uicontrol> menu category contains useful actions:<ul
                 id="ul_bbv_yhq_gbc">
-                <li><uicontrol>Explain Code</uicontrol> - generates an explanation of the code in
-                    the Chat view.<ul id="ul_vp3_lzv_cdc">
+                <li><uicontrol>Explain Code </uicontrol><b> (available for XSLT, Schematron, XSD,
+                        CSS, XQuery, JSON, and JSON Schema)</b> - generates an explanation of the
+                    code in the Chat view.<ul id="ul_vp3_lzv_cdc">
                         <li>Select, for example, an <xref href="ExplainCode/profilerCommons.xsl"
                                 format="xsl">XSLT template</xref> and use this action from the
                             contextual menu or the quick assist menu. It will show an explanation in
                             simple terms of what the XSLT template does in the chat view.</li>
+                        <li>Similarly, you can choose an <xref href="ExplainCode/personal.xsd"
+                                format="xsd">XSD type</xref>, a <xref
+                                href="ExplainCode/personal-schema.json" format="json">JSON
+                                Schema</xref> definition, a <xref href="ExplainCode/rules.sch"
+                                format="sch">Schematron rule</xref>, some <xref
+                                href="ExplainCode/authors.xquery" format="xquery">XQuery
+                            code</xref>, or some <xref href="ExplainCode/personal.css" format="css"
+                                >CSS rules</xref>, and then use the action to get an explanation of
+                            the code in the chat view.</li>
                     </ul></li>
-                <li><uicontrol>Document Code</uicontrol> - generates the documentation of the code
-                    as a comment in the document.<ul id="ul_gnk_nzv_cdc">
+                <li><uicontrol>Document Code (available for XSLT, XSD, and Schematron) </uicontrol>
+                    - generates the documentation of the code and includes it as a comment before
+                    the current element.<ul id="ul_gnk_nzv_cdc">
                         <li>Select, for example, an <xref href="DocumentCode/escape-for-regex.xsl"
                                 format="xsl">XSLT template</xref> and use this action to add
                             documentation before the XSLT template explaining what it does.</li>
                     </ul></li>
-                <li><uicontrol>Chat About Code</uicontrol> - creates a new chat to start a
-                    discussion with the AI regarding the code.<ul id="ul_p1c_4zv_cdc">
+                <li><uicontrol>Annotate Code</uicontrol>
+                    <b> (available for XSLT, Schematron, and XSD)</b> - generates XML comments
+                    within the code found in the current selection, at the cursor location, or in
+                    the whole document. The generated annotations explain key concepts of the
+                        code.<ul id="ul_mzd_5jf_2fc">
+                        <li>You can open an <xref href="AnnotateCode/getNavigationImage.xsl"
+                                format="xsl">XSLT</xref> document and select a template. Then, use
+                            the Annotate Code action to document the template and the code within
+                            it. The documented template will be displayed in the Chat view, allowing
+                            you to preview and accept the modifications.</li>
+                    </ul></li>
+                <li><uicontrol>Chat About Code</uicontrol>
+                    <b>(available for XSLT, Schematron, XSD, CSS, XQuery, JSON, and JSON Schema)</b>
+                    - creates a new chat to start a discussion with the AI regarding the code.<ul
+                        id="ul_p1c_4zv_cdc">
                         <li>Start a discussion with the AI regarding the <xref
                                 href="ChatAboutCode/personal.xsl" format="xsl">XSLT code</xref>
                             found in the current selection or the element content at the current
                             cursor location. You can use the chat to improve the code, modify the
                             generated content, or ask questions about the code.</li>
                     </ul></li>
-                <li><uicontrol>Generate Code</uicontrol> - generates code based on a specified
-                        instruction.<ul id="ul_m4s_pzv_cdc">
+                <li><uicontrol>Generate Code</uicontrol>
+                    <b>(available for XSLT, Schematron, XSD, CSS, XQuery, JSON, and JSON Schema)</b>
+                    - generates code based on a specified instruction.<ul id="ul_m4s_pzv_cdc">
                         <li>For example, you can generate the content of an <xref
                                 href="GenerateCode/xsl/gradebook.xsl" format="xsl">XSLT
                                 stylesheet</xref> that will process your XML document. Just place
@@ -47,9 +72,10 @@
                                 >XSD</xref>, you can create new schema components using a
                             description and reuse existing components from the document.</li>
                     </ul></li>
-                <li><uicontrol>Suggest Refactoring</uicontrol> - proposes a suggestion for
-                    refactoring the code to simplify it and make it easier to read and
-                        understand.<ul id="ul_hhn_szv_cdc">
+                <li><uicontrol>Suggest Refactoring</uicontrol>
+                    <b>(available for XSLT and XSD)</b>  - proposes a suggestion for refactoring the
+                    code to simplify it and make it easier to read and understand.<ul
+                        id="ul_hhn_szv_cdc">
                         <li>For instance, you can choose the content of an <xref
                                 href="SuggestRefactoring/xsl/modularization.xsl" format="xsl">XSLT
                                 stylesheet</xref> with a monolithic template and execute the action.
