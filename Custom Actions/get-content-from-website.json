@@ -1,7 +1,7 @@
 {
     "id": "action.get.oxygen.version.web.site",
     "categoryId": "Samples",
-    "type": "insert-schema-aware-fragment",
+    "output-action": "insert-schema-aware",
     "title": "Insert Latest Oxygen Version",
     "description": "Obtain the latest Oxygen version from the what's new and insert it at the caret position",
     "expand-params": [
@@ -11,7 +11,7 @@
       }
     ],
     "framework": "*DITA*",
-    "context": "Obtain the latest version of Oxygen from the 'https://www.oxygenxml.com/xml_editor/whats_new.html' web site by calling the function 'get_content_for_document_url' and return it.",
+    "prompt": "Obtain the latest version of Oxygen from the 'https://www.oxygenxml.com/xml_editor/whats_new.html' web site by calling the function 'get_content_for_document_url' and return it.",
     "parameters": {
         "function_refs": [
             {"ref": "get_content_for_document_url"}

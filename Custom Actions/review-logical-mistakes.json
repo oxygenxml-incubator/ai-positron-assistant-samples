@@ -3,8 +3,8 @@
     "title": "Logical Inconsistencies",
     "description": "Review the given content and find logical mistakes",
     "categoryId": "Samples",
-    "type": "show-response",
-    "context": "# CONTEXT #\n\n${contextInfo}\nYou will act as a reviewer interested in finding inconsistentcy and logical mistakes.\n\n# OBJECTIVE #\n\nYou are tasked with reviewing the given content.\nFind logical and inconsistency mistakes in the content and return a report.",
+    "output-action": "none",
+    "prompt": "# CONTEXT #\n\n${contextInfo}\nYou will act as a reviewer interested in finding inconsistentcy and logical mistakes.\n\n# OBJECTIVE #\n\nYou are tasked with reviewing the given content.\nFind logical and inconsistency mistakes in the content and return a report.",
     "expand-params": [
         {
             "name": "contextInfo",

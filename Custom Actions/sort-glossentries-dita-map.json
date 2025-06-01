@@ -2,10 +2,7 @@
     "id": "sort.glossentries.dita.map",
     "title": "Sort Glossary Entries",
     "categoryId": "Samples",
-    "type": "replace-selection-with-fragment",
-    "input-type": "markup",
-    "prompt_ref": "prompts/sort-glossentries.md",
-    "additional_info": {
-        "input_content": "document"
-    }
+    "output-action": "replace",
+    "input": "document",
+    "prompt_ref": "prompts/sort-glossentries.md"
 }

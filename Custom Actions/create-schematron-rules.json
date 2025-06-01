@@ -3,7 +3,7 @@
     "title": "Schematron Rules from Style Guide",
     "description": "Create Schematron rules from a Style Guide attached or pasted in the text area.",
     "categoryId": "Samples",
-    "type": "create-new-document",
+    "output-action": "create-new-document",
     "additional_info": {
         "properties": {"file_extension": "sch"}
     },
