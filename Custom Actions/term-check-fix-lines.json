@@ -1,10 +1,10 @@
 {
     "id": "action.fix.terms.line.changes",
     "categoryId": "Samples - Line Changes",
-    "type": "replace-selection-with-fragment",
+    "input": "document",
+    "output-action": "replace",
     "title": "Fix Terminology Problems (Line Changes)",
     "description": "Fix terminology problems in the content of the current document.",
-    "input-type": "markup",
     "expand-params": [
       {
         "name": "contentType",
@@ -22,7 +22,6 @@
       ]
     },
     "additional_info": {
-      "input_content": "document",
       "input_flavor": "line_numbers"
     },
     "prompt_ref": "prompts/action_term_check_lines.md"
