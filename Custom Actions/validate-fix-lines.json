@@ -9,10 +9,6 @@
       {
         "name": "contentType",
         "value": "${contentTypeDescription}"
-      },
-      {
-        "name": "contextInfo",
-        "value": "${contextInfo}"
       }
     ],
     "parameters": {

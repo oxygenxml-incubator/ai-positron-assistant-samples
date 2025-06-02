@@ -7,12 +7,6 @@
     "framework": "text/xml",
     "description": "An action which corrects grammar then turns passive to active voice and then improves readability for the given content.",
     "prompt_ref": "prompts/uber-prompt.md",
-    "expand-params": [
-      {
-        "name": "contextInfo",
-        "value": "${contextInfo}"
-      }
-    ],
     "parameters": {
       "function_refs": [
         {"ref": "invoke_ai_action"},
@@ -27,13 +21,7 @@
     "output-action": "replace",
     "framework": "text/xml",
     "description": "Convert to Most Suitable DITA Type",
-    "prompt_ref":"prompts/convert-dita-type.md",
-    "expand-params": [
-      {
-        "name": "contextInfo",
-        "value": "${contextInfo}"
-      }
-    ]
+    "prompt_ref":"prompts/convert-dita-type.md"
   },
   {
     "id": "action.one.with.everything",
@@ -43,12 +31,6 @@
     "framework": "text/xml",
     "description": "Improve grammar, active voice and readability, convert to most suitable DITA type and validate.",
     "prompt_ref": "prompts/improve-grammar-readability.md",
-    "expand-params": [
-      {
-        "name": "contextInfo",
-        "value": "${contextInfo}"
-      }
-    ],
     "parameters": {
       "function_refs": [
         {"ref": "invoke_ai_action"},

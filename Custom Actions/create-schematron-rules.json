@@ -7,11 +7,5 @@
     "additional_info": {
         "properties": {"file_extension": "sch"}
     },
-    "expand-params": [
-        {
-            "name": "contextInfo",
-            "value": "${contextInfo}"
-        }
-    ],
     "prompt_ref": "prompts/create-schematron-rules.md"
 }

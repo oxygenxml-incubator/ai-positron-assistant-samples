@@ -17,10 +17,6 @@
     ],
     "expand-params": [
       {
-        "name": "contextInfo",
-        "value": "${contextInfo}"
-      },
-      {
         "name": "length",
         "label": "Maximum number of words",
         "value": "5-6",

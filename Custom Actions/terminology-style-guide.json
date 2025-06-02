@@ -3,11 +3,5 @@
   "title" : "Rewrite - Terminology and Style Guide",
   "categoryId": "Samples",
   "output-action": "replace",
-    "prompt" : "${contextInfo} Rephrase the given DITA XML content to adhere precisely to the provided terminology and style guide rules. Keep the modifications minimal and keep the DITA XML structure unchanged..",
-    "expand-params": [
-      {
-        "name": "contextInfo",
-        "value": "${contextInfo}"
-      }
-    ]
+    "prompt" : "Rephrase the given DITA XML content to adhere precisely to the provided terminology and style guide rules. Keep the modifications minimal and keep the DITA XML structure unchanged.."
 } ]

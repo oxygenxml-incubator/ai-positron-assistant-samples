@@ -5,13 +5,7 @@
         "categoryId": "Samples",
         "output-action": "none",
         "description": "Chat with the AI in the context of the Oxygen User's Guide",
-        "prompt": "\"context\": \"${contextInfo} You are an assistant that helps the user write or modify text content. You have access to a function that can explore the Oxygen user's guide. ",
-        "expand-params": [
-            {
-                "name": "contextInfo",
-                "value": "${contextInfo}"
-            }
-        ],
+        "prompt": "You are an assistant that helps the user write or modify text content. You have access to a function that can explore the Oxygen user's guide. ",
         "parameters": {
             "function_refs": [
                 {"ref": "get_related_content_from_specific_feedback_site",

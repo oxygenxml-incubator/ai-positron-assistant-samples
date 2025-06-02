@@ -1,5 +1,3 @@
-${contextInfo}
-
 # Create ISO Schematron rules based on style guide content.
 
 - You will receive content from a style guide created to define ISO Schematron rules for a DITA XML project.
