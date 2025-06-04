@@ -3,7 +3,7 @@
     "title": "Update Title",
     "description": "Update the title in the DITA topic based on the contents",
     "categoryId": "Samples",
-    "output-action": "insert-schema-aware",
+    "output-action": "insert",
     "insert-modes": [
       {
         "xpath-condition": "(//title)[1]",

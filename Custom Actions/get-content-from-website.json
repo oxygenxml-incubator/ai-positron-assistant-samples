@@ -1,7 +1,7 @@
 {
     "id": "action.get.oxygen.version.web.site",
     "categoryId": "Samples",
-    "output-action": "insert-schema-aware",
+    "output-action": "insert",
     "title": "Insert Latest Oxygen Version",
     "description": "Obtain the latest Oxygen version from the what's new and insert it at the caret position",
     "framework": "*DITA*",
