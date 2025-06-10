@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="reusables3">
+    <title>Reusables 3</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <p>
+            <note id="note_vp2_d3v_z2c">This is a reused note.</note>
+        </p>
+    </conbody>
+</concept>

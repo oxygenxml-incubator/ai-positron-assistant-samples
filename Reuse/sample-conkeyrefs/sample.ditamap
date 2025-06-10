@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Sample</title>
+    <topicref href="topic.xml"/>
+    <keydef keys="rlk2478597592499" href="reusables1.dita"/>
+    <keydef keys="wgr3538526962492" href="reusables2.dita"/>
+    <keydef keys="acc9785319361180" href="reusables3.dita"/>
+</map>
