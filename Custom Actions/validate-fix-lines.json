@@ -1,18 +1,14 @@
 {
     "id": "action.validate.and.fix.line.changes",
     "categoryId": "Samples - Line Changes",
-    "type": "replace-selection-with-fragment",
+    "output-action": "replace",
+    "input":"document", 
     "title": "Fix Validation Problems (Line Changes)",
     "description": "Validate the content of the current document and fix any reported validation issues.",
-    "input-type": "markup",
     "expand-params": [
       {
         "name": "contentType",
         "value": "${contentTypeDescription}"
-      },
-      {
-        "name": "contextInfo",
-        "value": "${contextInfo}"
       }
     ],
     "parameters": {
@@ -22,7 +18,6 @@
       ]
     },
     "additional_info": {
-      "input_content": "document",
       "input_flavor": "line_numbers"
     },
     "prompt_ref": "prompts/action_validate_and_fix.md"

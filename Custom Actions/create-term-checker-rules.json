@@ -3,12 +3,6 @@
     "title": "Terminology Checker Rules from Style Guide",
     "description": "Create Rules for the Oxygen Terminology Checker add-on from a Style Guide attached or pasted in the text area.",
     "categoryId": "Samples",
-    "type": "create-new-document",
-    "expand-params": [
-        {
-            "name": "contextInfo",
-            "value": "${contextInfo}"
-        }
-    ],
+    "output-action": "create-new-document",
     "prompt_ref": "prompts/create-term-checker-rules.md"
 }

@@ -2,15 +2,10 @@
   {
     "id": "thesaurus",
     "title": "Thesaurus/Synonyms",
-    "input-type": "markup",
     "categoryId": "Samples",
-    "type": "replace-selection-with-fragment",
-    "context": "${contextInfo} I want you to act as a synonyms provider. I will give you a sequence of words, and you will reply to \nme with a list of synonym alternatives according to my prompt. Provide a max of ${number} synonyms per prompt.\nWords:",
+    "output-action": "replace",
+    "prompt": "I want you to act as a synonyms provider. I will give you a sequence of words, and you will reply to \nme with a list of synonym alternatives according to my prompt. Provide a max of ${number} synonyms per prompt.\nWords:",
     "expand-params": [
-      {
-        "name": "contextInfo",
-        "value": "${contextInfo}"
-      },
       {
         "name": "number",
         "label": "Number of synonyms",

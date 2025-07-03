@@ -1,9 +1,9 @@
 {
     "id": "action.update.title.based.on.content",
-    "categoryId": "Samples",
-    "type": "insert-schema-aware-fragment",
     "title": "Update Title",
     "description": "Update the title in the DITA topic based on the contents",
+    "categoryId": "Samples",
+    "output-action": "insert",
     "insert-modes": [
       {
         "xpath-condition": "(//title)[1]",
@@ -16,10 +16,6 @@
       }
     ],
     "expand-params": [
-      {
-        "name": "contextInfo",
-        "value": "${contextInfo}"
-      },
       {
         "name": "length",
         "label": "Maximum number of words",

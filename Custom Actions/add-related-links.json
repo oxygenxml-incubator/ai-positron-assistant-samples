@@ -2,8 +2,7 @@
     "id": "find.add.related.links",
     "title": "Find and add related links",
     "categoryId": "Samples",
-    "type": "replace-selection-with-fragment",
-    "input-type": "markup",
+    "output-action": "replace",
     "prompt_ref": "prompts/add-related-links.md",
     "additional_info": {
         "input_content": "document"
