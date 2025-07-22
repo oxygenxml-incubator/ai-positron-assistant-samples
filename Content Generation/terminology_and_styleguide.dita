@@ -20,7 +20,7 @@
                 format="html"/>) and create an XML file containing rules for the Oxygen Terminology
             Checker add-on.</p>
         <p>Examples:<ul id="ul_fcb_15k_gfc">
-                <li>The topic <xref href="../Terminology%20Checker/test-term-checking-fixes.dita"/>
+                <li>The topic <xref href="../Intelligent%20Agents/Fix%20Terminology%20Problems/test-term-checking-fixes.dita"/>
                     contains not allowed terms. You can use the <uicontrol>Rewrite - Terminology and
                         Style Guide</uicontrol> action on it.</li>
                 <li>The topic <xref href="../Style%20Guide/sample_style_guide_rules.dita"/> contains
@@ -28,7 +28,7 @@
                         <uicontrol>Rewrite - Terminology and Style Guide</uicontrol> action on
                     it.</li>
                 <li>In the Chat attach the file <xref
-                        href="../Terminology%20Checker/test-term-checking-fixes.md"
+                        href="../Intelligent%20Agents/Fix%20Terminology%20Problems/test-term-checking-fixes.md"
                         format="markdown"/> and ask the AI to create a DITA XML topic from it.</li>
             </ul></p>
     </body>
