@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<?xml-model href="cloud-computing.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<concept id="cloud-computing">
+  <title>Understanding Cloud Computing</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>cloud</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>The <keyword>cloud</keyword> is a network of remote servers hosted on the Internet.</p>
+    <p><keyword>Virtualization</keyword> allows for the creation of a virtual version of something,
+      such as a server.</p>
+  </conbody>
+</concept>
