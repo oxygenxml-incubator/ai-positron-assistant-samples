@@ -21,6 +21,13 @@
     </sch:pattern>
     
     <sch:pattern>
+        <!-- The text is not allowed directly in the section, it should be in a paragraph. Otherwise the output will be rendered with no space after the section -->
+        <sch:rule context="*[contains(@class, ' topic/section ')]">
+            <sch:report test="child::text()[string-length(normalize-space(.)) > 0]">The text in a section element should be in a paragraph.</sch:report>
+        </sch:rule>
+    </sch:pattern>
+    
+    <sch:pattern>
         <sch:rule context="image[@href]">
             <sch:report test="not(alt)" role="war" sqf:fix="image-alt">The image does not have
                 alternate text. </sch:report>

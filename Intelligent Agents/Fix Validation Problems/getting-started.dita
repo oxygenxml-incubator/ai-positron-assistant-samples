@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<?xml-model href="rules.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<topic id="your-first-document">
+  <title>Getting started</title>
+  <body>
+    <p>Content authors are provided with many ways to create documents. </p>
+    <p>Read more at <xref
+        href="https://www.oxygenxml.com/doc/versions/27.1/ug-editor/topics/getting-started-task.html"
+        format="html" scope="external"
+        >https://www.oxygenxml.com/doc/versions/27.1/ug-editor/topics/getting-started-task.html</xref></p>
+  </body>
+</topic>
