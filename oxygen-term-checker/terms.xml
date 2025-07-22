@@ -50,4 +50,10 @@
     <suggestion>motor vehicle chassis</suggestion>
     <message>Use "motor vehicle chassis" instead of "vehicle frame"</message>
   </incorrect-term>
+  <!-- Use "you" instead of "one" -->
+  <incorrect-term ignorecase="true" severity="warning">
+    <match type="whole-word">one</match>
+    <suggestion format="text">you</suggestion>
+    <message>Use "you" instead of the impersonal "one".</message>
+  </incorrect-term>
 </incorrect-terms>

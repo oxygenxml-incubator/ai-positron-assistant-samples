@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="your-first-document">
+  <title>Your First Document</title>
+  <body>
+    <p>Content authors are provided with many ways to create documents.</p>
+    <p id="p_x4l_bgk_54b">This section includes various topics to help one get started with document
+      creation.</p>
+  </body>
+</topic>
