@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<?xml-model href="rules.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<topic id="frequently-used-shortcuts-2">
+  <title>Frequently Used Shortcut Keys in Oxygen XML Editor</title>
+  <body>
+    <p id="p_ywl_bgk_54b">The editor includes various shortcut keys that are assigned to actions to
+      help you edit content.</p>
+    <table frame="all" rowsep="1" colsep="1" id="table_axl_bgk_54b">
+      <title>Frequently Used Shortcut Keys</title>
+      <tgroup cols="3" align="center">
+        <colspec colname="newCol1" colnum="1" colwidth="1.2*"/>
+        <colspec colname="c1" colnum="2" colwidth="2.75*"/>
+        <colspec colname="c3" colnum="3" colwidth="3.3*" align="left"/>
+        <thead>
+          <row>
+            <entry>Action</entry>
+            <entry>Shortcut Keys</entry>
+            <entry align="center">Description</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+          <entry>Check spelling</entry>
+          <entry><uicontrol><shortcut>F7</shortcut></uicontrol></entry>
+          <entry>Check the spelling in the current document</entry>
+          </row>
+          <row>
+            <entry>Check Well-formedness</entry>
+            <entry><uicontrol><shortcut>Ctrl + Shift + W</shortcut></uicontrol></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

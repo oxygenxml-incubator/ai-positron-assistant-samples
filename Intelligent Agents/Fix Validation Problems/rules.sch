@@ -44,4 +44,32 @@
         </sch:rule>
     </sch:pattern>
     
+    <!-- Too long title -->
+    <sch:pattern>
+        <sch:rule context="*[contains(@class, ' topic/title ') 
+            and not(contains(@class, ' bookmap/booktitle '))
+            and not(parent::node()/contains(@class, ' topic/section '))
+            and not(parent::node()/contains(@class, ' topic/fig '))
+            and not(parent::node()/contains(@class, ' topic/table '))
+            and not(parent::node()/contains(@class, ' topic/example '))]" role="warn">
+            <sch:assert test="string-length(string(.)) lt 36">
+                The title is too long (<sch:value-of select="string-length(string(.))"/> chars).
+                It should be less than 35 characters.</sch:assert>
+        </sch:rule>
+    </sch:pattern>
+    
+    <!-- Unwrap all elements inside a codeblocks -->
+    <sch:pattern>
+        <sch:rule context="codeblock/*">
+            <sch:report test="." sqf:fix="del">No elements are allowed in codeblocks</sch:report>
+            
+            <sqf:fix id="del">
+                <sqf:description>
+                    <sqf:title>Unwrap element</sqf:title>
+                </sqf:description>
+                <sqf:replace select="text()"></sqf:replace>
+            </sqf:fix>
+        </sch:rule>
+    </sch:pattern>
+    
 </sch:schema>
