@@ -14,6 +14,14 @@
                         <String>${pd}/Custom Actions/ai-context.md</String>
                     </entry>
                     <entry>
+                        <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.auto.validate.ai.content</String>
+                        <String>true</String>
+                    </entry>
+                    <entry>
+                        <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.enable.positron</String>
+                        <String>true</String>
+                    </entry>
+                    <entry>
                         <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.load.default.actions</String>
                         <String>true</String>
                     </entry>
@@ -27,6 +35,10 @@
                     </entry>
                     <entry>
                         <String>Positron_enterprise_addon_preferences_page</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
+                        <String>actions_preferences_page</String>
                         <Boolean>true</Boolean>
                     </entry>
                     <entry>
