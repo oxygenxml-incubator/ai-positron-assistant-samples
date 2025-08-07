@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="correct_grammar_overview">
+    <title>About Oxygen XML Editer</title>
+    <body>
+        <p>Oxygen XML Editor is one of the most versatile tools for editing XML files.</p>
+        <p>Developers and authors often relies on it for its powerful validation and editing
+            features.</p>
+    </body>
+</topic>

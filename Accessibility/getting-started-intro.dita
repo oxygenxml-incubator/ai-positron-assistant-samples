@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="getting-started-intro">
+  <title>Getting Started</title>
+  <body>
+    <p id="p_ull_bgk_54b">Typically, the first step of getting started with Oxygen XML Editor would
+      be to install the software. When you launch the application for the first time, you are
+      greeted with the <uicontrol>Welcome</uicontrol> dialog box. </p>
+    <p id="p_wll_bgk_54b">
+      <fig id="fig_xll_bgk_54b">
+        <title>Welcome Dialog Box</title>
+        <image href="welcome_dialog.png"/>
+      </fig>
+    </p>
+  </body>
+</topic>

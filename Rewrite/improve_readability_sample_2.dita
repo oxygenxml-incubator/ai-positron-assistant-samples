@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="improve_readability">
+    <title>Application Overview</title>
+    <body>
+        <p id="p_pll_bgk_54b">Oxygen is a cross-platform application designed to accommodate all
+            your XML editing, authoring, development, and publishing needs and it is one of the
+            leading XML editors for creating and managing documents that use structured markup
+            languages such as <ph>XML</ph>, XSD, Relax NG, <ph>XSL</ph>, or <ph>DTD</ph>.</p>
+    </body>
+</topic>
