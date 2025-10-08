@@ -16,7 +16,7 @@
                 <xsl:value-of select="
                         ai:transform-content(
                         'Create a short alternate text description for this image:',
-                        concat('${attach(', resolve-uri(@href, base-uri()), ')}'))"/>
+                        concat('$', '{attach(', resolve-uri(@href, base-uri()), ')}'))"/>
             </alt>
             <xsl:apply-templates select="node()"/>
         </xsl:copy>
@@ -29,7 +29,7 @@
                 <xsl:value-of select="
                         ai:transform-content(
                         'Create a short alternate text description for this image:',
-                        concat('${attach(', ditaaccess:getKeyRefAbsoluteReference(@keyref, base-uri()), ')}'))"
+                        concat('$', '{attach(', ditaaccess:getKeyRefAbsoluteReference(@keyref, base-uri()), ')}'))"
                 />
             </alt>
             <xsl:apply-templates select="node()"/>
