@@ -8,8 +8,8 @@
         "input_content": "document"
     },"parameters": {
     "function_refs": [
-        {"ref": "get_related_resources_overview_from_project"},
-        {"ref": "get_content_for_document_url"}
+        {"ref": "search_project_resources"},
+        {"ref": "get_document_content"}
     ]
 }
 }

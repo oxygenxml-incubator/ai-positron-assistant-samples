@@ -8,7 +8,7 @@
     "prompt": "Obtain the latest version of Oxygen from the 'https://www.oxygenxml.com/xml_editor/whats_new.html' web site by calling the function 'get_content_for_document_url' and return it.",
     "parameters": {
         "function_refs": [
-            {"ref": "get_content_for_document_url"}
+            {"ref": "get_document_content"}
         ]
     }
   }
