@@ -1,6 +1,6 @@
 [ {
   "id" : "rephrase.terminology.style.guide",
-  "title" : "Rewrite - Terminology and Style Guide",
+  "title" : "Rewrite - Terminology and style guide",
   "categoryId": "Samples",
   "output-action": "replace",
     "prompt" : "Rephrase the given DITA XML content to adhere precisely to the provided terminology and style guide rules. Keep the modifications minimal and keep the DITA XML structure unchanged.."

@@ -1,6 +1,6 @@
 {
     "id": "action.review.logical.mistakes",
-    "title": "Logical Inconsistencies",
+    "title": "Logical inconsistencies",
     "description": "Review the given content and find logical mistakes",
     "categoryId": "Samples",
     "output-action": "none",

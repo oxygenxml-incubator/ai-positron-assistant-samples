@@ -1,7 +1,7 @@
 {
     "id": "action.create.term.checker.rules",
-    "title": "Terminology Checker Rules from Style Guide",
-    "description": "Create Rules for the Oxygen Terminology Checker add-on from a Style Guide attached or pasted in the text area.",
+    "title": "Terminology checker rules from style guide",
+    "description": "Create Rules for the Oxygen Terminology Checker add-on from a style guide attached or pasted in the text area.",
     "categoryId": "Samples",
     "output-action": "create-new-document",
     "prompt_ref": "prompts/create-term-checker-rules.md"

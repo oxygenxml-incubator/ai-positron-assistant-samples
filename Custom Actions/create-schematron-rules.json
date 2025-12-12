@@ -1,7 +1,7 @@
 {
     "id": "action.create.schematron.rules",
-    "title": "Schematron Rules from Style Guide",
-    "description": "Create Schematron rules from a Style Guide attached or pasted in the text area.",
+    "title": "Schematron rules from style guide",
+    "description": "Create Schematron rules from a style guide attached or pasted in the text area.",
     "categoryId": "Samples",
     "output-action": "create-new-document",
     "additional_info": {

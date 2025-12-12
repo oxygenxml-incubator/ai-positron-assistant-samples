@@ -1,6 +1,6 @@
 {
     "id": "action.update.title.based.on.content",
-    "title": "Update Title",
+    "title": "Update title",
     "description": "Update the title in the DITA topic based on the contents",
     "categoryId": "Samples",
     "output-action": "insert",

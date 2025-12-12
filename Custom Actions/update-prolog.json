@@ -1,7 +1,7 @@
 [
     {
         "id": "action.update.prolog",
-        "title": "Update Prolog",
+        "title": "Update prolog",
         "categoryId": "Samples",
         "output-action": "replace",
         "description": "Update prolog",

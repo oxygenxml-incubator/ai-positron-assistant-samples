@@ -1,11 +1,11 @@
 [
     {
         "id": "action.create.schema",
-        "title": "Create XML Schema",
+        "title": "Create XML schema",
         "categoryId": "Samples",
         "output-action": "create-new-document",
         "additional_info": {"file_extension": "xsd", "prompt-example": "a list of counteries, each country with code and name"},
-        "description": "Create an XML Schema based on the provided description",
+        "description": "Create an XML schema based on the provided description",
         "prompt": "# OBJECTIVE #\nYour task is to create an XML Schema based on the provided description.\n\n# Important\n- Return the generated XML Schema directly without any extra explanation and WITHOUT wrapping it in Markdown codeblocks.\n"
     }
 ]

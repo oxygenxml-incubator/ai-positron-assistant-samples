@@ -1,7 +1,7 @@
 [
     {
         "id": "action.chat.oxygen.userguide",
-        "title": "Chat Oxygen Userguide",
+        "title": "Chat Oxygen userguide",
         "categoryId": "Samples",
         "output-action": "none",
         "description": "Chat with the AI in the context of the Oxygen User's Guide",

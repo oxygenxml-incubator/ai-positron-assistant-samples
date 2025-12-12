@@ -2,7 +2,7 @@
   {
     "id": "action.uber.check",
     "title": "Uber check", 
-    "categoryId": "Samples - Compose Actions",
+    "categoryId": "Samples - Compose actions",
     "output-action": "replace",
     "framework": "text/xml",
     "description": "An action which corrects grammar then turns passive to active voice and then improves readability for the given content.",
@@ -16,17 +16,17 @@
   },
   {
     "id": "convert.to.perfect.dita.type",
-    "title": "Convert to Suitable DITA Type",
-    "categoryId": "Samples - Compose Actions",
+    "title": "Convert to suitable DITA type",
+    "categoryId": "Samples - Compose actions",
     "output-action": "replace",
     "framework": "text/xml",
-    "description": "Convert to Most Suitable DITA Type",
+    "description": "Convert to most suitable DITA type",
     "prompt_ref":"prompts/convert-dita-type.md"
   },
   {
     "id": "action.one.with.everything",
-    "title": "One with Everything",
-    "categoryId": "Samples - Compose Actions",
+    "title": "One with everything",
+    "categoryId": "Samples - Compose actions",
     "output-action": "replace",
     "framework": "text/xml",
     "description": "Improve grammar, active voice and readability, convert to most suitable DITA type and validate.",
