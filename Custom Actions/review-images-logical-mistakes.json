@@ -1,0 +1,10 @@
+{
+    "id": "action.review.logical.mistakes.images",
+    "title": "Content/Images Logical Inconsistencies",
+    "description": "Review the given content and find logical mistakes between the content and the referenced images",
+    "categoryId": "Samples",
+    "output-action": "none",
+    "input": "selection, document",
+    "input-type": "markup-with-images",
+    "prompt": "You are an experienced tech docs writer. Find logical inconsistencies between the content of the documents and the referenced images."
+}
