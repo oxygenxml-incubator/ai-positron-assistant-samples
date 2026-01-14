@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Image Mismatches</title>
+    <topicref href="iris_lilac.dita"/>
+    <topicgroup keyscope="images">
+        <keydef href="images/Lilac.jpg" processing-role="resource-only" format="jpg" keys="lilac"/>
+    </topicgroup>
+</map>
