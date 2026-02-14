@@ -10,5 +10,7 @@
         <p><b>Lilac</b> (<b>Syringa</b>) is a genus of about 20–25 species of flowering plants in the
             olive family (<b>Oleaceae</b>), native to Europe and Asia.</p>
         <p><image keyref="images.lilac" id="image_d55_ftt_yhc"/></p>
+        <p>This is an image of a dog sniffing a flower.</p>
+        <image href="images/image.svg"/>
     </body>
 </topic>
