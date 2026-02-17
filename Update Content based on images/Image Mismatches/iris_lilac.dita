@@ -3,14 +3,14 @@
 <topic id="iris">
     <title>Iris and Lilac</title>
     <body>
+        <p>This is an image of a dog sniffing a flower.</p>
+        <image href="images/image.svg" scale="30"/>
         <p><b>Iris</b> is a genus of between 200-300 species of flowering plants with showy flowers.
             It takes its name from the Greek word for a <i>rainbow</i>, referring to the wide
             variety of flower colors found among the many species. </p>
         <p><image href="images/Iris_sanguinea.jpg" scale="50"/></p>
-        <p><b>Lilac</b> (<b>Syringa</b>) is a genus of about 20–25 species of flowering plants in the
-            olive family (<b>Oleaceae</b>), native to Europe and Asia.</p>
+        <p><b>Lilac</b> (<b>Syringa</b>) is a genus of about 20–25 species of flowering plants in
+            the olive family (<b>Oleaceae</b>), native to Europe and Asia.</p>
         <p><image keyref="images.lilac" id="image_d55_ftt_yhc"/></p>
-        <p>This is an image of a dog sniffing a flower.</p>
-        <image href="images/image.svg"/>
     </body>
 </topic>
