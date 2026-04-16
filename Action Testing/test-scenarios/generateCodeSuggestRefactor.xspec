@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description xmlns:x="http://www.jenitennison.com/xslt/xspec"
+    xmlns:ai="http://www.oxygenxml.com/ai/function" 
+    stylesheet="http://oxygenxml/empty.xsl">
+    
+    <x:scenario label="Test #1 'Code generation'">
+        <x:call function="ai:invoke-action">
+            <x:param>action.generate.code.xslt</x:param>
+            <x:param select="''"/>
+            <x:param select="unparsed-text('resources/sample-xml-fragm.txt', 'UTF-8')"/>
+        </x:call>
+        
+        <x:expect label="Similarity between generated and expected code checked using AI" test="ai:transform-content(
+            'Return `yes` if this: \n\n ' || 
+            $x:result || 
+            '\n\n is similar to the following text \n\n' || 
+            unparsed-text('resources/expected-generated-code.txt', 'UTF-8'),
+            '')" select="'yes'"/>
+    </x:scenario>
+    
+    <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    
+    <x:scenario label="Test #2 'Refactoring suggestions'">
+        <x:call function="ai:invoke-action">
+            <x:param>action.suggest.refactoring.xslt</x:param>
+            <x:param select="''"/>
+            <x:param select="unparsed-text('resources/invoice-receipt.xsl', 'UTF-8')"/>
+        </x:call>
+        
+        <x:expect label="Similarity between generated and expected refactoring suggestions checked using AI" test="ai:transform-content(
+            'Return `yes` if this: \n\n ' || 
+            $x:result || 
+            '\n\n is similar to the following text \n\n' || 
+            unparsed-text('resources/expected-refactor-suggestion.txt', 'UTF-8'),
+            '')" select="'yes'"/>
+    </x:scenario>
+</x:description>

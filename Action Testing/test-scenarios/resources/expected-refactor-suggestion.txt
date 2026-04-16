@@ -1,0 +1,81 @@
+      The components `invoice` and `receipt` are clear and do not require further clarification.
+      I will proceed with refactoring the provided XSLT code.
+      
+      ```xml
+      &lt;?xml version="1.0"?&gt;
+      &lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="3.0"&gt;
+      &lt;xsl:output indent="true"/&gt;
+      
+      &lt;!-- Template for processing 'invoice' elements --&gt;
+      &lt;xsl:template match="invoice"&gt;
+      &lt;invoiceReport&gt;
+      &lt;xsl:apply-templates select="customer" mode="customerInfo"/&gt;
+      &lt;xsl:apply-templates select="total" mode="details"/&gt;
+      &lt;xsl:apply-templates select="items/item" mode="itemList"/&gt;
+      &lt;/invoiceReport&gt;
+      &lt;/xsl:template&gt;
+      
+      &lt;!-- Template for processing 'receipt' elements --&gt;
+      &lt;xsl:template match="receipt"&gt;
+      &lt;receiptReport&gt;
+      &lt;xsl:apply-templates select="customer" mode="customerInfo"/&gt;
+      &lt;xsl:apply-templates select="total" mode="details"/&gt;
+      &lt;xsl:apply-templates select="items/item" mode="itemList"/&gt;
+      &lt;/receiptReport&gt;
+      &lt;/xsl:template&gt;
+      
+      &lt;!-- Template for processing customer information --&gt;
+      &lt;xsl:template match="customer" mode="customerInfo"&gt;
+      &lt;customerInfo&gt;
+      &lt;customerName&gt;
+      &lt;xsl:text&gt;Customer:&lt;/xsl:text&gt;
+      &lt;xsl:value-of select="name"/&gt;
+      &lt;/customerName&gt;
+      &lt;customerID&gt;
+      &lt;xsl:value-of select="id"/&gt;
+      &lt;/customerID&gt;
+      &lt;/customerInfo&gt;
+      &lt;/xsl:template&gt;
+      
+      &lt;!-- Template for processing total amount details --&gt;
+      &lt;xsl:template match="total" mode="details"&gt;
+      &lt;details&gt;
+      &lt;totalAmount&gt;
+      &lt;xsl:value-of select="."/&gt;
+      &lt;/totalAmount&gt;
+      &lt;/details&gt;
+      &lt;/xsl:template&gt;
+      
+      &lt;!-- Template for processing item list --&gt;
+      &lt;xsl:template match="items/item" mode="itemList"&gt;
+      &lt;items&gt;
+      &lt;xsl:for-each select="."&gt;
+      &lt;item&gt;
+      &lt;name&gt;&lt;xsl:value-of select="name"/&gt;&lt;/name&gt;
+      &lt;price&gt;&lt;xsl:value-of select="price"/&gt;&lt;/price&gt;
+      &lt;/item&gt;
+      &lt;/xsl:for-each&gt;
+      &lt;/items&gt;
+      &lt;/xsl:template&gt;
+      &lt;/xsl:stylesheet&gt;
+      ```
+      
+      ### Explanation of Changes:
+      1. **XSLT Version Update**: Updated the XSLT version to 3.0 for modern features and
+      better performance.
+      2. **Modular Templates**: Broke down the monolithic templates into smaller, reusable
+      templates:
+      - `customerInfo` for processing customer details.
+      - `details` for processing total amount.
+      - `itemList` for processing the list of items.
+      3. **Descriptive Modes**: Used descriptive modes (`customerInfo`, `details`, `itemList`)
+      to differentiate the purpose of each template.
+      4. **Reusability**: Reused the smaller templates in both `invoice` and `receipt` templates
+      using `&lt;xsl:apply-templates&gt;`.
+      5. **XML Comments**: Added comments to explain the purpose of each template.
+      
+      ### Summary of Changes:
+      - Refactored the code to use modular templates for better readability and maintainability.
+      - Updated to XSLT 3.0 for modern features.
+      - Added descriptive comments and modes for clarity.
+      - Ensured the code adheres to best practices for new developers joining the project.

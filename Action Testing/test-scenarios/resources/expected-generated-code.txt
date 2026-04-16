@@ -1,0 +1,24 @@
+<xsl:template match="/catalog">
+<html>
+<body>
+<table border="1">
+<tr>
+<th>Title</th>
+<th>Artist</th>
+</tr>
+<xsl:apply-templates select="cd"/>
+</table>
+</body>
+</html>
+</xsl:template>
+
+<xsl:template match="cd">
+<tr>
+<td>
+<xsl:value-of select="title"/>
+</td>
+<td>
+<xsl:value-of select="artist">
+</td>
+</tr>
+</xsl:template>

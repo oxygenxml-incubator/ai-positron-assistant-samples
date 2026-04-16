@@ -77,4 +77,5 @@
         <topicref href="Documentation%20Draft/Formant%20and%20Indent%20Sample/format_and_indent_files.png" format="png"
             keys="format-indent"/>
     </topicref>
+    <topicref href="Action%20Testing/testing_ai_actions.dita" keys="testing_ai_actions"/>
 </map>

@@ -1,0 +1,13 @@
+I have the following XML:
+
+<catalog>
+<cd>
+<title>Black</title>
+<artist>Metallica</artist>
+<company>EMI</company>
+<year>1985</year>
+</cd>
+</catalog>
+
+Write an XSLT with a transformation template that transform the XML into HTML.
+A table with only 2 columns: title and artist.

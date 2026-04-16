@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description xmlns:x="http://www.jenitennison.com/xslt/xspec"
+    xmlns:ai="http://www.oxygenxml.com/ai/function"
+    stylesheet="http://oxygenxml/empty.xsl">
+    
+    <x:scenario label="Test #1 'Explain code' - checked on a fragment">
+        <x:call function="ai:invoke-action">
+            <x:param>action.explain.code</x:param>
+            <x:param select="''"/>
+            <x:param select="unparsed-text('resources/product-requests.xsl', 'UTF-8')"/>
+        </x:call>
+        
+        <x:expect label="Similarity between generated and expected explanation checked using AI" test="ai:transform-content(
+            'Return `yes` if this: \n\n ' || 
+            $x:result || 
+            '\n\n contains a section called `## Summary` that contains a message that is similar to the following text \n\n' || 
+            '- You define a starting template.\n- You create a variable that holds a web request.\n- You pass that request to another template for further processing.',
+            '')" select="'yes'"/>
+    </x:scenario>
+    
+    <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    
+    <x:scenario label="Test #2 'Document code'">
+        <x:call function="ai:invoke-action">
+            <x:param>action.document.code</x:param>
+            <x:param select="''"/>
+            <x:param select="unparsed-text('resources/product-requests.xsl', 'UTF-8')"/>
+        </x:call>
+        
+        <x:expect label="Similarity between generated and expected documentation checked using AI" test="ai:transform-content(
+            'Return `yes` if this: \n\n ' || 
+            $x:result || 
+            '\n\n is similar to the following text \n\n' || 
+            'Defines an XSLT that sends an HTTP GET request to a specified URL. Then processes the request and outputs its content using templates.',
+            '')" select="'yes'"/>
+    </x:scenario>
+    
+    <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    
+    <x:scenario label="Test #3 'Annotate code'">
+        <x:call function="ai:invoke-action">
+            <x:param>action.annotate.code</x:param>
+            <x:param select="''"/>
+            <x:param select="unparsed-text('resources/product-requests.xsl', 'UTF-8')"/>
+        </x:call>
+        
+        <x:expect label="The number of comments generated should be greater than 5 (i.e. 'all modules annotated')" test="count(tokenize($x:result, '&lt;!--')[position() > 1]) ge 6"/>
+    </x:scenario>
+</x:description>

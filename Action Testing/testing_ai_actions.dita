@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="testing_ai_actions">
+    <title>Testing AI Actions</title>
+    <body>
+        <p>You can use the <b>XSpec</b> standard to create tests for your AI actions. Use the
+                <b>File → New</b> wizard dialog to create a new <b>AI Action Test</b>. Open the
+                <xref href="positronActionTest.xpr" format="xpr"/> project to find various AI action
+            testing samples.</p>
+    </body>
+</topic>

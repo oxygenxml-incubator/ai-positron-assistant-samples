@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description xmlns:x="http://www.jenitennison.com/xslt/xspec"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:ai="http://www.oxygenxml.com/ai/function" 
+    stylesheet="http://oxygenxml/empty.xsl">
+    
+    <x:scenario label="Test 'Generate short description'">
+        <x:call function="ai:invoke-action">
+            <x:param>action.short.description</x:param>
+            <x:param select="''"/>
+            <x:param select="unparsed-text('resources/apples.dita', 'UTF-8')"/>
+        </x:call>
+        
+        <x:expect label="check XML" test="parse-xml($x:result)/*/name()" as="xs:string">shortdesc</x:expect>
+        
+        <x:expect label="Generated 'shortdesc' checked using AI" test="ai:transform-content(
+            'Return `yes` if this: \n\n ' || 
+            $x:result || 
+            '\n\n is exactly the element with the name `shortdesc` containing a short description of \n\n' || 
+            unparsed-text('resources/apples.dita', 'UTF-8'),
+            '')" select="'yes'"/>
+    </x:scenario>
+</x:description>
