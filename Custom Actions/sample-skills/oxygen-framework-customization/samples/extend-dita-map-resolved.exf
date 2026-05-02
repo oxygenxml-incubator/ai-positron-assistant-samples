@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Sample EXF: Extends DITA framework for resolved topic references in maps.
+  Demonstrates: Java rule matcher, transformation/validation scenarios,
+  extensions bundle, and toolbar/content completion customization.
+-->
+<script 
+  base="DITA" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://www.oxygenxml.com/ns/framework/extend"
+  xsi:schemaLocation="http://www.oxygenxml.com/ns/framework/extend 
+    http://www.oxygenxml.com/ns/framework/extend/frameworkExtensionScript.xsd">
+  
+  <name>DITA Map with Resolved Topics</name>
+  <description>Darwin Information Typing Architecture</description>
+  <priority>Normal</priority>
+  
+  <!-- Classpath modifications -->
+  <classpath>
+    <addEntry path="${framework}/web-author-additional-classpath/"/>
+    <removeEntry path="${framework}/refactoring/"/>
+  </classpath>
+  
+  <!-- Association rules using Java custom rule matcher -->
+  <associationRules inherit="none">
+    <addRule 
+      namespace="*" 
+      rootElementLocalName="*"
+      fileName="*" 
+      publicID="*" 
+      javaRuleClass="ro.sync.ecss.extensions.dita.map.DITAMapResolvedReferencesCustomRuleMatcher" 
+      attributeLocalName="*" 
+      attributeNamespace="*" 
+      attributeValue="*"/>
+  </associationRules>
+  
+  <!-- No document templates for this specialized framework -->
+  <documentTemplates inherit="none"/>
+  
+  <!-- Validation scenarios -->
+  <validationScenarios>
+    <addScenarios href="dita_map_with_resolved_topics_validation.scenarios"/>
+    <removeScenario name="Accessibility"/>
+    <removeScenario name="DITA"/>
+    <defaultScenarios>
+      <name>DITA Map</name>
+    </defaultScenarios>
+  </validationScenarios>
+  
+  <!-- No transformation scenarios -->
+  <transformationScenarios inherit="none"/>
+  
+  <!-- Java extensions bundle -->
+  <extensionPoints>
+    <extension name="extensionsBundle" value="ro.sync.ecss.extensions.dita.map.DITAMapExtensionsBundle"/>
+  </extensionPoints>
+  
+  <author>
+    <!-- Toolbar with custom actions -->
+    <toolbars>
+      <toolbar name="DITA">
+        <addAction id="insert.new.dita.resource" position="before"/>
+        <addAction id="insert.topicref" position="before"/>
+        <separator position="before"/>
+      </toolbar>
+    </toolbars>
+    
+    <!-- Content completion with custom actions -->
+    <contentCompletion>
+      <authorActions>
+        <addAction id="insert.topicref" replacedElement="topicref" inCCWindow="true" alias="topicref"/>
+        <addAction id="insert.new.dita.resource" alias="topicref (new topic)" inCCWindow="true"/>
+      </authorActions>
+    </contentCompletion>
+  </author>
+</script>

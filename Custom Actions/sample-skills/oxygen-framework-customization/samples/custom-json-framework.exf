@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Sample EXF: Creates a standalone framework for custom JSON documents.
+  Demonstrates: extending a non-XML base framework (JSON), custom Java rule 
+  matcher for association, parentClassLoaderID for classpath sharing with plugins,
+  JSON schema association, document templates, selectMultipleAlternateCSS,
+  and CSS for Author mode visual editing.
+-->
+<script xmlns="http://www.oxygenxml.com/ns/framework/extend"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.oxygenxml.com/ns/framework/extend 
+    http://www.oxygenxml.com/ns/framework/extend/frameworkExtensionScript.xsd"
+  base="JSON">
+  <name>Custom JSON Editor</name>
+  <description>Custom visual editor for JSON configuration files</description>
+  <priority>High</priority>
+  
+  <!-- Association rules using a custom Java rule matcher class -->
+  <associationRules inherit="none">
+    <addRule rootElementLocalName="JSON" 
+      javaRuleClass="com.example.MyCustomJSONRuleMatcher"/>
+  </associationRules>
+  
+  <!-- Classpath with parentClassLoaderID to share classes from a plugin -->
+  <classpath parentClassLoaderID="com.example.my.plugin">
+    <addEntry path="${framework}/lib/*.jar"/>
+  </classpath>
+  
+  <!-- Document templates for creating new files from the File > New menu -->
+  <documentTemplates inherit="none">
+    <addEntry path="${frameworkDir}/templates"/>
+  </documentTemplates>
+  
+  <!-- Associate a JSON schema for validation and content completion -->
+  <defaultSchema schemaType="json_schema" 
+    href="http://www.example.com/schemas/my-config-schema.json"/>
+  
+  <author>
+    <!-- CSS with selectMultipleAlternateCSS allowing multiple alternate styles -->
+    <css selectMultipleAlternateCSS="true">
+      <addCss path="${framework}/css/main.css"/>
+      <addCss path="${framework}/css/compact-view.css" title="+ Compact View" alternate="true"/>
+    </css>
+  </author>
+</script>

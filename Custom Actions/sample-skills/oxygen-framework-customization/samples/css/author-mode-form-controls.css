@@ -1,0 +1,100 @@
+/* 
+  Sample CSS: Demonstrates Oxygen Author mode form controls and visual editing features.
+  This CSS can be used with any framework to provide a visual editing experience
+  using comboboxes, text fields, URL choosers, buttons, and placeholders.
+*/
+@namespace oxy "http://www.oxygenxml.com/extensions/author";
+
+/* === Combobox Form Control === */
+/* Replace text content with a dropdown combobox for predefined values */
+status {
+    visibility: -oxy-collapse-text;
+    content: oxy_combobox(
+        edit, "#text",
+        fontInherit, true,
+        columns, 20,
+        editable, false,
+        values, "draft, review, approved, published",
+        tooltips, "Document is in draft state.,\
+                   Document is under review.,\
+                   Document has been approved.,\
+                   Document has been published."
+    );
+}
+
+/* === URL Chooser Form Control === */
+/* Allow browsing for file references */
+file-ref {
+    visibility: -oxy-collapse-text;
+    content: oxy_urlChooser(
+        edit, "#text",
+        fontInherit, true,
+        fileFilter, "xml,dita,ditamap",
+        columns, 40
+    );
+}
+
+/* === Button Form Control for Inserting Siblings === */
+/* Add a button after the last item to insert a new sibling element */
+item:last-of-type:after(10) {
+    display: block;
+    content: ""
+        oxy_editor(
+            action, oxy_action(
+                arg-fragment, "<item><name/><value/></item>",
+                arg-insertPosition, "After",
+                arg-insertLocation, ".",
+                name, " Add Item ",
+                description, "Insert a new item.",
+                operation, "ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation"
+            ),
+            type, "button"
+    );
+}
+
+/* === Placeholder Text === */
+/* Show placeholder text when elements are empty */
+name {
+    -oxy-show-placeholder: always;
+    -oxy-placeholder-content: "Enter the item name here.";
+}
+value {
+    -oxy-show-placeholder: always;
+    -oxy-placeholder-content: "Enter the item value here.";
+}
+
+/* === Labels Before Elements === */
+status:before {
+    content: "Status: ";
+}
+name:before {
+    content: "Name: ";
+}
+value:before {
+    content: "Value: ";
+}
+file-ref:before {
+    content: "File reference: ";
+}
+
+/* === Styling === */
+item {
+    border: 1px solid #c5c5c5;
+    border-radius: 0.5em;
+    padding: 1em;
+    margin: 0.75em 0.75em 0.75em 0;
+}
+
+name {
+    font-weight: bold;
+}
+
+*:before {
+    width: 10em;
+}
+
+/* === Foldable Elements === */
+/* Make items foldable with the name as the visible child when folded */
+item {
+    -oxy-not-foldable-child: name;
+}

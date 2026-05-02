@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Sample EXF: Extends DITA framework with custom CSS, classpath, 
+  validation scenarios, and extension points.
+  Demonstrates: CSS customization, classpath modifications, 
+  validation scenarios, and Java extensions bundle.
+-->
+<script xmlns="http://www.oxygenxml.com/ns/framework/extend"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.oxygenxml.com/ns/framework/extend 
+    http://www.oxygenxml.com/ns/framework/extend/frameworkExtensionScript.xsd"
+  base="DITA">
+  <name>Lightweight DITA - Topic</name>
+  <description>Darwin Information Typing Architecture</description>
+  <priority>Normal</priority>
+  
+  <!-- Association rules for LW DITA -->
+  <associationRules inherit="none">
+    <addRule publicID="-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN"/>
+    <addRule rootElementLocalName="topic" publicID="*-//OASIS//DTD XDITA Topic//EN*"/>
+  </associationRules>
+  
+  <!-- Modify classpath: add resources, remove refactoring -->
+  <classpath inherit="all">
+    <addEntry path="${framework}/lw/resources/" position="before"/>
+    <removeEntry path="${framework}/refactoring/"/>
+  </classpath>
+  
+  <!-- Configure Java extensions bundle -->
+  <extensionPoints>
+    <extension name="extensionsBundle" value="ro.sync.ecss.extensions.dita.LWDITAExtensionsBundle"/>
+  </extensionPoints>
+  
+  <!-- Custom document templates -->
+  <documentTemplates inherit="none">
+    <addEntry path="${frameworkDir}/templates/LW (Lightweight) DITA/topic-lw"/>
+  </documentTemplates>
+  
+  <!-- Validation scenarios -->
+  <validationScenarios>
+    <addScenarios href="lw/resources/dita-lw-validation.scenarios"/>
+    <removeScenario name="DITA"/>
+    <defaultScenarios>
+      <name>LW-DITA</name>
+    </defaultScenarios>
+  </validationScenarios>
+  
+  <author>
+    <!-- Remove actions not applicable to LW DITA -->
+    <authorActions>
+      <removeAction id="paragraph"/> 
+      <removeAction id="insert.code.block"/>
+      <removeAction id="insert.table"/>
+      <removeAction id="insert.simpletable"/>
+    </authorActions>
+  
+    <!-- CSS customization: remove and add stylesheets -->
+    <css>
+      <removeCss path="${framework}/css/edit/alternate-syntax-highlight.css"/>
+      <removeCss path="${framework}/css/hints/hints.css"/>
+      <removeCss path="${framework}/css/actions/actions.css"/>
+      
+      <!-- Add main CSS -->
+      <addCss path="${framework}/lw/css/lw.css" position="after"/>
+      
+      <!-- Add alternate (optional) CSS stylesheets -->
+      <addCss path="${framework}/lw/css/labels.css" title="+ Labels" alternate="true"/>
+      <addCss path="${framework}/lw/css/print.css" title="+ Print ready" alternate="true"/>
+    </css>
+
+    <!-- Toolbar customization -->
+    <toolbars>
+      <toolbar>
+        <addAction id="subscript" anchor="underline" position="after"/>
+        <addAction id="superscript" anchor="underline" position="after"/>
+        <addAction id="insert.table2" anchor="insert.table.row.below" position="before"/>
+        <removeGroup name="${i18n(section)}"/>
+      </toolbar>
+    </toolbars>
+    
+    <!-- Contextual menu customization -->
+    <contextualMenu>
+      <addAction id="insert.table" anchor="insert.table.row.below" position="before"/>
+      <submenu name="${i18n(table)}">
+        <addAction id="insert.table2" anchor="insert.table.rows.custom" position="before"/>
+      </submenu>
+    </contextualMenu>
+    
+    <!-- Content completion customization -->
+    <contentCompletion>
+      <authorActions>
+        <addAction id="insert.table2" inCCWindow="true" alias="${i18n(table.wizard)}"/>
+      </authorActions>
+    </contentCompletion>
+  </author>
+</script>

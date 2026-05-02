@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Sample External Author Action: Insert Section
+  Demonstrates: Multiple operations with XPath conditions for context-aware insertion.
+  
+  The action uses different insertion strategies based on the current context:
+  - If schema allows section: insert at caret
+  - If inside body: insert after last non-section element
+  - If on body element: insert as child
+  - If inside existing section: insert after current section
+-->
+<a:authorAction xmlns:a="http://www.oxygenxml.com/ns/author/external-action"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.oxygenxml.com/ns/author/external-action 
+    http://www.oxygenxml.com/ns/author/external-action/authorAction.xsd"
+  id="section">
+  <a:name>Section</a:name>
+  <a:description>Insert a new section</a:description>
+  <a:smallIconPath href="/images/Section16.png"/>
+  <a:largeIconPath href="/images/Section24.png"/>
+  <a:operations>
+    <!-- Try schema-aware insertion first -->
+    <a:operation id="InsertFragmentOperation">
+      <a:xpathCondition>oxy:allows-global-element("section")</a:xpathCondition>
+      <a:arguments>
+        <a:argument name="fragment"><section><title/><p/></section></a:argument>
+        <a:argument name="insertEvenIfInvalid">false</a:argument>
+      </a:arguments>
+    </a:operation>
+    <!-- Inside body: insert after last non-section element -->
+    <a:operation id="InsertFragmentOperation">
+      <a:xpathCondition>parent::body</a:xpathCondition>
+      <a:arguments>
+        <a:argument name="fragment"><section><title>${caret}</title><p/></section></a:argument>
+        <a:argument name="insertLocation">../*[not(self::section)][last()]</a:argument>
+        <a:argument name="insertPosition">After</a:argument>
+      </a:arguments>
+    </a:operation>
+    <!-- On body element: insert as child -->
+    <a:operation id="InsertFragmentOperation">
+      <a:xpathCondition>self::body</a:xpathCondition>
+      <a:arguments>
+        <a:argument name="fragment"><section><title>${caret}</title><p/></section></a:argument>
+      </a:arguments>
+    </a:operation>
+    <!-- Inside existing section: insert after current section -->
+    <a:operation id="InsertFragmentOperation">
+      <a:xpathCondition>ancestor-or-self::section</a:xpathCondition>
+      <a:arguments>
+        <a:argument name="fragment"><section><title>${caret}</title><p/></section></a:argument>
+        <a:argument name="insertLocation">ancestor-or-self::section[1]</a:argument>
+        <a:argument name="insertPosition">After</a:argument>
+      </a:arguments>
+    </a:operation>
+  </a:operations>
+  <a:accelerator>M1 M2 S</a:accelerator>
+  <a:accessKey>S</a:accessKey>
+  <a:enabledInReadOnlyContext>false</a:enabledInReadOnlyContext>
+</a:authorAction>

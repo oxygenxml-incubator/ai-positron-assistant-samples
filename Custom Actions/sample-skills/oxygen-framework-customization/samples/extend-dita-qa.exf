@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Sample EXF: Extends the DITA framework to add Q/A topic support.
+  Demonstrates: association rules, document templates, toolbar actions, 
+  content completion, menus, and removing inherited actions.
+-->
+<script xmlns="http://www.oxygenxml.com/ns/framework/extend"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.oxygenxml.com/ns/framework/extend 
+    http://www.oxygenxml.com/ns/framework/extend/frameworkExtensionScript.xsd"
+  base="DITA">
+  <name>DITA Q/A</name>
+  <description>DITA Questions and Answers Topic</description>
+  <priority>Normal</priority>
+  
+  <!-- Override association rules - only match qatopic root element -->
+  <associationRules inherit="none">
+    <addRule rootElementLocalName="qatopic"/>
+  </associationRules>
+  
+  <!-- Custom document templates -->
+  <documentTemplates inherit="none">
+    <addEntry path="${frameworkDir}/templates/qatopic"/>
+  </documentTemplates>
+  
+  <author>
+    <!-- Add action to toolbar -->
+    <toolbars>
+      <toolbar>
+        <addAction id="insert.qagroup" position="after" anchor="insert.media"/>
+      </toolbar>
+    </toolbars>
+    
+    <!-- Add action to content completion -->
+    <contentCompletion>
+      <authorActions>
+        <addAction id="insert.qagroup" replacedElement="qagroup" inCCWindow="true" alias="qagroup"/> 
+      </authorActions>
+    </contentCompletion>
+    
+    <!-- Add custom menu -->
+    <menu name="DITA Q/A">
+      <addAction id="insert.qagroup" position="before"/>
+      <separator position="before"/>
+    </menu>
+    
+    <!-- Remove actions that don't apply to Q/A topics -->
+    <authorActions>
+      <removeAction id="section"/>
+      <removeAction id="insert.topic"/>
+      <removeAction id="insert.concept"/>
+      <removeAction id="insert.task"/>
+      <removeAction id="insert.reference"/>
+    </authorActions>
+  </author>
+</script>
