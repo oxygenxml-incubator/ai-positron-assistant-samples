@@ -72,6 +72,7 @@
     <topicref href="Code%20Development/code-development.dita"/>
     <topicref href="Useful%20Prompts/useful_prompts_samples.dita"/>
     <topicref href="Custom%20Actions/custom_actions.dita"/>
+    <topicref href="Custom%20Actions/custom_skills.dita" keys="custom_skills"/>
     <topicref
         href="Schematron%20and%20Quick%20Fixes/schematron_validation_with_quick_fixes_and_xslt_extensions.dita">
         <topicref href="Documentation%20Draft/Formant%20and%20Indent%20Sample/format_and_indent_files.png" format="png"

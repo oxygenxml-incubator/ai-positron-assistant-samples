@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="custom_skills">
+    <title>Custom Skills</title>
+    <body>
+        <p>Skills are reusable, filesystem-based resources that provide the LLM with domain-specific
+            expertise (workflows, context, and best practices that transform general-purpose agents
+            into specialists). Unlike prompts (conversation-level instructions for one-off tasks),
+            Skills load on-demand and eliminate the need to repeatedly provide the same guidance
+            across multiple conversations. <xref
+                href="https://www.oxygenxml.com/doc/ug-positron-desktop/ai/ai_positron_skills_creation.html"
+                format="html" scope="external">You can create your own skills.</xref>. Sample skills
+            can also be found in this project:<xref href="sample-skills/summarize-bullet-points/SKILL,md" format="html" scope="external"/></p>
+    </body>
+</topic>
