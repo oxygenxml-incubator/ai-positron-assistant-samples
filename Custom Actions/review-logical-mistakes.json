@@ -2,7 +2,7 @@
     "id": "action.review.logical.mistakes",
     "title": "Logical inconsistencies",
     "description": "Review the given content and find logical mistakes",
-    "categoryId": "Samples",
+    "categoryId": "Samples / Review",
     "output-action": "none",
     "prompt": "You will act as a reviewer interested in finding inconsistentcy and logical mistakes.\n\n# OBJECTIVE #\n\nYou are tasked with reviewing the given content.\nFind logical and inconsistency mistakes in the content and return a report.",
     "parameters": {

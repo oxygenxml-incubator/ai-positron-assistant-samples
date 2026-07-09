@@ -1,7 +1,7 @@
 {
     "id": "sort.glossentries.dita.map",
     "title": "Sort glossary entries",
-    "categoryId": "Samples",
+    "categoryId": "Samples / Replace",
     "output-action": "replace",
     "input": "document",
     "prompt_ref": "prompts/sort-glossentries.md"

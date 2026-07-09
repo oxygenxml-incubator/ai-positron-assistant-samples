@@ -2,7 +2,7 @@
     {
         "id": "action.update.prolog",
         "title": "Update prolog",
-        "categoryId": "Samples",
+        "categoryId": "Samples / Update",
         "output-action": "replace",
         "description": "Update prolog",
         "prompt": "Update the DITA XML topic prolog with the current date ${currentDate} in the <revised modified> element.",

@@ -2,7 +2,7 @@
     "id": "action.update.title.based.on.content",
     "title": "Update title",
     "description": "Update the title in the DITA topic based on the contents",
-    "categoryId": "Samples",
+    "categoryId": "Samples / Update",
     "output-action": "insert",
     "insert-modes": [
       {

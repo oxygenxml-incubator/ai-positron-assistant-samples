@@ -1,6 +1,6 @@
 {
     "id": "action.get.oxygen.version.web.site",
-    "categoryId": "Samples",
+    "categoryId": "Samples / Insert",
     "output-action": "insert",
     "title": "Insert latest Oxygen version",
     "description": "Obtain the latest Oxygen version from the what's new and insert it at the caret position",

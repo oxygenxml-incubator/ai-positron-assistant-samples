@@ -2,7 +2,7 @@
     {
         "id": "action.formula.equation",
         "title": "Formula/Equation",
-        "categoryId": "Samples",
+        "categoryId": "Samples / Insert",
         "input": "none",
         "output-action": "insert",
         "framework": "text/xml",

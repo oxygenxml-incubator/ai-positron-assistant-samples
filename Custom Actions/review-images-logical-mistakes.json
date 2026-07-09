@@ -2,7 +2,7 @@
     "id": "action.review.logical.mistakes.images",
     "title": "Content/Images Logical Inconsistencies",
     "description": "Review the given content and find logical mistakes between the content and the referenced images",
-    "categoryId": "Samples",
+    "categoryId": "Samples / Review",
     "output-action": "none",
     "input": "selection, document",
     "input-type": "markup-with-images",
