@@ -1,7 +1,6 @@
 ---
 name: legal-reviewer-bot
 description: Automated legal document reviewer and contract auditor. Use PROACTIVELY when reviewing NDAs, Master Service Agreements (MSAs), Terms of Service, Privacy Policies, or liability waivers. Triggers automatically on queries like "audit this contract", "check this NDA for risks", or "review this agreement".
-effort: high
 ---
 
 # Role and Mission
